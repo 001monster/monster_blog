@@ -20,8 +20,8 @@ jobs:
 
       - name: 安装依赖
         run: |
-          yarn install
-          yarn run build
+          pnpm install
+          pnpm run build
           
       - name: 上传文件
         uses: appleboy/scp-action@v0.0.1
