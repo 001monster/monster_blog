@@ -1,45 +1,42 @@
-
-name: 部署文档
+name: ci
 
 on:
   push:
     branches:
-      # 确保这是你正在使用的分支名称
       - main
 
 jobs:
-  deploy-gh-pages:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          # 如果你文档需要 Git 子模块，取消注释下一行
-          # submodules: true
 
-
-
-      - name: 设置 Node.js
+      - name: Use Node.js 16
         uses: actions/setup-node@v3
         with:
-          node-version: 16
-          cache: npm
+          node-version: '16.x'
 
-      - name: 安装依赖
-        run: npm install
-
-      - name: 构建文档
+      - name: Build Project
+        run: |
+          yarn install
+          yarn run build
+      - name: SSH Deploy
+        uses: easingthemes/ssh-deploy@v2.2.11
         env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: |-
-          npm run docs:build
-          > docs/src/.vuepress/dist/.nojekyll
+          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+          ARGS: '-avzr --delete'
+          SOURCE: 'build'
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: 'root'
+          TARGET: '/www/wwwroot/blog'
 
-      - name: 部署文档
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          # 这是文档部署到的分支名称
-          branch: gh-pages
-          folder: docs/src/.vuepress/dist
-
+      # - name: FTP Deploy
+      #   uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      #   with:
+      #     server: ${{ secrets.ftp_server }}
+      #     username: ${{ secrets.ftp_user }}
+      #     password: ${{ secrets.ftp_pwd }}
+      #     local-dir: ./build/
+      #     server-dir: ./
