@@ -34,5 +34,5 @@ jobs:
           username: 'Administrator'
           password: 'zswZSW20001020'
           port: '3389'
-          source: '/docs/src/.vuepress/dist'
+          source: '/src/.vuepress/dist'
           target: '/wwwroot/blog'
