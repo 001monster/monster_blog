@@ -20,6 +20,7 @@ jobs:
 
       - name: 安装依赖
         run: |
+          cd docs
           npm install
           npm docs:build
           
