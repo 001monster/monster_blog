@@ -27,12 +27,12 @@ jobs:
       - name: 打包项目
         run: pnpm docs:build
           
-      - name: 上传文件
+      - name: 部署项目
         uses: appleboy/scp-action@v0.0.1
         with:
-          host: '124.221.253.146'
-          username: 'Administrator'
-          password: 'zswZSW20001020'
-          port: '3389'
+          host: 124.221.253.146
+          username: Administrator
+          password: zswZSW20001020
+          port: 3389
           source: '/src/.vuepress/dist'
           target: '/wwwroot/blog'
