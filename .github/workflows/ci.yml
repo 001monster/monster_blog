@@ -43,5 +43,5 @@ jobs:
           server: ftp://124.221.253.146:21
           username: 	zswei1020
           password: KtKzp5KT3ckjk7jf
-          local-dir: /src/.vuepress/dist/
-          server-dir: /wwwroot/blog/
+          local-dir: ./src/.vuepress/dist/
+          server-dir: ./wwwroot/blog/
