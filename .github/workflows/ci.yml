@@ -40,8 +40,8 @@ jobs:
       - name: 部署项目
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: 124.221.253.146
-          username: blog
-          password: NJTBA8T7EnPxprCZ
+          server: ${{ secrets.ftp_server }}
+          username: ${{ secrets.ftp_user }}
+          password: ${{ secrets.ftp_pwd }}
           local-dir: ./src/.vuepress/dist/
-          server-dir: ./wwwroot/blog/
+          server-dir: ./
