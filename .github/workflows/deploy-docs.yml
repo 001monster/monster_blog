@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: 进入任务
         uses: actions/checkout@v3
 
       - name: 安装nodejs
@@ -20,8 +20,8 @@ jobs:
 
       - name: 安装依赖
         run: |
-          pnpm install
-          pnpm run build
+          npm install
+          npm run build
           
       - name: 上传文件
         uses: appleboy/scp-action@v0.0.1
