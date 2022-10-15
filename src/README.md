@@ -2,11 +2,11 @@
 home: true
 layout: Blog
 icon: home
-title: 博客主页
+title: 主页
 heroImage: /logo.png
-heroText: 怪兽
+heroText: 老怪兽
 heroFullScreen: true
-tagline: 欢饮来到我的博客
+tagline: 欢迎来到我的博客
 projects:
   - icon: /logo.png
     name: 自我介绍
@@ -32,13 +32,10 @@ projects:
     name: Vue
     desc: 渐进式 JavaScript 框架
     link: https://cn.vuejs.org/
+
+  - icon: https://s4.ax1x.com/2022/01/17/7UwaOf.png
+    name: ButterPig
+    desc: 在线ICO图标制作,图片转换ICO图标Pro版
+    link: https://www.butterpig.top/icopro
     
-
-footer: 老怪兽的博客
 ---
-
-这是一个博客主页的案例。
-
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home/)。

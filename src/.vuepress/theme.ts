@@ -3,28 +3,20 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
-
+  hostname: "http://zswei.xyz",     // 网站域名
   author: {
-    name: "怪兽",
-    url: "https://mrhope.site",
+    name: "老怪兽",
+    url: "http://zswei.xyz",        // 个人网站地址
   },
-
-  iconAssets: "iconfont",
-
+  iconAssets: "iconfont",           // 字体图标
   logo: "/logo.png",
-
   repo: "vuepress-theme-hope/vuepress-theme-hope",
-
   docsDir: "docs",
-
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
 
   blog: {
     medias: {
       Dingding: "https://example.com",
-      Dribbble: "https://example.com",
-      Flipboard: "https://example.com",
       GitHub: "https://example.com",
       QQ: "https://example.com",
       Qzone: "https://example.com",
@@ -36,40 +28,31 @@ export default hopeTheme({
     "/en/": {
       // navbar
       navbar: enNavbar,
-
       // sidebar
       sidebar: enSidebar,
-
-      footer: "Default footer",
-
+      footer: "",
       displayFooter: true,
-
       blog: {
-        description: "A FrontEnd programmer",
+        description: "a monster that can top code",
         intro: "/en/intro.html",
       },
-
       metaLocales: {
         editLink: "Edit this page on GitHub",
       },
     },
-
     /**
      * Chinese locale config
      */
     "/": {
       // navbar
       navbar: zhNavbar,
-
       // sidebar
       sidebar: zhSidebar,
-
       footer: "默认页脚",
-
       displayFooter: true,
 
       blog: {
-        description: "",
+        description: "会敲代码的怪兽",
         intro: "/intro.html",
       },
 
@@ -79,11 +62,10 @@ export default hopeTheme({
       },
     },
   },
-
   encrypt: {
     config: {
-      "/en/demo/encrypt.html": ["1234"],
-      "/demo/encrypt.html": ["1234"],
+      // "/en/demo/encrypt.html": ["1234"],     文件加密
+      // "/demo/encrypt.html": ["1234"],
     },
   },
 
@@ -91,7 +73,6 @@ export default hopeTheme({
     blog: {
       autoExcerpt: true,
     },
-
     // If you don't need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
     // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
@@ -197,27 +178,6 @@ export default hopeTheme({
             src: "/assets/icon/chrome-192.png",
             sizes: "192x192",
             type: "image/png",
-          },
-        ],
-        shortcuts: [
-          {
-            name: "Demo",
-            short_name: "Demo",
-            url: "/demo/",
-            icons: [
-              {
-                src: "/assets/icon/guide-maskable.png",
-                sizes: "192x192",
-                purpose: "maskable",
-                type: "image/png",
-              },
-              {
-                src: "/assets/icon/guide-monochrome.png",
-                sizes: "192x192",
-                purpose: "monochrome",
-                type: "image/png",
-              },
-            ],
           },
         ],
       },

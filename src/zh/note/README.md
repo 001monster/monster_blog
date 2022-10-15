@@ -1,5 +1,5 @@
 ---
-title: Old Monster 的随笔
+title: Old Monster 的代码笔记
 date: 2022-10-15
 sticky: 100
 star: 100
