@@ -21,8 +21,9 @@ jobs:
       - name: 安装依赖
         run: |
           cd docs
+          npm i -g pnpm
           npm install
-          npm docs:build
+          nppm docs:build
           
       - name: 上传文件
         uses: appleboy/scp-action@v0.0.1
