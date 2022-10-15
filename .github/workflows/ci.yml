@@ -1,0 +1,38 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 进入任务
+        uses: actions/checkout@v3
+
+      - name: 安装nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+        
+      - name: 安装pnpm
+        run: npm install -g pnpm
+        
+      - name: 安装依赖
+        run: pnpm install
+        
+      - name: 打包项目
+        run: pnpm docs:build
+          
+      - name: 上传文件
+        uses: appleboy/scp-action@v0.0.1
+        with:
+          host: '124.221.253.146'
+          username: 'Administrator'
+          password: 'zswZSW20001020'
+          port: '3389'
+          source: '/docs/src/.vuepress/dist'
+          target: '/wwwroot/blog'
