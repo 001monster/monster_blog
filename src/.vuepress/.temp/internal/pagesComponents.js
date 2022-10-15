@@ -15,8 +15,6 @@ export const pagesComponents = {
   "v-367b840a": defineAsyncComponent(() => import(/* webpackChunkName: "v-367b840a" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/slides.html.vue")),
   // path: /en/blog/
   "v-398ec440": defineAsyncComponent(() => import(/* webpackChunkName: "v-398ec440" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/blog/index.html.vue")),
-  // path: /en/note/
-  "v-3839b0e0": defineAsyncComponent(() => import(/* webpackChunkName: "v-3839b0e0" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/note/index.html.vue")),
   // path: /en/demo/disable.html
   "v-70eda030": defineAsyncComponent(() => import(/* webpackChunkName: "v-70eda030" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/demo/disable.html.vue")),
   // path: /en/demo/encrypt.html
@@ -27,6 +25,8 @@ export const pagesComponents = {
   "v-0e4acecb": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e4acecb" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/demo/page.html.vue")),
   // path: /en/demo/
   "v-395cd082": defineAsyncComponent(() => import(/* webpackChunkName: "v-395cd082" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/demo/index.html.vue")),
+  // path: /en/note/
+  "v-3839b0e0": defineAsyncComponent(() => import(/* webpackChunkName: "v-3839b0e0" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/note/index.html.vue")),
   // path: /en/posts/cherry.html
   "v-fb852992": defineAsyncComponent(() => import(/* webpackChunkName: "v-fb852992" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/posts/cherry.html.vue")),
   // path: /en/posts/dragonfruit.html
@@ -37,10 +37,10 @@ export const pagesComponents = {
   "v-285adf66": defineAsyncComponent(() => import(/* webpackChunkName: "v-285adf66" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/posts/tomato.html.vue")),
   // path: /zh/diary/
   "v-416a6bf4": defineAsyncComponent(() => import(/* webpackChunkName: "v-416a6bf4" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/diary/index.html.vue")),
-  // path: /zh/note/
-  "v-2bf67255": defineAsyncComponent(() => import(/* webpackChunkName: "v-2bf67255" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/note/index.html.vue")),
   // path: /zh/test/
   "v-2c4671b5": defineAsyncComponent(() => import(/* webpackChunkName: "v-2c4671b5" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/test/index.html.vue")),
+  // path: /zh/note/
+  "v-2bf67255": defineAsyncComponent(() => import(/* webpackChunkName: "v-2bf67255" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/note/index.html.vue")),
   // path: /en/blog/vue/
   "v-382e1549": defineAsyncComponent(() => import(/* webpackChunkName: "v-382e1549" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/blog/vue/index.html.vue")),
   // path: /en/note/fall/
@@ -101,10 +101,14 @@ export const pagesComponents = {
   "v-37a8c5a0": defineAsyncComponent(() => import(/* webpackChunkName: "v-37a8c5a0" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/star/index.html.vue")),
   // path: /en/timeline/
   "v-0379cba1": defineAsyncComponent(() => import(/* webpackChunkName: "v-0379cba1" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/timeline/index.html.vue")),
-  // path: /category/github/
-  "v-fd3344d8": defineAsyncComponent(() => import(/* webpackChunkName: "v-fd3344d8" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/category/github/index.html.vue")),
+  // path: /category/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
+  "v-67483220": defineAsyncComponent(() => import(/* webpackChunkName: "v-67483220" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/category/学习笔记/index.html.vue")),
   // path: /tag/%E4%B8%AA%E4%BA%BA/
   "v-55a1b0ab": defineAsyncComponent(() => import(/* webpackChunkName: "v-55a1b0ab" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/tag/个人/index.html.vue")),
+  // path: /category/github/
+  "v-fd3344d8": defineAsyncComponent(() => import(/* webpackChunkName: "v-fd3344d8" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/category/github/index.html.vue")),
+  // path: /tag/%E8%AE%B0%E5%BD%95/
+  "v-433e1234": defineAsyncComponent(() => import(/* webpackChunkName: "v-433e1234" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/tag/记录/index.html.vue")),
   // path: /category/%E7%88%B6%E4%BA%B2/
   "v-3d03eb5d": defineAsyncComponent(() => import(/* webpackChunkName: "v-3d03eb5d" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/category/父亲/index.html.vue")),
   // path: /tag/git/

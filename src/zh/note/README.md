@@ -6,9 +6,7 @@ star: 100
 category:
     - 学习笔记
 tag:
-    - 评论
-    - 指南
-article: false
+    - 记录
 ---
 
 ## 准备

@@ -1,7 +1,10 @@
 ---
-title: 幻灯片页
+title: 关于博主
 icon: slides
 layout: Slide
+order: 999
+star: 999
+sticky: 999
 ---
 
 <!-- markdownlint-disable MD024 MD033 MD051 -->

@@ -13,8 +13,6 @@ export const pagesData = {
   "v-367b840a": () => import(/* webpackChunkName: "v-367b840a" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/slides.html.js").then(({ data }) => data),
   // path: /en/blog/
   "v-398ec440": () => import(/* webpackChunkName: "v-398ec440" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/blog/index.html.js").then(({ data }) => data),
-  // path: /en/note/
-  "v-3839b0e0": () => import(/* webpackChunkName: "v-3839b0e0" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/note/index.html.js").then(({ data }) => data),
   // path: /en/demo/disable.html
   "v-70eda030": () => import(/* webpackChunkName: "v-70eda030" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/demo/disable.html.js").then(({ data }) => data),
   // path: /en/demo/encrypt.html
@@ -25,6 +23,8 @@ export const pagesData = {
   "v-0e4acecb": () => import(/* webpackChunkName: "v-0e4acecb" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/demo/page.html.js").then(({ data }) => data),
   // path: /en/demo/
   "v-395cd082": () => import(/* webpackChunkName: "v-395cd082" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/demo/index.html.js").then(({ data }) => data),
+  // path: /en/note/
+  "v-3839b0e0": () => import(/* webpackChunkName: "v-3839b0e0" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/note/index.html.js").then(({ data }) => data),
   // path: /en/posts/cherry.html
   "v-fb852992": () => import(/* webpackChunkName: "v-fb852992" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/posts/cherry.html.js").then(({ data }) => data),
   // path: /en/posts/dragonfruit.html
@@ -35,10 +35,10 @@ export const pagesData = {
   "v-285adf66": () => import(/* webpackChunkName: "v-285adf66" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/posts/tomato.html.js").then(({ data }) => data),
   // path: /zh/diary/
   "v-416a6bf4": () => import(/* webpackChunkName: "v-416a6bf4" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/diary/index.html.js").then(({ data }) => data),
-  // path: /zh/note/
-  "v-2bf67255": () => import(/* webpackChunkName: "v-2bf67255" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/note/index.html.js").then(({ data }) => data),
   // path: /zh/test/
   "v-2c4671b5": () => import(/* webpackChunkName: "v-2c4671b5" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/test/index.html.js").then(({ data }) => data),
+  // path: /zh/note/
+  "v-2bf67255": () => import(/* webpackChunkName: "v-2bf67255" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/note/index.html.js").then(({ data }) => data),
   // path: /en/blog/vue/
   "v-382e1549": () => import(/* webpackChunkName: "v-382e1549" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/blog/vue/index.html.js").then(({ data }) => data),
   // path: /en/note/fall/
@@ -99,10 +99,14 @@ export const pagesData = {
   "v-37a8c5a0": () => import(/* webpackChunkName: "v-37a8c5a0" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/star/index.html.js").then(({ data }) => data),
   // path: /en/timeline/
   "v-0379cba1": () => import(/* webpackChunkName: "v-0379cba1" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/timeline/index.html.js").then(({ data }) => data),
-  // path: /category/github/
-  "v-fd3344d8": () => import(/* webpackChunkName: "v-fd3344d8" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/category/github/index.html.js").then(({ data }) => data),
+  // path: /category/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
+  "v-67483220": () => import(/* webpackChunkName: "v-67483220" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/category/学习笔记/index.html.js").then(({ data }) => data),
   // path: /tag/%E4%B8%AA%E4%BA%BA/
   "v-55a1b0ab": () => import(/* webpackChunkName: "v-55a1b0ab" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/tag/个人/index.html.js").then(({ data }) => data),
+  // path: /category/github/
+  "v-fd3344d8": () => import(/* webpackChunkName: "v-fd3344d8" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/category/github/index.html.js").then(({ data }) => data),
+  // path: /tag/%E8%AE%B0%E5%BD%95/
+  "v-433e1234": () => import(/* webpackChunkName: "v-433e1234" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/tag/记录/index.html.js").then(({ data }) => data),
   // path: /category/%E7%88%B6%E4%BA%B2/
   "v-3d03eb5d": () => import(/* webpackChunkName: "v-3d03eb5d" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/category/父亲/index.html.js").then(({ data }) => data),
   // path: /tag/git/

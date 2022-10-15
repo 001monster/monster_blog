@@ -10,7 +10,7 @@ export default hopeTheme({
   },
   iconAssets: "iconfont",           // 字体图标
   logo: "/logo.png",
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/001monster/monster.git",
   docsDir: "docs",
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
 
@@ -48,7 +48,7 @@ export default hopeTheme({
       navbar: zhNavbar,
       // sidebar
       sidebar: zhSidebar,
-      footer: "默认页脚",
+      footer: "蜀ICP备2022010328号",
       displayFooter: true,
 
       blog: {
