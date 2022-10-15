@@ -33,6 +33,6 @@ jobs:
           host: 124.221.253.146
           username: Administrator
           password: zswZSW20001020
-          port: 3389
+          port: 22
           source: '/src/.vuepress/dist'
           target: '/wwwroot/blog'
