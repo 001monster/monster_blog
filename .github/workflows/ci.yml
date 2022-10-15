@@ -40,7 +40,7 @@ jobs:
       - name: 部署项目
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ftp://124.221.253.146:21
+          server: 124.221.253.146
           username: 	zswei1020
           password: KtKzp5KT3ckjk7jf
           local-dir: ./src/.vuepress/dist/
