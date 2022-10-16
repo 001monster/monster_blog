@@ -81,10 +81,10 @@ export default hopeTheme({
        * Using Giscus
        */
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      repo: "001monster/monster",
+      repoId: "R_kgDOINTVnQ",
+      category: "General",
+      categoryId: "DIC_kwDOINTVnc4CR",
 
       /**
        * Using Twikoo

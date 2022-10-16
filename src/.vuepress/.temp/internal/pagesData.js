@@ -35,10 +35,10 @@ export const pagesData = {
   "v-285adf66": () => import(/* webpackChunkName: "v-285adf66" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/posts/tomato.html.js").then(({ data }) => data),
   // path: /zh/diary/
   "v-416a6bf4": () => import(/* webpackChunkName: "v-416a6bf4" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/diary/index.html.js").then(({ data }) => data),
-  // path: /zh/test/
-  "v-2c4671b5": () => import(/* webpackChunkName: "v-2c4671b5" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/test/index.html.js").then(({ data }) => data),
   // path: /zh/note/
   "v-2bf67255": () => import(/* webpackChunkName: "v-2bf67255" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/note/index.html.js").then(({ data }) => data),
+  // path: /zh/test/
+  "v-2c4671b5": () => import(/* webpackChunkName: "v-2c4671b5" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/test/index.html.js").then(({ data }) => data),
   // path: /en/blog/vue/
   "v-382e1549": () => import(/* webpackChunkName: "v-382e1549" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/blog/vue/index.html.js").then(({ data }) => data),
   // path: /en/note/fall/

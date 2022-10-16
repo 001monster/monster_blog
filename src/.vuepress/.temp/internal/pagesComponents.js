@@ -37,10 +37,10 @@ export const pagesComponents = {
   "v-285adf66": defineAsyncComponent(() => import(/* webpackChunkName: "v-285adf66" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/posts/tomato.html.vue")),
   // path: /zh/diary/
   "v-416a6bf4": defineAsyncComponent(() => import(/* webpackChunkName: "v-416a6bf4" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/diary/index.html.vue")),
-  // path: /zh/test/
-  "v-2c4671b5": defineAsyncComponent(() => import(/* webpackChunkName: "v-2c4671b5" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/test/index.html.vue")),
   // path: /zh/note/
   "v-2bf67255": defineAsyncComponent(() => import(/* webpackChunkName: "v-2bf67255" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/note/index.html.vue")),
+  // path: /zh/test/
+  "v-2c4671b5": defineAsyncComponent(() => import(/* webpackChunkName: "v-2c4671b5" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/zh/test/index.html.vue")),
   // path: /en/blog/vue/
   "v-382e1549": defineAsyncComponent(() => import(/* webpackChunkName: "v-382e1549" */"D:/桌面/blog/monster/src/.vuepress/.temp/pages/en/blog/vue/index.html.vue")),
   // path: /en/note/fall/
