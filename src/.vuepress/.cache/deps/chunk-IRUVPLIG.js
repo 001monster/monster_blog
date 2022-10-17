@@ -1,4 +1,11 @@
 import {
+  useAutoLink,
+  useThemeLocaleData
+} from "./chunk-IOWDGP5U.js";
+import {
+  dt
+} from "./chunk-GZOZNNJU.js";
+import {
   AutoLink_default
 } from "./chunk-6BKGGOZS.js";
 import {
@@ -9,13 +16,6 @@ import {
   isLinkExternal,
   isPlainObject
 } from "./chunk-LS4IQIE6.js";
-import {
-  useAutoLink,
-  useThemeLocaleData
-} from "./chunk-IOWDGP5U.js";
-import {
-  dt
-} from "./chunk-GZOZNNJU.js";
 import {
   client_exports
 } from "./chunk-ANKY43RT.js";
@@ -170,4 +170,4 @@ export {
   setupSidebarItems,
   useSidebarItems
 };
-//# sourceMappingURL=chunk-TG3SRASE.js.map
+//# sourceMappingURL=chunk-IRUVPLIG.js.map
