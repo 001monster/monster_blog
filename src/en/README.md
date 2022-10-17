@@ -1,49 +1,41 @@
 ---
 home: true
 layout: Blog
-icon: home    
-title: monster
+icon: home
+title: Home
 heroImage: /logo.png
-heroText: monster
-tagline: Welcome to my blog
+heroText: old Monster
 heroFullScreen: true
+tagline: Welecome to my blog
 projects:
-  - icon: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+  - icon: /logo.png
+    name: self-introduction
+    desc: '@Monsters that can konck code'
+    link: intro.html
 
-  - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
+  - icon: https://kuizuo.cn/img/logo.webp
+    name: kuizuo
+    desc: A shameful station
+    link: https://kuizuo.cn/
 
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
+  - icon: http://yijun.asia/file/29a7e02922d70e57603030abfa3f5b19.svg
+    name: yijun
+    desc: yijun that blog
+    link: https://yijun0816.fun/
 
-  - icon: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
+  - icon: https://zxuqian.cn/img/logo.webp
+    name: Fenhua Front End Engineer
+    desc: Fenhua Front End Engineer
+    link: https://zxuqian.cn/
 
-  - icon: friend
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
+  - icon: https://v2.cn.vuejs.org/images/logo.svg
+    name: Vue
+    desc: Progressive JavaScript Framework
+    link: https://cn.vuejs.org/
 
-  - icon: /logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
-
-# footer: customize your footer text
+  - icon: https://s4.ax1x.com/2022/01/17/7UwaOf.png
+    name: ButterPig
+    desc: Online ICO icon production, image conversion ICO icon Pro version
+    link: https://www.butterpig.top/icopro
+    
 ---
-
-This is a blog home page demo.
-
-To use this layout, you should set both `layout: Blog` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/v2/guide/blog/home/).
-

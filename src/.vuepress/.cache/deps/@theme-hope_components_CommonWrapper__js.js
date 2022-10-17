@@ -1,6 +1,6 @@
 import {
   useSidebarItems
-} from "./chunk-IRUVPLIG.js";
+} from "./chunk-KOWPRRPP.js";
 import {
   useEventListener,
   useMobile,

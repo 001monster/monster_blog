@@ -4,7 +4,7 @@ import {
   renderChildren,
   renderItem,
   useSidebarItems
-} from "./chunk-IRUVPLIG.js";
+} from "./chunk-KOWPRRPP.js";
 import {
   useThemeLocaleData
 } from "./chunk-IOWDGP5U.js";

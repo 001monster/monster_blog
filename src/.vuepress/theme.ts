@@ -81,7 +81,7 @@ export default hopeTheme({
        * Using Giscus
        */
       provider: "Giscus",
-      repo: "001monster/monster",
+      repo: "001monster/monster_blog",
       repoId: "R_kgDOINTVnQ",
       category: "General",
       categoryId: "DIC_kwDOINTVnc4CR",

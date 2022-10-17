@@ -11,54 +11,60 @@ export const pagesData = {
   "v-2d0a870d": () => import(/* webpackChunkName: "v-2d0a870d" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/index.html.js").then(({ data }) => data),
   // path: /en/slides.html
   "v-367b840a": () => import(/* webpackChunkName: "v-367b840a" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/slides.html.js").then(({ data }) => data),
-  // path: /en/blog/
-  "v-398ec440": () => import(/* webpackChunkName: "v-398ec440" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/blog/index.html.js").then(({ data }) => data),
-  // path: /en/demo/disable.html
-  "v-70eda030": () => import(/* webpackChunkName: "v-70eda030" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/demo/disable.html.js").then(({ data }) => data),
-  // path: /en/demo/encrypt.html
-  "v-3777b6d3": () => import(/* webpackChunkName: "v-3777b6d3" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/demo/encrypt.html.js").then(({ data }) => data),
-  // path: /en/demo/markdown.html
-  "v-4a2a37eb": () => import(/* webpackChunkName: "v-4a2a37eb" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/demo/markdown.html.js").then(({ data }) => data),
-  // path: /en/demo/page.html
-  "v-0e4acecb": () => import(/* webpackChunkName: "v-0e4acecb" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/demo/page.html.js").then(({ data }) => data),
-  // path: /en/demo/
-  "v-395cd082": () => import(/* webpackChunkName: "v-395cd082" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/demo/index.html.js").then(({ data }) => data),
+  // path: /en/diary/
+  "v-f1d743ce": () => import(/* webpackChunkName: "v-f1d743ce" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/diary/index.html.js").then(({ data }) => data),
   // path: /en/note/
   "v-3839b0e0": () => import(/* webpackChunkName: "v-3839b0e0" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/note/index.html.js").then(({ data }) => data),
-  // path: /en/posts/cherry.html
-  "v-fb852992": () => import(/* webpackChunkName: "v-fb852992" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/cherry.html.js").then(({ data }) => data),
-  // path: /en/posts/dragonfruit.html
-  "v-4fd051a1": () => import(/* webpackChunkName: "v-4fd051a1" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/dragonfruit.html.js").then(({ data }) => data),
-  // path: /en/posts/strawberry.html
-  "v-57615dc1": () => import(/* webpackChunkName: "v-57615dc1" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/strawberry.html.js").then(({ data }) => data),
-  // path: /en/posts/tomato.html
-  "v-285adf66": () => import(/* webpackChunkName: "v-285adf66" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/tomato.html.js").then(({ data }) => data),
+  // path: /en/test/
+  "v-3799b220": () => import(/* webpackChunkName: "v-3799b220" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/test/index.html.js").then(({ data }) => data),
+  // path: /ens/blog/
+  "v-396d908f": () => import(/* webpackChunkName: "v-396d908f" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/blog/index.html.js").then(({ data }) => data),
+  // path: /ens/note/
+  "v-3a181a3f": () => import(/* webpackChunkName: "v-3a181a3f" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/note/index.html.js").then(({ data }) => data),
+  // path: /ens/posts/cherry.html
+  "v-1228cf66": () => import(/* webpackChunkName: "v-1228cf66" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/cherry.html.js").then(({ data }) => data),
+  // path: /ens/posts/dragonfruit.html
+  "v-20d19a5c": () => import(/* webpackChunkName: "v-20d19a5c" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/dragonfruit.html.js").then(({ data }) => data),
+  // path: /ens/posts/strawberry.html
+  "v-7d911270": () => import(/* webpackChunkName: "v-7d911270" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/strawberry.html.js").then(({ data }) => data),
+  // path: /ens/posts/tomato.html
+  "v-8f7378d6": () => import(/* webpackChunkName: "v-8f7378d6" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/tomato.html.js").then(({ data }) => data),
   // path: /zh/diary/
   "v-416a6bf4": () => import(/* webpackChunkName: "v-416a6bf4" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/zh/diary/index.html.js").then(({ data }) => data),
   // path: /zh/note/
   "v-2bf67255": () => import(/* webpackChunkName: "v-2bf67255" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/zh/note/index.html.js").then(({ data }) => data),
   // path: /zh/test/
   "v-2c4671b5": () => import(/* webpackChunkName: "v-2c4671b5" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/zh/test/index.html.js").then(({ data }) => data),
-  // path: /en/blog/vue/
-  "v-382e1549": () => import(/* webpackChunkName: "v-382e1549" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/blog/vue/index.html.js").then(({ data }) => data),
-  // path: /en/note/fall/
-  "v-cafbaaf8": () => import(/* webpackChunkName: "v-cafbaaf8" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/note/fall/index.html.js").then(({ data }) => data),
-  // path: /en/posts/apple/1.html
-  "v-58aa03b4": () => import(/* webpackChunkName: "v-58aa03b4" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/apple/1.html.js").then(({ data }) => data),
-  // path: /en/posts/apple/2.html
-  "v-55405276": () => import(/* webpackChunkName: "v-55405276" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/apple/2.html.js").then(({ data }) => data),
-  // path: /en/posts/apple/3.html
-  "v-51d6a138": () => import(/* webpackChunkName: "v-51d6a138" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/apple/3.html.js").then(({ data }) => data),
-  // path: /en/posts/apple/4.html
-  "v-4e6ceffa": () => import(/* webpackChunkName: "v-4e6ceffa" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/apple/4.html.js").then(({ data }) => data),
-  // path: /en/posts/banana/1.html
-  "v-e748286e": () => import(/* webpackChunkName: "v-e748286e" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/banana/1.html.js").then(({ data }) => data),
-  // path: /en/posts/banana/2.html
-  "v-e3de7730": () => import(/* webpackChunkName: "v-e3de7730" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/banana/2.html.js").then(({ data }) => data),
-  // path: /en/posts/banana/3.html
-  "v-e074c5f2": () => import(/* webpackChunkName: "v-e074c5f2" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/banana/3.html.js").then(({ data }) => data),
-  // path: /en/posts/banana/4.html
-  "v-dd0b14b4": () => import(/* webpackChunkName: "v-dd0b14b4" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/posts/banana/4.html.js").then(({ data }) => data),
+  // path: /en/diary/Poetry/
+  "v-390570c1": () => import(/* webpackChunkName: "v-390570c1" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/diary/Poetry/index.html.js").then(({ data }) => data),
+  // path: /en/diary/Poetry/Spring1.html
+  "v-7a4be6f6": () => import(/* webpackChunkName: "v-7a4be6f6" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/diary/Poetry/Spring1.html.js").then(({ data }) => data),
+  // path: /en/note/back-end/
+  "v-9c53fb6c": () => import(/* webpackChunkName: "v-9c53fb6c" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/note/back-end/index.html.js").then(({ data }) => data),
+  // path: /en/note/front-end/intersectionObserver.html
+  "v-14cf5952": () => import(/* webpackChunkName: "v-14cf5952" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/note/front-end/intersectionObserver.html.js").then(({ data }) => data),
+  // path: /en/note/front-end/
+  "v-25eb3b68": () => import(/* webpackChunkName: "v-25eb3b68" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/note/front-end/index.html.js").then(({ data }) => data),
+  // path: /ens/note/fall/
+  "v-24348d35": () => import(/* webpackChunkName: "v-24348d35" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/note/fall/index.html.js").then(({ data }) => data),
+  // path: /ens/blog/vue/
+  "v-9f87cf10": () => import(/* webpackChunkName: "v-9f87cf10" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/blog/vue/index.html.js").then(({ data }) => data),
+  // path: /ens/posts/apple/1.html
+  "v-412c1fd7": () => import(/* webpackChunkName: "v-412c1fd7" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/apple/1.html.js").then(({ data }) => data),
+  // path: /ens/posts/apple/2.html
+  "v-42e0f876": () => import(/* webpackChunkName: "v-42e0f876" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/apple/2.html.js").then(({ data }) => data),
+  // path: /ens/posts/apple/3.html
+  "v-4495d115": () => import(/* webpackChunkName: "v-4495d115" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/apple/3.html.js").then(({ data }) => data),
+  // path: /ens/posts/apple/4.html
+  "v-464aa9b4": () => import(/* webpackChunkName: "v-464aa9b4" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/apple/4.html.js").then(({ data }) => data),
+  // path: /ens/posts/banana/1.html
+  "v-6201ff90": () => import(/* webpackChunkName: "v-6201ff90" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/banana/1.html.js").then(({ data }) => data),
+  // path: /ens/posts/banana/2.html
+  "v-5e984e52": () => import(/* webpackChunkName: "v-5e984e52" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/banana/2.html.js").then(({ data }) => data),
+  // path: /ens/posts/banana/3.html
+  "v-5b2e9d14": () => import(/* webpackChunkName: "v-5b2e9d14" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/banana/3.html.js").then(({ data }) => data),
+  // path: /ens/posts/banana/4.html
+  "v-57c4ebd6": () => import(/* webpackChunkName: "v-57c4ebd6" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/ens/posts/banana/4.html.js").then(({ data }) => data),
   // path: /zh/diary/Poetry/
   "v-c24fb2f4": () => import(/* webpackChunkName: "v-c24fb2f4" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/zh/diary/Poetry/index.html.js").then(({ data }) => data),
   // path: /zh/diary/Poetry/Spring1.html
@@ -99,10 +105,38 @@ export const pagesData = {
   "v-37a8c5a0": () => import(/* webpackChunkName: "v-37a8c5a0" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/star/index.html.js").then(({ data }) => data),
   // path: /en/timeline/
   "v-0379cba1": () => import(/* webpackChunkName: "v-0379cba1" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/timeline/index.html.js").then(({ data }) => data),
-  // path: /category/github/
-  "v-fd3344d8": () => import(/* webpackChunkName: "v-fd3344d8" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/category/github/index.html.js").then(({ data }) => data),
+  // path: /category/%E6%A8%B1%E6%A1%83/
+  "v-0c75a0f8": () => import(/* webpackChunkName: "v-0c75a0f8" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/category/樱桃/index.html.js").then(({ data }) => data),
   // path: /tag/%E4%B8%AA%E4%BA%BA/
   "v-55a1b0ab": () => import(/* webpackChunkName: "v-55a1b0ab" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/tag/个人/index.html.js").then(({ data }) => data),
+  // path: /category/%E7%81%AB%E9%BE%99%E6%9E%9C/
+  "v-226a68ec": () => import(/* webpackChunkName: "v-226a68ec" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/category/火龙果/index.html.js").then(({ data }) => data),
+  // path: /tag/%E7%BA%A2/
+  "v-0f1d0e94": () => import(/* webpackChunkName: "v-0f1d0e94" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/tag/红/index.html.js").then(({ data }) => data),
+  // path: /category/%E6%B0%B4%E6%9E%9C/
+  "v-12590846": () => import(/* webpackChunkName: "v-12590846" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/category/水果/index.html.js").then(({ data }) => data),
+  // path: /tag/%E5%B0%8F/
+  "v-3e6b05e8": () => import(/* webpackChunkName: "v-3e6b05e8" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/tag/小/index.html.js").then(({ data }) => data),
+  // path: /category/%E8%8D%89%E8%8E%93/
+  "v-247d58ff": () => import(/* webpackChunkName: "v-247d58ff" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/category/草莓/index.html.js").then(({ data }) => data),
+  // path: /tag/%E5%9C%86/
+  "v-301b24f4": () => import(/* webpackChunkName: "v-301b24f4" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/tag/圆/index.html.js").then(({ data }) => data),
+  // path: /category/%E8%94%AC%E8%8F%9C/
+  "v-76b80ea2": () => import(/* webpackChunkName: "v-76b80ea2" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/category/蔬菜/index.html.js").then(({ data }) => data),
+  // path: /tag/%E5%A4%A7/
+  "v-3ceeab45": () => import(/* webpackChunkName: "v-3ceeab45" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/tag/大/index.html.js").then(({ data }) => data),
+  // path: /category/%E8%8B%B9%E6%9E%9C/
+  "v-40b68770": () => import(/* webpackChunkName: "v-40b68770" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/category/苹果/index.html.js").then(({ data }) => data),
+  // path: /tag/%E9%BB%84/
+  "v-42254370": () => import(/* webpackChunkName: "v-42254370" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/tag/黄/index.html.js").then(({ data }) => data),
+  // path: /category/%E9%A6%99%E8%95%89/
+  "v-4c41ef7e": () => import(/* webpackChunkName: "v-4c41ef7e" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/category/香蕉/index.html.js").then(({ data }) => data),
+  // path: /tag/%E5%BC%AF%E6%9B%B2%E7%9A%84/
+  "v-3aafda76": () => import(/* webpackChunkName: "v-3aafda76" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/tag/弯曲的/index.html.js").then(({ data }) => data),
+  // path: /category/github/
+  "v-fd3344d8": () => import(/* webpackChunkName: "v-fd3344d8" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/category/github/index.html.js").then(({ data }) => data),
+  // path: /tag/%E9%95%BF/
+  "v-624a9248": () => import(/* webpackChunkName: "v-624a9248" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/tag/长/index.html.js").then(({ data }) => data),
   // path: /category/vue/
   "v-65f6d381": () => import(/* webpackChunkName: "v-65f6d381" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/category/vue/index.html.js").then(({ data }) => data),
   // path: /tag/git/
@@ -111,46 +145,20 @@ export const pagesData = {
   "v-5decfa84": () => import(/* webpackChunkName: "v-5decfa84" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/index.html.js").then(({ data }) => data),
   // path: /tag/deploy/
   "v-50ae161a": () => import(/* webpackChunkName: "v-50ae161a" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/tag/deploy/index.html.js").then(({ data }) => data),
-  // path: /en/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/
-  "v-4f5cd751": () => import(/* webpackChunkName: "v-4f5cd751" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/使用指南/index.html.js").then(({ data }) => data),
+  // path: /en/category/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/
+  "v-c084009a": () => import(/* webpackChunkName: "v-c084009a" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/个人信息/index.html.js").then(({ data }) => data),
   // path: /en/tag/
   "v-075c6c62": () => import(/* webpackChunkName: "v-075c6c62" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/index.html.js").then(({ data }) => data),
-  // path: /en/category/%E6%A8%B1%E6%A1%83/
-  "v-637c9d98": () => import(/* webpackChunkName: "v-637c9d98" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/樱桃/index.html.js").then(({ data }) => data),
-  // path: /en/tag/%E7%A6%81%E7%94%A8/
-  "v-13efce56": () => import(/* webpackChunkName: "v-13efce56" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/禁用/index.html.js").then(({ data }) => data),
-  // path: /en/category/%E7%81%AB%E9%BE%99%E6%9E%9C/
-  "v-274bf3f6": () => import(/* webpackChunkName: "v-274bf3f6" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/火龙果/index.html.js").then(({ data }) => data),
-  // path: /en/tag/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/
-  "v-67e38fcd": () => import(/* webpackChunkName: "v-67e38fcd" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/文章加密/index.html.js").then(({ data }) => data),
-  // path: /en/category/%E6%B0%B4%E6%9E%9C/
-  "v-608ae9f1": () => import(/* webpackChunkName: "v-608ae9f1" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/水果/index.html.js").then(({ data }) => data),
-  // path: /en/tag/markdown/
-  "v-6f7bfa04": () => import(/* webpackChunkName: "v-6f7bfa04" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/markdown/index.html.js").then(({ data }) => data),
-  // path: /en/category/%E8%8D%89%E8%8E%93/
-  "v-e39671da": () => import(/* webpackChunkName: "v-e39671da" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/草莓/index.html.js").then(({ data }) => data),
-  // path: /en/tag/%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE/
-  "v-103a888e": () => import(/* webpackChunkName: "v-103a888e" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/页面配置/index.html.js").then(({ data }) => data),
-  // path: /en/category/%E8%94%AC%E8%8F%9C/
-  "v-3f210694": () => import(/* webpackChunkName: "v-3f210694" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/蔬菜/index.html.js").then(({ data }) => data),
-  // path: /en/tag/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/
-  "v-0c13d833": () => import(/* webpackChunkName: "v-0c13d833" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/使用指南/index.html.js").then(({ data }) => data),
-  // path: /en/category/%E8%8B%B9%E6%9E%9C/
-  "v-495c2a5c": () => import(/* webpackChunkName: "v-495c2a5c" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/苹果/index.html.js").then(({ data }) => data),
-  // path: /en/tag/%E7%BA%A2/
-  "v-a16420b0": () => import(/* webpackChunkName: "v-a16420b0" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/红/index.html.js").then(({ data }) => data),
-  // path: /en/category/%E9%A6%99%E8%95%89/
-  "v-940d44dc": () => import(/* webpackChunkName: "v-940d44dc" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/香蕉/index.html.js").then(({ data }) => data),
-  // path: /en/tag/%E5%B0%8F/
-  "v-42c83208": () => import(/* webpackChunkName: "v-42c83208" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/小/index.html.js").then(({ data }) => data),
-  // path: /en/tag/%E5%9C%86/
-  "v-5f67f3f0": () => import(/* webpackChunkName: "v-5f67f3f0" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/圆/index.html.js").then(({ data }) => data),
-  // path: /en/tag/%E5%A4%A7/
-  "v-45c0e74e": () => import(/* webpackChunkName: "v-45c0e74e" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/大/index.html.js").then(({ data }) => data),
-  // path: /en/tag/%E9%BB%84/
-  "v-7f1e3f5c": () => import(/* webpackChunkName: "v-7f1e3f5c" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/黄/index.html.js").then(({ data }) => data),
-  // path: /en/tag/%E5%BC%AF%E6%9B%B2%E7%9A%84/
-  "v-001a1e8a": () => import(/* webpackChunkName: "v-001a1e8a" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/弯曲的/index.html.js").then(({ data }) => data),
-  // path: /en/tag/%E9%95%BF/
-  "v-6f0b97f0": () => import(/* webpackChunkName: "v-6f0b97f0" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/长/index.html.js").then(({ data }) => data),
+  // path: /en/category/github/
+  "v-4e396cb0": () => import(/* webpackChunkName: "v-4e396cb0" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/github/index.html.js").then(({ data }) => data),
+  // path: /en/tag/%E4%BF%A1%E6%81%AF/
+  "v-5741090b": () => import(/* webpackChunkName: "v-5741090b" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/信息/index.html.js").then(({ data }) => data),
+  // path: /en/category/vue/
+  "v-525b7fed": () => import(/* webpackChunkName: "v-525b7fed" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/category/vue/index.html.js").then(({ data }) => data),
+  // path: /en/tag/%E4%B8%AA%E4%BA%BA/
+  "v-e4ca73d2": () => import(/* webpackChunkName: "v-e4ca73d2" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/个人/index.html.js").then(({ data }) => data),
+  // path: /en/tag/git/
+  "v-1e485402": () => import(/* webpackChunkName: "v-1e485402" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/git/index.html.js").then(({ data }) => data),
+  // path: /en/tag/deploy/
+  "v-58eaed86": () => import(/* webpackChunkName: "v-58eaed86" */"D:/桌面/blog/monster_blog/src/.vuepress/.temp/pages/en/tag/deploy/index.html.js").then(({ data }) => data),
 }

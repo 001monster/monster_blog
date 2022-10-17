@@ -77,7 +77,7 @@ var renderChildren = (children) => {
 var resolvePrefix = (prefix = "", path = "") => path.startsWith("/") ? path : `${ensureEndingSlash(prefix)}${path}`;
 
 // src/.vuepress/.temp/theme-hope/sidebar.js
-var sidebarData = { "/en/demo/": ["page.md", "markdown.md", "disable.md", "encrypt.md"], "/en/posts/": ["strawberry.md", "tomato.md", "dragonfruit.md", "cherry.md"], "/zh/note/front-end/": ["README.md", "intersectionObserver.md"], "/zh/note/back-end/": ["README.md"], "/zh/diary/Poetry/": ["README.md", "Spring1.md"] };
+var sidebarData = { "/en/note/front-end/": ["README.md", "intersectionObserver.md"], "/en/note/back-end/": ["README.md"], "/en/diary/Poetry/": ["README.md", "Spring1.md"], "/zh/note/front-end/": ["README.md", "intersectionObserver.md"], "/zh/note/back-end/": ["README.md"], "/zh/diary/Poetry/": ["README.md", "Spring1.md"] };
 
 // node_modules/vuepress-theme-hope/lib/client/modules/sidebar/composables/resolveConfig.js
 var headerToSidebarItem = (header, headerDepth) => {
@@ -170,4 +170,4 @@ export {
   setupSidebarItems,
   useSidebarItems
 };
-//# sourceMappingURL=chunk-IRUVPLIG.js.map
+//# sourceMappingURL=chunk-KOWPRRPP.js.map

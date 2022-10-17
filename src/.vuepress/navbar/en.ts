@@ -2,51 +2,43 @@ import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
   "/en/",
-  { text: "Demo", icon: "discover", link: "/en/demo/" },
+  // {
+  //   text: "随笔",
+  //   icon: "edit",
+  //   prefix: "/zh/diary/",
+  //   children: [
+  //     { text: "代码笔记", link: "", icon: "note", activeMatch: "^/zh/diary/$" },
+  //     { 
+  //       text: "春之诗",
+  //       children: ["Poetry/"]
+  //     }
+  //   ],
+  // },
+
   {
-    text: "Posts",
+    text: "CodeNotes",
     icon: "edit",
-    prefix: "/posts/",
+    prefix: "/en/note/",
     children: [
-      {
-        text: "Apple",
-        icon: "edit",
-        prefix: "apple/",
-        children: [
-          { text: "Apple1", icon: "edit", link: "1" },
-          { text: "Apple2", icon: "edit", link: "2" },
-          "3",
-          "4",
-        ],
+      { text: "old monster the code notes", link: "", icon: "note", activeMatch: "^/en/note/$" },
+      { 
+        text: "FrontEnd",
+        children: ['front-end/']
       },
-      {
-        text: "Banana",
-        icon: "edit",
-        prefix: "banana/",
-        children: [
-          {
-            text: "Banana 1",
-            icon: "edit",
-            link: "1",
-          },
-          {
-            text: "Banana 2",
-            icon: "edit",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
+      { 
+        text: "BackEnd",
+        children: ['back-end/']
       },
-      { text: "Cherry", icon: "edit", link: "cherry" },
-      { text: "Dragonfruit", icon: "edit", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
     ],
   },
-  {
-    text: "V2 Docs",
-    icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/",
-  },
+
+  // {
+  //   text: "软件教程",
+  //   icon: "edit",
+  //   prefix: "/zh/test/",
+  //   children: [
+  //     ""
+  //   ],
+  // },
 ]);
+

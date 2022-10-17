@@ -25,7 +25,7 @@ projects:
 
   - icon: https://zxuqian.cn/img/logo.webp
     name: 峰华前端工程师
-    desc: 文章详细描述
+    desc: 峰华前端工程师
     link: https://zxuqian.cn/
 
   - icon: https://v2.cn.vuejs.org/images/logo.svg
