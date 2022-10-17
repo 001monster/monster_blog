@@ -1,6 +1,6 @@
 import {
   InfoList_default
-} from "./chunk-N4WPCQ7A.js";
+} from "./chunk-ULPZ4ZV3.js";
 import "./chunk-Y2DVEC3Q.js";
 import "./chunk-M5SBLBLN.js";
 import "./chunk-IOWDGP5U.js";
