@@ -125,5 +125,3 @@ Vue.createApp(dataList).mount("#app");
 ```
 
 ## 效果图
-![img](​​​​​​​​​​)
-![img](​​​​​​​​​​)
