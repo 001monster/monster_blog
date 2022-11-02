@@ -31,7 +31,19 @@ export const zhSidebar = sidebar({
     }
   ],
 
-  "/zh/test/": [
+  "/zh/zsw/": [
     "",
+    {
+      text: "CSS常用代码",
+      icon: 'creative',
+      prefix: "css/",
+      children: "structure"
+    },
+    {
+      text: "JS常用代码",
+      icon: 'creative',
+      prefix: "js/",
+      children: "structure"
+    }
   ],
 });

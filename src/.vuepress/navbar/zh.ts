@@ -21,23 +21,19 @@ export const zhNavbar = navbar([
     prefix: "/zh/note/",
     children: [
       { text: "代码笔记", link: "", icon: "note", activeMatch: "^/zh/note/$" },
-      { 
+      {
         text: "前端",
         children: ['front-end/']
       },
-      { 
+      {
         text: "后端",
         children: ['back-end/']
       },
     ],
   },
-
-  // {
-  //   text: "软件教程",
-  //   icon: "edit",
-  //   prefix: "/zh/test/",
-  //   children: [
-  //     ""
-  //   ],
-  // },
+  {
+    text: "常用开发汇总",
+    icon: "edit",
+    link: "/zh/zsw/",
+  }
 ]);

@@ -223,7 +223,7 @@ export default {
   }
 }
 </style>
-```
+  ```
 
 ## 五、无限滚动
 ```javascript
