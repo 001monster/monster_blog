@@ -6,33 +6,35 @@
 
 
 // 代码框样式自定义
-.language-javascript{
+.language-javascript {
   border-radius: 2px !important;
 }
 
 // 图片设置阴影
 .theme-hope-content {
-  .copy{
+  .copy {
     background-color: rgb(196, 196, 196) !important;
   }
 
-  code{
-    background-color: #ff9100;
-    color: #fff;
+  code {
+    background-color: #88c9ff;
+    color: #313131;
+    margin: 0 7px;
   }
 
-  img{
+  img {
     box-shadow: 1px 1px 10px rgb(153, 153, 153);
-    border-radius: 3px !important; 
+    border-radius: 3px !important;
     margin-top: 20px;
   }
-  
+
   h2 {
     border-left: 5px solid #338bff;
     border-bottom: 1px solid #338bff;
     padding-top: 0 !important;
     margin-top: 35px !important;
   }
+
   h2:nth-child(1) {
     border-left: 0;
   }
@@ -40,26 +42,26 @@
 
 
 // 顶部导航
-.breadcrumb{
+.breadcrumb {
   display: none;
 }
 
 // 个人信息
-.page-title{
-  h1{
+.page-title {
+  h1 {
     padding: 10px 0;
   }
 
-  .page-info{
+  .page-info {
     color: rgb(184, 184, 184);
 
-    span{
+    span {
       margin-right: 0.7em;
     }
   }
 
-  .author-info{
-    svg:nth-child(1){
+  .author-info {
+    svg:nth-child(1) {
       // display: none !important;
       background-image: url(https://zswei.xyz/logo.png) !important;
       z-index: 999;

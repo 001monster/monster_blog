@@ -45,6 +45,14 @@ export const pagesComponents = {
   "v-92639f26": defineAsyncComponent(() => import(/* webpackChunkName: "v-92639f26" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/front-end/intersectionObserver.html.vue")),
   // path: /zh/note/front-end/
   "v-61e793ed": defineAsyncComponent(() => import(/* webpackChunkName: "v-61e793ed" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/front-end/index.html.vue")),
+  // path: /zh/note/vue/
+  "v-e75ab184": defineAsyncComponent(() => import(/* webpackChunkName: "v-e75ab184" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/vue/index.html.vue")),
+  // path: /zh/note/vue/vue-1.html
+  "v-0997e72d": defineAsyncComponent(() => import(/* webpackChunkName: "v-0997e72d" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/vue/vue-1.html.vue")),
+  // path: /zh/note/vue/vue-2.html
+  "v-0b4cbfcc": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b4cbfcc" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/vue/vue-2.html.vue")),
+  // path: /zh/note/vue/vue-3.html
+  "v-0d01986b": defineAsyncComponent(() => import(/* webpackChunkName: "v-0d01986b" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/vue/vue-3.html.vue")),
   // path: /zh/zsw/css/div-overflow.html
   "v-3eb89494": defineAsyncComponent(() => import(/* webpackChunkName: "v-3eb89494" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/zsw/css/div-overflow.html.vue")),
   // path: /zh/zsw/js/arr-API.html

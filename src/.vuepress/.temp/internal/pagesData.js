@@ -43,6 +43,14 @@ export const pagesData = {
   "v-92639f26": () => import(/* webpackChunkName: "v-92639f26" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/front-end/intersectionObserver.html.js").then(({ data }) => data),
   // path: /zh/note/front-end/
   "v-61e793ed": () => import(/* webpackChunkName: "v-61e793ed" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/front-end/index.html.js").then(({ data }) => data),
+  // path: /zh/note/vue/
+  "v-e75ab184": () => import(/* webpackChunkName: "v-e75ab184" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/vue/index.html.js").then(({ data }) => data),
+  // path: /zh/note/vue/vue-1.html
+  "v-0997e72d": () => import(/* webpackChunkName: "v-0997e72d" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/vue/vue-1.html.js").then(({ data }) => data),
+  // path: /zh/note/vue/vue-2.html
+  "v-0b4cbfcc": () => import(/* webpackChunkName: "v-0b4cbfcc" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/vue/vue-2.html.js").then(({ data }) => data),
+  // path: /zh/note/vue/vue-3.html
+  "v-0d01986b": () => import(/* webpackChunkName: "v-0d01986b" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/note/vue/vue-3.html.js").then(({ data }) => data),
   // path: /zh/zsw/css/div-overflow.html
   "v-3eb89494": () => import(/* webpackChunkName: "v-3eb89494" */"D:/桌面/monster_blog/src/.vuepress/.temp/pages/zh/zsw/css/div-overflow.html.js").then(({ data }) => data),
   // path: /zh/zsw/js/arr-API.html

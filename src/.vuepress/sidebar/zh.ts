@@ -17,6 +17,14 @@ export const zhSidebar = sidebar({
       prefix: "back-end/",
       collapsable: true,
       children: "structure"
+    },
+
+    {
+      text: "veu",
+      icon: "creative",
+      prefix: "vue/",
+      collapsable: true,
+      children: "structure"
     }
   ],
 

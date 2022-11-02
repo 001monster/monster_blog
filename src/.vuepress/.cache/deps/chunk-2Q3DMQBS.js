@@ -1,4 +1,11 @@
 import {
+  useAutoLink,
+  useThemeLocaleData
+} from "./chunk-IOWDGP5U.js";
+import {
+  dt
+} from "./chunk-GZOZNNJU.js";
+import {
   AutoLink_default
 } from "./chunk-6BKGGOZS.js";
 import {
@@ -9,13 +16,6 @@ import {
   isLinkExternal,
   isPlainObject
 } from "./chunk-LS4IQIE6.js";
-import {
-  useAutoLink,
-  useThemeLocaleData
-} from "./chunk-IOWDGP5U.js";
-import {
-  dt
-} from "./chunk-GZOZNNJU.js";
 import {
   client_exports
 } from "./chunk-ANKY43RT.js";
@@ -77,7 +77,7 @@ var renderChildren = (children) => {
 var resolvePrefix = (prefix = "", path = "") => path.startsWith("/") ? path : `${ensureEndingSlash(prefix)}${path}`;
 
 // src/.vuepress/.temp/theme-hope/sidebar.js
-var sidebarData = { "/en/note/front-end/": ["README.md", "intersectionObserver.md"], "/en/note/back-end/": ["README.md"], "/en/diary/Poetry/": ["README.md", "Spring1.md"], "/zh/note/front-end/": ["README.md", "intersectionObserver.md"], "/zh/note/back-end/": ["README.md"], "/zh/diary/Poetry/": ["README.md", "Spring1.md"], "/zh/zsw/css/": ["div-overflow.md"], "/zh/zsw/js/": ["arr-API.md", "splice-and-join.md"] };
+var sidebarData = { "/en/note/front-end/": ["README.md", "intersectionObserver.md"], "/en/note/back-end/": ["README.md"], "/en/diary/Poetry/": ["README.md", "Spring1.md"], "/zh/note/front-end/": ["README.md", "intersectionObserver.md"], "/zh/note/back-end/": ["README.md"], "/zh/note/vue/": ["README.md", "vue-1.md", "vue-2.md", "vue-3.md"], "/zh/diary/Poetry/": ["README.md", "Spring1.md"], "/zh/zsw/css/": ["div-overflow.md"], "/zh/zsw/js/": ["arr-API.md", "splice-and-join.md"] };
 
 // node_modules/vuepress-theme-hope/lib/client/modules/sidebar/composables/resolveConfig.js
 var headerToSidebarItem = (header, headerDepth) => {
@@ -170,4 +170,4 @@ export {
   setupSidebarItems,
   useSidebarItems
 };
-//# sourceMappingURL=chunk-7EWWHNGZ.js.map
+//# sourceMappingURL=chunk-2Q3DMQBS.js.map

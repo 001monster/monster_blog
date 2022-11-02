@@ -29,6 +29,10 @@ export const zhNavbar = navbar([
         text: "后端",
         children: ['back-end/']
       },
+      {
+        text: "vue",
+        children: ['vue/']
+      },
     ],
   },
   {
