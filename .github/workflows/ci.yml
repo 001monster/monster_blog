@@ -28,10 +28,10 @@ jobs:
         run: pnpm docs:build
         
       - name: 项目部署
-        uses: easingthemes/ssh-deploy@v2.2.11
+        uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-          ARGS: '-avzr --delete'
+          ARGS: -rltgoDzvO --delete
           SOURCE: ./src/.vuepress/dist/
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: 'root'
