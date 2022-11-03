@@ -31,11 +31,12 @@ jobs:
         uses: easingthemes/ssh-deploy@v3.0.1
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-          ARGS: '-avz --delete'
-          SOURCE: ./src/.vuepress/dist/
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: 'root'
-          TARGET: /www/wwwroot/blog
+          REMOTE_POR: '22'
+          SOURCE: './src/.vuepress/dist/'
+          TARGET: '/www/wwwroot/blog/'
+          ARGS: '-rltgoDzvO'
           
 #       - name: 部署项目
 #         uses: appleboy/scp-action@v0.0.1
