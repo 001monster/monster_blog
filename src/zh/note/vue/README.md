@@ -8,31 +8,19 @@ breadcrumb: false
 
 此处是 vue开发学习笔记
 
-<!-- more -->
+## 目录
 -[vue官网](https://cn.vuejs.org/)
 
-## 目录
+-[1.传统的网页开发方式的弊端](vue/vue-1.md)
 
-### 代码学习网站
+-[2.第一个vue3.x应用](vue/vue-2.md)
 
-### 优质网站
+-[3.methods、computed、watch：区别](vue/vue-3.md)
 
-- [网道](https://wangdoc.com/)
+-[4.vue-行内样式和动态class](vue/vue-4.md)
 
-- [廖雪峰的网站](https://www.liaoxuefeng.com/)
+-[5.vue指令认识](vue/vue-5.md)
 
-- [MDN](https://developer.mozilla.org/zh-CN/)
+-[6.vue单文件应用](vue/vue-6.md)
 
-  ::: info
-
-  MDN 的中文文档翻译很差，大多都是机翻，十分建议直接阅读英文文档。
-
-  :::
-
-### 杂牌网站
-
-- [菜鸟教程](https://www.runoob.com/) <Badge text="内容比较新" />
-
-- [w3cschool](https://www.w3cschool.cn) <Badge text="内容最新" /> <Badge text="有手机APP" /> <Badge text="广告信息多" type="warn" />
-
-- [w3school](http://www.w3school.com.cn/) <Badge text="内容比较旧" type="warn" />
+-[7.Vue单文件应用续](vue/vue-7.md)
