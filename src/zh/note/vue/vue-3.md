@@ -9,7 +9,7 @@ category:
 ### methods、computed、watch：他们三者的区别
 1. 他们三者都可以完成一些相同的功能
 2. methods可以把他当作原生的js方法或者是函数来使用，可以把watch 里面的代码写成方法放到methodsd当中通过this.xxx 的方式去调用，这样可以减少watch带代码，更加方便维护
-3. computed他是有缓存的，如果依赖的tata数据不改变他就会一直使用缓存，computed使用的数据需要return出去才可以使用
+3. computed他是有缓存的，如果依赖的tata数据不改变他就会一直使用缓存，computed使用的数据需要return出去才可以使用，在页面上可以直接使用computed 里面的属性
 3. watch 可以用来做一些比较费时的操作，比如网络请求等等之类的，watch没有返回值，他是去修改data里面的数据，data里面的数据变了，页面所依赖data的地方也会发生响应的变化
 
 ### methods 写法
