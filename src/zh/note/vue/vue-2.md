@@ -1,5 +1,6 @@
 ---
 title: （二）第一个vue3.x应用
+order: 2
 date: 2022-11-02
 category:
     - vue

@@ -1,5 +1,6 @@
 ---
 title: （十一）深入学习vue
+order: 11
 date: 2022-11-04
 category:
     - vue

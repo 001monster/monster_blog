@@ -1,6 +1,6 @@
 ---
 title: Old Monster 的代码笔记
-icon: code
+icon: yongyan
 star: true
 sticky: 20
 breadcrumb: false

@@ -5,7 +5,7 @@ export const zhSidebar = sidebar({
     "",
     {
       text: "前端",
-      icon: "creative",
+      icon: "qianduankaifa",
       prefix: "front-end/",
       collapsable: true,
       children: "structure"
@@ -13,7 +13,7 @@ export const zhSidebar = sidebar({
 
     {
       text: "后端",
-      icon: "creative",
+      icon: "houduankaifa",
       prefix: "back-end/",
       collapsable: true,
       children: "structure"
@@ -21,7 +21,7 @@ export const zhSidebar = sidebar({
 
     {
       text: "veu",
-      icon: "creative",
+      icon: "vue",
       prefix: "vue/",
       collapsable: true,
       children: "structure"
@@ -32,7 +32,7 @@ export const zhSidebar = sidebar({
     "",
     {
       text: "前端",
-      icon: "creative",
+      icon: "test",
       prefix: "Poetry/",
       collapsable: true,
       children: "structure"
@@ -43,13 +43,13 @@ export const zhSidebar = sidebar({
     "",
     {
       text: "CSS常用代码",
-      icon: 'creative',
+      icon: 'CSS',
       prefix: "css/",
       children: "structure"
     },
     {
       text: "JS常用代码",
-      icon: 'creative',
+      icon: 'js',
       prefix: "js/",
       children: "structure"
     }

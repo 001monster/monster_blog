@@ -1,5 +1,6 @@
 ---
 title: （四）行内样式和动态class
+order: 4
 date: 2022-11-03
 category:
     - vue

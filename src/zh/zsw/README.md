@@ -1,6 +1,6 @@
 ---
 title: 开发小技巧
-icon: code
+icon: kaifaqu
 star: true
 sticky: 20
 breadcrumb: false

@@ -1,5 +1,6 @@
 ---
 title: （十四）组件数据流向设计
+order: 14
 date: 2022-11-04
 category:
     - vue

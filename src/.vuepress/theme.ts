@@ -8,13 +8,13 @@ export default hopeTheme({
     name: "老怪兽",
     url: "http://zswei.xyz",        // 个人网站地址
   },
-  iconAssets: "iconfont",           // 字体图标
+  iconAssets: "//at.alicdn.com/t/c/font_3750738_njwzd8r6pgf.css",           // 字体图标
   logo: "/logo.png",
   repo: "https://github.com/001monster/monster.git",
   docsDir: "docs",
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
 
-  darkmode:"toggle",
+  darkmode: "toggle",
 
   themeColor: {
     blue: "#2196f3",
@@ -79,7 +79,7 @@ export default hopeTheme({
       // "/demo/encrypt.html": ["1234"],
     },
   },
-  
+
   plugins: {
     blog: {
       autoExcerpt: true,

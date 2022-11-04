@@ -17,10 +17,10 @@ export const zhNavbar = navbar([
 
   {
     text: "代码笔记",
-    icon: "edit",
+    icon: "yongyan",
     prefix: "/zh/note/",
     children: [
-      { text: "代码笔记", link: "", icon: "note", activeMatch: "^/zh/note/$" },
+      { text: "代码笔记", link: "", icon: "biji", activeMatch: "^/zh/note/$" },
       {
         text: "前端",
         children: ['front-end/']
@@ -37,7 +37,7 @@ export const zhNavbar = navbar([
   },
   {
     text: "常用开发汇总",
-    icon: "edit",
+    icon: "huizong",
     link: "/zh/zsw/",
   }
 ]);

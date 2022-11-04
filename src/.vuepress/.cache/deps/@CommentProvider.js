@@ -16,7 +16,7 @@ import "./chunk-WFBTEJUR.js";
 import "./chunk-BPKF3OQJ.js";
 
 // node_modules/vuepress-plugin-comment2/lib/client/components/Giscus.js
-import "D:/\u684C\u9762/blog/monster_blog/node_modules/vuepress-plugin-comment2/lib/client/styles/giscus.scss";
+import "D:/\u684C\u9762/monster_blog/node_modules/vuepress-plugin-comment2/lib/client/styles/giscus.scss";
 var e = COMMENT_OPTIONS;
 var k = Boolean(e.repo && e.repoId && e.category && e.categoryId);
 var i = ["de", "gsw", "en", "es", "fr", "id", "it", "ja", "ko", "pl", "ro", "ru", "vi", "zh-CN", "zh-TW"];

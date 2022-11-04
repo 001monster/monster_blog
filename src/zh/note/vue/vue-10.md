@@ -1,5 +1,6 @@
 ---
 title: （十）向父组件传递数据
+order: 10
 date: 2022-11-04
 category:
     - vue

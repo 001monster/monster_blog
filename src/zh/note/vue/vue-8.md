@@ -1,5 +1,6 @@
 ---
 title: （八）props 属性
+order: 8
 date: 2022-11-04
 category:
     - vue

@@ -1,7 +1,7 @@
 ---
 home: true
 layout: Blog
-icon: home
+icon: zhuye
 title: 主页
 heroImage: /logo.png
 heroText: 老怪兽

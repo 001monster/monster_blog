@@ -1,5 +1,4 @@
 ---
-icon: note
 title: IntersectionObserver之v-lazy
 date: 2022-10-17
 category:

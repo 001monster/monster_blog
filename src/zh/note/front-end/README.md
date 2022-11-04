@@ -1,5 +1,6 @@
 ---
 title: 前端代码笔记
+icon: qianduankaifa
 date: 2022-10-15
 sticky: 100
 star: 100

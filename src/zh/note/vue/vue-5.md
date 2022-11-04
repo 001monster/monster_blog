@@ -1,5 +1,6 @@
 ---
 title: （五）vue指令认识
+order: 5
 date: 2022-11-03
 category:
     - vue

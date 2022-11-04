@@ -1,5 +1,6 @@
 ---
 title: （六）单文件应用
+order: 6
 date: 2022-11-03
 category:
     - vue

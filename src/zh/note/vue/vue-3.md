@@ -1,5 +1,6 @@
 ---
 title: （三）computed和watch区别
+order: 3
 date: 2022-11-02
 category:
     - vue

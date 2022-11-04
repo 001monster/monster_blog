@@ -1,5 +1,6 @@
 ---
 title: （七）创建和使用单文件
+order: 7
 date: 2022-11-03
 category:
     - vue

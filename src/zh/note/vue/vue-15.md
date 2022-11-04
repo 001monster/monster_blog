@@ -1,5 +1,6 @@
 ---
 title: （十五）组件的生命周期
+order: 15
 date: 2022-11-04
 category:
     - vue

@@ -1,6 +1,6 @@
 ---
 title: vue笔记
-icon: code
+icon: vue
 star: true
 sticky: 20
 breadcrumb: false
