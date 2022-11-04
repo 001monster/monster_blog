@@ -1,5 +1,5 @@
 ---
-title: 4.vue行内样式和动态class
+title: （四）行内样式和动态class
 icon: code
 date: 2022-11-03
 category:

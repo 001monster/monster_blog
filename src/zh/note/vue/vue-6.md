@@ -1,5 +1,5 @@
 ---
-title: 6.vue单文件应用
+title: （六）单文件应用
 icon: code
 date: 2022-11-03
 category:
@@ -78,10 +78,12 @@ const vm = app.mount({#app})
 
 4. 进入你创建的app目录中，cd cillian-vue
 
-5. 运行 `npm install` 安装依赖
+5. 运行`npm install`安装依赖
+
 ![安装依赖](http://image.zswei.xyz/img/3.webp)
 
 6. 运行 `npm run dev` 运行项目
+
 ![运行项目](http://image.zswei.xyz/img/4.webp)
 
 
