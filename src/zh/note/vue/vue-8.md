@@ -1,6 +1,5 @@
 ---
 title: （八）props 属性
-icon: code
 date: 2022-11-04
 category:
     - vue

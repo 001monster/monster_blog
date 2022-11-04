@@ -1,6 +1,5 @@
 ---
 title: （九）插槽
-icon: code
 date: 2022-11-04
 category:
     - vue

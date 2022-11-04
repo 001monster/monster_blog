@@ -1,6 +1,5 @@
 ---
 title: （二）第一个vue3.x应用
-icon: code
 date: 2022-11-02
 category:
     - vue

@@ -1,6 +1,5 @@
 ---
 title: （六）单文件应用
-icon: code
 date: 2022-11-03
 category:
     - vue

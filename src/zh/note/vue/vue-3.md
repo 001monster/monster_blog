@@ -1,6 +1,5 @@
 ---
-title: （三）计算属性与监视属性区别
-icon: code
+title: （三）computed和watch区别
 date: 2022-11-02
 category:
     - vue

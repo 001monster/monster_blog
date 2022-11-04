@@ -1,6 +1,5 @@
 ---
-title: （一）传统的网页开发方式的弊端
-icon: code
+title: （一）传统网页开发弊端
 date: 2022-11-02
 category:
     - vue
