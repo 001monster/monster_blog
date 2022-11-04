@@ -83,7 +83,7 @@ validator(value) {
 
 
 ### 二、传递动态的值
-```js
+```html
 // 子组件
 <template>
   <div>
