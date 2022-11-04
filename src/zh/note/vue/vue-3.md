@@ -1,5 +1,5 @@
 ---
-title: 3.methods、computed、watch：区别
+title: 3.计算属性watch区别
 icon: code
 date: 2022-11-02
 category:

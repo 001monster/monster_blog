@@ -1,5 +1,5 @@
 ---
-title: 7.Vue单文件应用续
+title: 7.vue创建和使用单文件
 icon: code
 date: 2022-11-03
 category:
