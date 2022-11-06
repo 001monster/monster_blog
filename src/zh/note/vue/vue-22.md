@@ -1,6 +1,6 @@
 ---
 title: （二十二）自定义指令
-order: 21
+order: 22
 date: 2022-11-06
 category:
     - vue
