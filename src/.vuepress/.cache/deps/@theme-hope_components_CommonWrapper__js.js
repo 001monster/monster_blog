@@ -1,6 +1,9 @@
 import {
   useSidebarItems
-} from "./chunk-PEJEMURT.js";
+} from "./chunk-6JHYI6OJ.js";
+import "./chunk-6BKGGOZS.js";
+import "./chunk-O47N3JLK.js";
+import "./chunk-LS4IQIE6.js";
 import {
   useEventListener,
   useMobile,
@@ -12,9 +15,6 @@ import {
   Xe,
   et
 } from "./chunk-GZOZNNJU.js";
-import "./chunk-6BKGGOZS.js";
-import "./chunk-O47N3JLK.js";
-import "./chunk-LS4IQIE6.js";
 import {
   client_exports
 } from "./chunk-ANKY43RT.js";

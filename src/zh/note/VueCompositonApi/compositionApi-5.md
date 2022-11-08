@@ -1,0 +1,16 @@
+---
+title: （五）计算属性
+order: 5
+date: 2022-11-08
+category:
+    - VueCompositonApi
+---
+
+## 计算属性 `computed()`
+```js
+// 定义 computed , 定义computed 和定义普通函数是一样的
+import { computed } from 'vue'  // 需要导入这个函数
+cosnt newComputed = computed( () => {
+    return 业务逻辑
+})
+```

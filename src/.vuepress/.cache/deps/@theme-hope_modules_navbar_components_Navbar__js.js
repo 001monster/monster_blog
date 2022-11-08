@@ -2,8 +2,18 @@ import {
   useDarkMode
 } from "./chunk-2BT3LOQU.js";
 import {
+  AutoLink_default
+} from "./chunk-6BKGGOZS.js";
+import {
+  Icon_default
+} from "./chunk-O47N3JLK.js";
+import {
   resolveRepoType
 } from "./chunk-TQJYOK4F.js";
+import {
+  isLinkExternal,
+  isLinkHttp
+} from "./chunk-LS4IQIE6.js";
 import {
   useAutoLink,
   useFullscreen,
@@ -17,16 +27,6 @@ import {
   Ae,
   et
 } from "./chunk-GZOZNNJU.js";
-import {
-  AutoLink_default
-} from "./chunk-6BKGGOZS.js";
-import {
-  Icon_default
-} from "./chunk-O47N3JLK.js";
-import {
-  isLinkExternal,
-  isLinkHttp
-} from "./chunk-LS4IQIE6.js";
 import {
   client_exports
 } from "./chunk-ANKY43RT.js";

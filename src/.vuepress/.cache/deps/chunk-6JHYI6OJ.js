@@ -1,11 +1,4 @@
 import {
-  useAutoLink,
-  useThemeLocaleData
-} from "./chunk-IOWDGP5U.js";
-import {
-  dt
-} from "./chunk-GZOZNNJU.js";
-import {
   AutoLink_default
 } from "./chunk-6BKGGOZS.js";
 import {
@@ -16,6 +9,13 @@ import {
   isLinkExternal,
   isPlainObject
 } from "./chunk-LS4IQIE6.js";
+import {
+  useAutoLink,
+  useThemeLocaleData
+} from "./chunk-IOWDGP5U.js";
+import {
+  dt
+} from "./chunk-GZOZNNJU.js";
 import {
   client_exports
 } from "./chunk-ANKY43RT.js";
@@ -77,7 +77,7 @@ var renderChildren = (children) => {
 var resolvePrefix = (prefix = "", path = "") => path.startsWith("/") ? path : `${ensureEndingSlash(prefix)}${path}`;
 
 // src/.vuepress/.temp/theme-hope/sidebar.js
-var sidebarData = { "/en/note/front-end/": ["README.md", "intersectionObserver.md"], "/en/note/back-end/": ["README.md"], "/en/diary/Poetry/": ["README.md", "Spring1.md"], "/zh/note/front-end/": ["README.md", "intersectionObserver.md"], "/zh/note/back-end/": ["README.md"], "/zh/note/vue/": ["README.md", "vue-1.md", "vue-2.md", "vue-3.md", "vue-4.md", "vue-5.md", "vue-6.md", "vue-7.md", "vue-8.md", "vue-9.md", "vue-10.md", "vue-11.md", "vue-12.md", "vue-13.md", "vue-14.md", "vue-15.md", "vue-16.md", "vue-17.md"], "/zh/diary/Poetry/": ["README.md", "Spring1.md"], "/zh/zsw/css/": ["div-overflow.md"], "/zh/zsw/js/": ["arr-API.md", "splice-and-join.md"] };
+var sidebarData = { "/en/note/front-end/": ["README.md", "intersectionObserver.md"], "/en/note/back-end/": ["README.md"], "/en/diary/Poetry/": ["README.md", "Spring1.md"], "/zh/note/VueCompsitonApi/": ["README.md"], "/zh/note/back-end/": ["README.md"], "/zh/note/vue/": ["README.md", "vue-1.md", "vue-2.md", "vue-3.md", "vue-4.md", "vue-5.md", "vue-6.md", "vue-7.md", "vue-8.md", "vue-9.md", "vue-10.md", "vue-11.md", "vue-12.md", "vue-13.md", "vue-14.md", "vue-15.md", "vue-16.md", "vue-17.md", "vue-18.md", "vue-19.md", "vue-20.md", "vue-21.md", "vue-22.md", "vue-23.md", "vue-24.md", "vue-25.md", "vue-26.md", "vue-27.md", "vue-28.md", "vue-29.md", "vue-30.md"], "/zh/diary/Poetry/": ["README.md", "Spring1.md"], "/zh/zsw/css/": ["div-overflow.md"], "/zh/zsw/js/": ["arr-API.md", "splice-and-join.md"] };
 
 // node_modules/vuepress-theme-hope/lib/client/modules/sidebar/composables/resolveConfig.js
 var headerToSidebarItem = (header, headerDepth) => {
@@ -170,4 +170,4 @@ export {
   setupSidebarItems,
   useSidebarItems
 };
-//# sourceMappingURL=chunk-PEJEMURT.js.map
+//# sourceMappingURL=chunk-6JHYI6OJ.js.map

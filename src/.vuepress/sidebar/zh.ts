@@ -4,9 +4,9 @@ export const zhSidebar = sidebar({
   "/zh/note/": [
     "",
     {
-      text: "前端",
-      icon: "qianduankaifa",
-      prefix: "front-end/",
+      text: "VueCompositonApi",
+      icon: "API",
+      prefix: "VueCompositonApi/",
       collapsable: true,
       children: "structure"
     },

@@ -97,7 +97,7 @@ export default {
     console.log(instance)     // 组件的实例
     console.log(info);        // 错误位置
 
-    // 出错了通过错误DOM元素想用户说出错了
+    // 出错了通过错误DOM元素向用户说出错了
     this.error = true;
     // 停止错误事件错误向上传递
     return false;

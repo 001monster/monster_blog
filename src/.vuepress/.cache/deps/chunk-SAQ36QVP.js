@@ -2,6 +2,11 @@ import {
   resolveRepoType
 } from "./chunk-TQJYOK4F.js";
 import {
+  isLinkHttp,
+  removeEndingSlash,
+  removeLeadingSlash
+} from "./chunk-LS4IQIE6.js";
+import {
   usePure,
   useThemeLocaleData
 } from "./chunk-IOWDGP5U.js";
@@ -10,11 +15,6 @@ import {
   ht,
   tt
 } from "./chunk-GZOZNNJU.js";
-import {
-  isLinkHttp,
-  removeEndingSlash,
-  removeLeadingSlash
-} from "./chunk-LS4IQIE6.js";
 import {
   client_exports
 } from "./chunk-ANKY43RT.js";
@@ -508,4 +508,4 @@ export {
   useContributors,
   PageInfo_default
 };
-//# sourceMappingURL=chunk-XVFVVV57.js.map
+//# sourceMappingURL=chunk-SAQ36QVP.js.map
