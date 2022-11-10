@@ -23,6 +23,13 @@ export const zhSidebar = sidebar({
       prefix: "VueBottom/",
       collapsable: true,
       children: "structure"
+    },
+    {
+      text: "Vue动画过渡",
+      icon: "donghua",
+      prefix: "vueTransition/",
+      collapsable: true,
+      children: "structure"
     }
   ],
 
