@@ -4,25 +4,23 @@ export const zhSidebar = sidebar({
   "/zh/note/": [
     "",
     {
+      text: "veu",
+      icon: "vue",
+      prefix: "vue/",
+      collapsable: true,
+      children: "structure"
+    },
+    {
       text: "VueCompositonApi",
       icon: "API",
       prefix: "VueCompositonApi/",
       collapsable: true,
       children: "structure"
     },
-
     {
-      text: "后端",
-      icon: "houduankaifa",
-      prefix: "back-end/",
-      collapsable: true,
-      children: "structure"
-    },
-
-    {
-      text: "veu",
-      icon: "vue",
-      prefix: "vue/",
+      text: "Vue背后机制",
+      icon: "gongzuoliugongzuoliuguanli",
+      prefix: "VueBottom/",
       collapsable: true,
       children: "structure"
     }
