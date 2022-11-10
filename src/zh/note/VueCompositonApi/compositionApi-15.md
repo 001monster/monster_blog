@@ -25,13 +25,14 @@ category:
 // 第一步先在 src 根目录下创建一个 composables 文件夹
 // 第二步在 composables 文件夹下建立需要抽离代码的 js 文件吗，文件夹名字推荐 use 开头
 ```
+
 ![](https://image.zswei.xyz/img/202211100946029.png)
 
 - 定义 `composables`
 ```js
 // 定义composables
 import { ref } from 'vue'
-fybctuib userListData() {
+function userListData() {
     // 定义数据
     const messages = ref([
         { id: 1, content: "这是一条消息提醒1" },
@@ -66,7 +67,9 @@ setup() {
     return { messages, removeMessage }
 }
 ```
+
 ![](https://image.zswei.xyz/img/202211101010857.png)
+
 ::::
 
 
@@ -78,7 +81,7 @@ setup() {
 ```js
 // 我们让 userListData 接收一个参数, 让使用这个 composables 的组件自行传递数据
 import { ref } from 'vue'
-fybctuib userListData(data) {
+function userListData(data) {
     // 定义数据
     const dataRef = ref(data);
     
@@ -118,6 +121,7 @@ setup() {
 }
 ```
 :::
+
 ![](https://image.zswei.xyz/img/202211101046761.png)
 
 

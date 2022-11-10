@@ -44,6 +44,7 @@ export default {
 };
 </script>
 ```
+
 ![render渲染函数](https://image.zswei.xyz/img/vue-26.png)
 
 3. 父组件

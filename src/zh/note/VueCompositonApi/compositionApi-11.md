@@ -19,5 +19,6 @@ setup{
 :::
 
 ### 具体的生命周期钩子对应关系，请参考这两张表
+
 ![](https://image.zswei.xyz//img/compositionApi-11-2.jpg)
 ![](https://image.zswei.xyz//img/compositionApi-11-1.png)

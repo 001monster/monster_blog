@@ -69,11 +69,13 @@ const vm = app.mount({#app})
 ### 四、使用 `Vite` 创建 `Vue` 项目
 1. 打开终
 使用idea或者vscode编辑器，打开本地终端，就是为了在自定义的目录中新建vue项目
+
 ![打开终端](http://image.zswei.xyz/img/1.webp)
 
 2. 这边是使用npm创建vite，输入npm create vite@latest ,使用yarrn 可输入 yarn create vite，会有提示，一步步选择vue即可
 
 3. 如果想要一个模板，创建一个vite+vue的模板，就输入npm create vite@latest my-vue-app -- --template vue
+
 ![选择模板](http://image.zswei.xyz/img/2.webp)
 
 4. 进入你创建的app目录中，cd cillian-vue

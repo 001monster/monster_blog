@@ -136,6 +136,7 @@ export default {
 };
 </script>
 ```
+
 ![多次传送组件](https://image.zswei.xyz/img/vue-25.png)
 
 ### 总结：写在最后

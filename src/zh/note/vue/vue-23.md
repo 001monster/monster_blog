@@ -53,6 +53,7 @@ export default {
 };
 </script>
 ```
+
 ![渲染不同的标签](https://image.zswei.xyz/img/vue-23-1.png)
 
 
@@ -79,7 +80,9 @@ export default {};
 </style>
 
 ```
+
 ![渲染不同的标签](https://image.zswei.xyz/img/vue-23-2.png)
+
 2. 子组件二
 ```html
 <template>
@@ -99,7 +102,9 @@ export default {};
 </style>
 
 ```
+
 ![渲染不同的标签](https://image.zswei.xyz/img/vue-23-3.png)
+
 3. 父组件使用
 ```html
 <template>

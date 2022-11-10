@@ -69,6 +69,7 @@ export default {
 };
 </script>
 ```
+
 ![使用一个v-model](https://image.zswei.xyz/img/vue-20-1.png)
 
 ### 二、组件使用多个 `v-model`
@@ -134,6 +135,7 @@ export default {
 };
 </script>
 ```
+
 ![使用一个v-model](https://image.zswei.xyz/img/vue%20-20-2.png)
 
 

@@ -21,6 +21,7 @@ inject('sendName')
 ```
 :::
 ### `optionsApi` 方式
+
 ![](https://image.zswei.xyz//img/compostiotnApi-12.png)
 
 

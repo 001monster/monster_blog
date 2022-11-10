@@ -109,7 +109,9 @@ var io = new IntersectionObserver(
   intersectionRatio：目标元素的可见比例，即`intersectionRect`占`boundingClientRect`的比例，完全可见时为1，完全不可见时小于等于0
   :::
 
+
   ![实例图片](https://www.ruanyifeng.com/blogimg/asset/2016/bg2016110202.png)
+
 
   上图中，灰色的水平方框代表视口，深红色的区域代表四个被观察的目标元素。它们各自的intersectionRatio图中都已经注明。
 
@@ -253,6 +255,7 @@ new IntersectionObserver(
 )
 ```
 用户可以自定义这个数组。比如，[0, 0.25, 0.5, 0.75, 1]就表示当目标元素 0%、25%、50%、75%、100% 可见时，会触发回调函数。
+
 ![实例图片](https://www.ruanyifeng.com/blogimg/asset/2016/bg2016110202.gif)
 
 ### 6.2 root 属性，rootMargin 属性
