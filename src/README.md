@@ -43,4 +43,8 @@ projects:
     desc: ASCII字符画在线生成
     link: http://patorjk.com/software/taag
     
+  - icon: https://image.zswei.xyz/img/202211101129637.png
+    name: Dhields
+    desc: 链接图标生成
+    link: https://shields.io/
 ---
