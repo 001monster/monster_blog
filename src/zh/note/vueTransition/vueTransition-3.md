@@ -3,7 +3,7 @@ title: （三）纯 CSS 进场/离场动画的问题
 order: 3
 date: 2022-11-10
 category:
-    - Vue背后的机制
+    - Vue动画过渡
 ---
 
 ### 使用纯 `css` 实现进场/离场动画的问题

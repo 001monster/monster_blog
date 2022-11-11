@@ -1,9 +1,9 @@
 ---
-title: （四）元素的切换动画
-order: 4
+title: （五）元素的切换动画
+order: 5
 date: 2022-11-10
 category:
-    - Vue背后的机制
+    - Vue动画过渡
 ---
 
 ### 在多个 html 原生原生元素之间切换动画

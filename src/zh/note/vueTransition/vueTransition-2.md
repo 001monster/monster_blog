@@ -3,7 +3,7 @@ title: （二）Transition 实现动画
 order: 2
 date: 2022-11-10
 category:
-    - Vue背后的机制
+    - Vue动画过渡
 ---
 
 ### 使用 `Transition` 实现动画 `css` 自己的动画跟 `vue` 没啥关系

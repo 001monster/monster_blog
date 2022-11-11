@@ -3,7 +3,7 @@ title: （四）处理组件进场和离场动画 <Transition />
 order: 4
 date: 2022-11-10
 category:
-    - Vue背后的机制
+    - Vue动画过渡
 ---
 
 ### 使用 `vue` 处理组件进场和离场动画
