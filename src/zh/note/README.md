@@ -1,22 +1,17 @@
 ---
-title: Old Monster 的代码笔记
-icon: yongyan
-star: true
-sticky: 20
-breadcrumb: false
+title: VueCompositonApi
+icon: API
+date: 2022-11-08
+category:
+    - VueCompositonApi
 ---
 
-![](https://image.zswei.xyz/img/202211121335443.jpg)
+<!-- ![](https://image.zswei.xyz/img/202211121335443.jpg) -->
 
 ### 此处是 Old Monster 存放的一些代码笔记
 
-<!-- more -->
 
-### 目录
-
-#### 代码学习网站
-
-#### 优质网站
+#### 优质网站 - 代码学习网站
 
 - [网道](https://wangdoc.com/)
 
