@@ -1,11 +1,11 @@
 ---
 home: true
 layout: Blog
+bgImage: ''
 icon: zhuye
 title: 主页
 heroImage: /logo.png
 heroText: 老怪兽
-heroFullScreen: true
 tagline: 欢迎来到我的博客
 projects:
   - icon: /logo.png
@@ -18,7 +18,7 @@ projects:
     desc: 愧怍的小站
     link: https://kuizuo.cn/
 
-  - icon: http://yijun.asia/file/29a7e02922d70e57603030abfa3f5b19.svg
+  - icon: https://image.zswei.xyz/img/202211121123258.jpg
     name: yijun
     desc: 易总的博客
     link: https://yijun0816.fun/

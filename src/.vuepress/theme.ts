@@ -23,6 +23,10 @@ export default hopeTheme({
     orange: "#fb9b5f",
   },
 
+  lastUpdated: false,         // 是否显示页面最后更新时间
+  contributors: false,        // 是否显示页面贡献者
+  editLink: false,            // 是否展示编辑此页链接
+
   fullscreen: true,
 
   blog: {
