@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ##  render渲染函数 `jsx`
 1. `template` 模板写法
 ```html

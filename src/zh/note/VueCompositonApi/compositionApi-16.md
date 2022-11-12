@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## 进一步简化 `setup` 代码
 :::info 说明
 `vue@3.2` 版本推出了新的简化 `setup` 的语法糖写法

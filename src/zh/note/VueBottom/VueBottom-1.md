@@ -6,6 +6,8 @@ category:
     - Vue背后的机制
 ---
 
+![](https://image.zswei.xyz/img/202211121335443.jpg)
+
 ## 响应基础：proxy
 ::: 说明
 proxy 是 ES6 新增加的特性，用于给一个对象添加代理，拦截对象的一些操作。

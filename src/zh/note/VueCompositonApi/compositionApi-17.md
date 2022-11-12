@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## compositionApi 总结
 :::info compositionApi 总结
 

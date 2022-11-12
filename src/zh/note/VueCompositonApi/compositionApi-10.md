@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## Emit 自定义事件
 :::info 说明
 因为在 `setup` 中无法访问 `this` 所以 `setup` 现在接收第二个参数

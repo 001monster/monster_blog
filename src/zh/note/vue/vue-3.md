@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ### methods、computed、watch：他们三者的区别
 1. 他们三者都可以完成一些相同的功能
 2. methods可以把他当作原生的js方法或者是函数来使用，可以把watch 里面的代码写成方法放到methodsd当中通过this.xxx 的方式去调用，这样可以减少watch带代码，更加方便维护

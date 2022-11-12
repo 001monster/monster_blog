@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## Provide/Inject：给深层组件中传递属性
 :::info 说明
 在日常开发中，可能需要把值传递给子组件的子组件

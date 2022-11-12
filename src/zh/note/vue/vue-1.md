@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## 传统网页开发的弊端
 1. 传统网页的开发步骤 编写`编写HTML`编写`css`编写`javascript`脚本交互
 有与JavaScript交互的`DOM`需要指定id并且id还不能重复

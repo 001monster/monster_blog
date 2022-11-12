@@ -6,6 +6,8 @@ category:
     - Vue动画过渡
 ---
 
+![](https://image.zswei.xyz/img/202211121823045.webp)
+
 ### 使用 `JavaScript` 实现动画
 :::info 说明
 因为 `css` 不能实现较为复杂的动画，如数字变化动画，或者 `canvas` 形变动画等

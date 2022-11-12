@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## setup 中定义响应性数据
 1. 在setup 中编写响应性数据
 ```js

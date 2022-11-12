@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## vue单文件应用
 
 ### 一、如何创建一个组件

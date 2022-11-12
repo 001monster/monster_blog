@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## 向父组件传递数据
 
 ### 一、子组件向父组件传值

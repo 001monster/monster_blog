@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## 计算属性 `computed()`
 ```js
 // 定义 computed , 定义computed 和定义普通函数是一样的，使用computed 需要给他传递一个无参数的回调函数

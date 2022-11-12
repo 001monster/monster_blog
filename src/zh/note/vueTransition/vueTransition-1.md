@@ -6,6 +6,8 @@ category:
     - Vue动画过渡
 ---
 
+![](https://image.zswei.xyz/img/202211121823045.webp)
+
 ### 使用 `@keyframes` 实现动画 - `css` 自己的跟 `vue` 没有关系
 -[设置动画属性参考网站](https://www.w3school.com.cn/cssref/pr_animation.asp)
 

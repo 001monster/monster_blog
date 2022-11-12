@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ### vue-指令
 即将进入vue的正式学习，我们先来热身一下简单的看一下几个vue的指令，并说一下他们的用途
 ```js

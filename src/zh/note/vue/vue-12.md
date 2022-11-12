@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## 响应性props
 :::info 说明
 我们之前通过`props`传递的数据都是固定的，但是我们开发的过程中数据都是动态

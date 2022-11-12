@@ -6,6 +6,8 @@ category:
     - Vue动画过渡
 ---
 
+![](https://image.zswei.xyz/img/202211121823045.webp)
+
 ### 使用纯 `css` 实现进场/离场动画的问题
 :::info 说明
 - 使用 `css` 虽然可以实现大部分的动画，但是很多复杂的动画还是需要使用 `javasctipt` 来实现

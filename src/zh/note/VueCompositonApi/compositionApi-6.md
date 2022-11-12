@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## `watch` 监听响应性数据的变化
 ### 一、监听基本类型的响应性数据
 ```js

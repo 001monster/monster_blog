@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## 组件的生命周期
 :::info 说明
 请求数据一般在 `create` 和 `mounted` 中进行

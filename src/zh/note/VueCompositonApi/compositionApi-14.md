@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## `setup` 中第二个参数 `context` 中的 `slots` 属性
 ### 一、`context` 中的 `slots`
 :::info 说明

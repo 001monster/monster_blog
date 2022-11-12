@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ### vue-行内样式
 动态绑定样式的方式有很多种，这里列举两种最常用的
 

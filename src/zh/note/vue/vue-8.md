@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## props 属性：自定义组件内容
 
 ### 一、传递固定的值

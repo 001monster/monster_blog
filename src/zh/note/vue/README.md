@@ -4,12 +4,13 @@ icon: vue
 star: true
 sticky: 20
 breadcrumb: false
-banner: 'https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/10f0dcadabef41738e915163928ed449~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?'
 ---
 
-此处是 vue开发学习笔记
+![](https://image.zswei.xyz/img/202211121813358.webp)
 
-## 目录
+### 此处是 vue开发学习笔记
+
+#### 目录
 -[vue官网](https://cn.vuejs.org/)
 
 -[1.传统的网页开发方式的弊端](vue-1.md)

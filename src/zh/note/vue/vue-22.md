@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## 自定义指令-增强的 `HTML` 功能
 ```html
 <template>

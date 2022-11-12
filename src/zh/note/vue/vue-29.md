@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ##  组件错误处理,全局错误处理
 
 ### 一、全局处理错误

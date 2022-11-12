@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## 使用watch监听props
 :::info 说明
 watch 不仅可以监听自身属性的变化，还可以监听props传递过来的数据

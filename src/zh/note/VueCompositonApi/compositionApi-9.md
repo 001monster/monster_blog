@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## setup中的methods
 :::info 说明
 因为 `methods` 本来就是普通的 `javaScript` 函数，所以可以直接在 `setup` 中定义

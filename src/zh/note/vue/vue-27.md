@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ##  `Mixins`组件配置的复用
 
 ### 一、局部注册 `mixins`

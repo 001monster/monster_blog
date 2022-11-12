@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## 最佳组件逻辑复用 `Composables`
 
 ### `composables` 的基本使用

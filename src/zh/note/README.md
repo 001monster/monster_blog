@@ -6,15 +6,17 @@ sticky: 20
 breadcrumb: false
 ---
 
-此处是 Old Monster 存放的一些代码笔记
+![](https://image.zswei.xyz/img/202211121335443.jpg)
+
+### 此处是 Old Monster 存放的一些代码笔记
 
 <!-- more -->
 
-## 目录
+### 目录
 
-### 代码学习网站
+#### 代码学习网站
 
-### 优质网站
+#### 优质网站
 
 - [网道](https://wangdoc.com/)
 
@@ -28,7 +30,7 @@ breadcrumb: false
 
   :::
 
-### 杂牌网站
+#### 杂牌网站
 
 - [菜鸟教程](https://www.runoob.com/) <Badge text="内容比较新" />
 

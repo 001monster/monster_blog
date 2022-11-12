@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## `template ref` 获取 `dom` 和 `组件实例` 
 :::info 说明
 在 `compositionApi` 中 获取组件实例对象、或者是 `dom` 元素都非常简单

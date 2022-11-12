@@ -6,6 +6,8 @@ category:
     - Vue动画过渡
 ---
 
+![](https://image.zswei.xyz/img/202211121823045.webp)
+
 ### 在多个 组件 间切换动画
 :::info 说明
 在多个组件之间切换动画原理和 元素切换是一样的

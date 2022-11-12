@@ -6,6 +6,8 @@ category:
     - Vue动画过渡
 ---
 
+![](https://image.zswei.xyz/img/202211121823045.webp)
+
 ### 使用 `vue` 处理组件进场和离场动画
 :::info 说明
 我们先来看一下啊 `<Transition />` 的作用

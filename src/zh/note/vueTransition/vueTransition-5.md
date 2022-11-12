@@ -6,6 +6,8 @@ category:
     - Vue动画过渡
 ---
 
+![](https://image.zswei.xyz/img/202211121823045.webp)
+
 ### 在多个 html 原生原生元素之间切换动画
 
 #### 一、在多个dom 元素之间切换动画

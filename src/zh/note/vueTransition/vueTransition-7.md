@@ -6,6 +6,8 @@ category:
     - Vue动画过渡
 ---
 
+![](https://image.zswei.xyz/img/202211121823045.webp)
+
 ### 处理列表项的进场/离场动画
 :::info 说明
 列表进场离场动画经常使用，vue 也给我们提供了这个组件 `<TransitionGroup />` 

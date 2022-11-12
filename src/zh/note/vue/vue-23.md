@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## 使用动态组件渲染不容的HTML标签
 
 ### 一、渲染不同的标签

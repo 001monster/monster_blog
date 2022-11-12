@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## 定义响应式数据的第二种方法 `reactive`
 ```js
 // reactive 和 ref 函数类似，但是 reactive 接收一个对象，这个对象是一个广义的，它可以是一个对象，也可以是一个数组，如果给他一个普通的数据类型vue 将会发出警告

@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ##  `vue` 总结
 :::info 总结
 属性变化 -> 组件刷新

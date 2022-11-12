@@ -3,8 +3,10 @@ title: Vue 动画过渡
 icon: gongzuoliugongzuoliuguanli
 date: 2022-11-10
 category:
-    - Vue背后的机制
+    - Vue动画过渡
 ---
+
+![](https://image.zswei.xyz/img/202211121823045.webp)
 
 ## Vue 动画过渡
 :::info 本章简介

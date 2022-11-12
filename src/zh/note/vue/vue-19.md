@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## 在样式绑中定响应性数据
 :::info 注意
 给css 绑定动态的响应性数据是在 vue3.2 之后的版本才支持

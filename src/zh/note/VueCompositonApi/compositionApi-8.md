@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## 传递和访问 `Props` 属性
 ### `props` 基本使用
 :::info props

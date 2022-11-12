@@ -5,6 +5,7 @@ date: 2022-11-10
 category:
     - Vue背后的机制
 ---
+![](https://image.zswei.xyz/img/202211121335443.jpg)
 
 ## 这里存放的是 `Vue` 背后的机制
 :::info 本章简介

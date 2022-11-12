@@ -6,6 +6,8 @@ category:
     - Vue动画过渡
 ---
 
+![](https://image.zswei.xyz/img/202211121823045.webp)
+
 ### 集成第三方库动画
 :::info 说明
 集成第三方库，需要做一些配置，因为配置 `Transition` 和 `TransitionGroup` 是一样的，所以这里拿 `Transition` 做演示，他们可以通过 `props` 的方式来自定义 `class` 参数为一下6种

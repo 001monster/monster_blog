@@ -6,6 +6,8 @@ category:
     - vue
 ---
 
+![](https://image.zswei.xyz/img/202211121813358.webp)
+
 ## 让组件至此v-model指令
 
 ### 一、组件使用一个 `v-model`

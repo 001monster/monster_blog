@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## 此处存放的是 `old_monster` 的 `vue-compstion-api`
 
 1. setup 函数

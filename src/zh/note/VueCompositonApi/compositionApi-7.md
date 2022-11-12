@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## `watchEffect` 的使用：变体的watch
 
 ### 一、`watchEffect` 基本使用方式

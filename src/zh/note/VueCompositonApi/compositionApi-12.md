@@ -6,6 +6,8 @@ category:
     - VueCompositonApi
 ---
 
+![](https://image.zswei.xyz/img/202211121817662.webp)
+
 ## Provide 和 Inject
 
 ### 一、Provide 和 Inject 传递普通类型的数据
