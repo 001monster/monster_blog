@@ -30,9 +30,15 @@ export const zhSidebar = sidebar({
       prefix: "vueTransition/",
       collapsable: true,
       children: "structure"
+    },
+    {
+      text: "Vue项目开发与部署",
+      icon: "donghua",
+      prefix: "VueProjectdeployment/",
+      collapsable: true,
+      children: "structure"
     }
   ],
-
   "/zh/diary/": [
     "",
     {
