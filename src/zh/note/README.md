@@ -1,9 +1,9 @@
 ---
-title: VueCompositonApi
+title: 前端代码笔记
 icon: API
 date: 2022-11-08
 category:
-    - VueCompositonApi
+    - vue
 ---
 
 <!-- ![](https://image.zswei.xyz/img/202211121335443.jpg) -->

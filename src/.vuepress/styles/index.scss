@@ -113,6 +113,10 @@ html{
   }
 }
 
+// 首页头像
+.hero-image{
+  max-height: 160px !important;
+}
 
 // 侧边栏不准换行
 .sidebar{
@@ -191,6 +195,7 @@ html[data-theme=light]{
     background-attachment:fixed;
     background-size: cover; 
     background-position: center center;
+
 
     .page{
       background-color: rgba(255, 255, 255, 0.1) !important;

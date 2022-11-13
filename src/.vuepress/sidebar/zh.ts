@@ -33,8 +33,15 @@ export const zhSidebar = sidebar({
     },
     {
       text: "Vue项目开发与部署",
-      icon: "donghua",
+      icon: "bushu",
       prefix: "VueProjectdeployment/",
+      collapsable: true,
+      children: "structure"
+    },
+    {
+      text: "vueRouter路由",
+      icon: "daohang-",
+      prefix: "vueRouter/",
       collapsable: true,
       children: "structure"
     }

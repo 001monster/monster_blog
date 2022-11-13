@@ -1,6 +1,6 @@
 ---
 title: Vue 动画过渡
-icon: gongzuoliugongzuoliuguanli
+icon: donghua
 date: 2022-11-10
 category:
     - Vue动画过渡
