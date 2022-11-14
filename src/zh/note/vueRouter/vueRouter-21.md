@@ -6,7 +6,7 @@ category:
     - VueRouter
 ---
 
-![](https://image.zswei.xyz/img/202211132216232.png)
+![](https://image.zswei.xyz/img/202211142322934.png)
 
 #### 页面滚动行为控制 `scrollBehavior(to, from, savedPosition)` 
 

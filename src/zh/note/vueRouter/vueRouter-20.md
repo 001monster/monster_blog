@@ -6,7 +6,7 @@ category:
     - VueRouter
 ---
 
-![](https://image.zswei.xyz/img/202211132216232.png)
+![](https://image.zswei.xyz/img/202211142322478.png)
 
 #### 路由 meta 元数据
 

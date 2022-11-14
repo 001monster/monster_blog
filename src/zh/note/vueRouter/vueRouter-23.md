@@ -6,7 +6,7 @@ category:
     - VueRouter
 ---
 
-![](https://image.zswei.xyz/img/202211132216232.png)
+![](https://image.zswei.xyz/img/202211142323761.png)
 
 #### 给组件传值 Props
 :::info 说明

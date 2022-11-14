@@ -6,7 +6,7 @@ category:
     - VueRouter
 ---
 
-![](https://image.zswei.xyz/img/202211132216232.png)
+![](https://image.zswei.xyz/img/202211142323636.png)
 
 #### 封装 router-link 组件
 

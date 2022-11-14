@@ -6,7 +6,7 @@ category:
     - VueRouter
 ---
 
-![](https://image.zswei.xyz/img/202211132216232.png)
+![](https://image.zswei.xyz/img/202211142321472.png)
 
 #### 全局导航守卫
 

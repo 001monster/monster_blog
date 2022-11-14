@@ -6,7 +6,7 @@ category:
     - VueRouter
 ---
 
-![](https://image.zswei.xyz/img/202211132216232.png)
+![](https://image.zswei.xyz/img/202211142321167.png)
 
 #### 给当前活跃导航设置高亮样式
 :::info 说明

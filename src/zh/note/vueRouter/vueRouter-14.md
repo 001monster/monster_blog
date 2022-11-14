@@ -6,7 +6,7 @@ category:
     - VueRouter
 ---
 
-![](https://image.zswei.xyz/img/202211132216232.png)
+![](https://image.zswei.xyz/img/202211142320430.png)
 
 #### 在嵌套路由中使用命名视图
 :::info 说明

@@ -6,7 +6,7 @@ category:
     - VueRouter
 ---
 
-![](https://image.zswei.xyz/img/202211132216232.png)
+![](https://image.zswei.xyz/img/202211142321446.png)
 
 #### 导航守卫-路由生命周期钩子
 :::info 说明
