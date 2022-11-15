@@ -7,8 +7,7 @@ export const zhNavbar = navbar([
     icon: "yongyan",
     prefix: "/zh/note/",
     children: [
-      { text: "前端代码笔记", link: "", icon: "biji", activeMatch: "^/zh/note/$" },
-      { text: "vue", children: ['vue/'] },
+      { text: "vue", children: [''] },
     ],
   },
   {

@@ -6,7 +6,7 @@ export const zhSidebar = sidebar({
     {
       text: "veu",
       icon: "vue",
-      prefix: "vue/",
+      prefix: "Vue/",
       collapsable: true,
       children: "structure"
     },
@@ -27,7 +27,7 @@ export const zhSidebar = sidebar({
     {
       text: "Vue动画过渡",
       icon: "donghua",
-      prefix: "vueTransition/",
+      prefix: "VueTransition/",
       collapsable: true,
       children: "structure"
     },
@@ -41,7 +41,14 @@ export const zhSidebar = sidebar({
     {
       text: "vueRouter路由",
       icon: "daohang-",
-      prefix: "vueRouter/",
+      prefix: "VueRouter/",
+      collapsable: true,
+      children: "structure"
+    },
+    {
+      text: "VueX状态管理",
+      icon: "vuex-store",
+      prefix: "VueX/",
       collapsable: true,
       children: "structure"
     }

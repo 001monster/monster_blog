@@ -1,6 +1,6 @@
 ---
-title: 前端代码笔记
-icon: API
+title: Vue全家桶
+icon: vue
 date: 2022-11-08
 category:
     - vue
