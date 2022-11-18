@@ -1,4 +1,6 @@
 import { defineUserConfig } from "vuepress";
+import { sitemapPlugin } from "vuepress-plugin-sitemap2";
+import { seoPlugin } from "vuepress-plugin-seo2";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -20,4 +22,13 @@ export default defineUserConfig({
   theme,
 
   shouldPrefetch: false,
+
+  plugins: [
+    sitemapPlugin({
+      hostname: 'https://www.zswei.xyz'
+    }),
+    seoPlugin({
+      hostname: 'https://www.zswei.xyz'
+    }),
+  ],
 });

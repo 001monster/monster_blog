@@ -3,10 +3,10 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "http://zswei.xyz",     // 网站域名
+  hostname: "http://www.zswei.xyz",     // 网站域名
   author: {
     name: "老怪兽",
-    url: "http://zswei.xyz",        // 个人网站地址
+    url: "http://www.zswei.xyz",        // 个人网站地址
   },
   iconAssets: "//at.alicdn.com/t/c/font_3750738_mhq1ai1ryb.css",           // 字体图标
   logo: "/logo.png",
