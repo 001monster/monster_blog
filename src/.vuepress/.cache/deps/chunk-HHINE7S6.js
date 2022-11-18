@@ -2,13 +2,13 @@ import {
   usePreferredDark,
   useStorage,
   useThemeData
-} from "./chunk-IOWDGP5U.js";
+} from "./chunk-LCZWRCVV.js";
 import {
   computed,
   inject,
   onMounted,
   watch
-} from "./chunk-ACN7CFPX.js";
+} from "./chunk-DAFWFJC4.js";
 
 // node_modules/vuepress-theme-hope/lib/client/modules/outlook/composables/darkmode.js
 var darkModeSymbol = Symbol.for("darkMode");
@@ -49,4 +49,4 @@ export {
   injectDarkMode,
   setupDarkMode
 };
-//# sourceMappingURL=chunk-2BT3LOQU.js.map
+//# sourceMappingURL=chunk-HHINE7S6.js.map

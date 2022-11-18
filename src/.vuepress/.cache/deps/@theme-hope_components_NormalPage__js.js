@@ -1,45 +1,45 @@
 import {
   EditIcon
-} from "./chunk-CYMVGBCH.js";
+} from "./chunk-IOVBKDUG.js";
 import {
   useDarkMode
-} from "./chunk-2BT3LOQU.js";
+} from "./chunk-HHINE7S6.js";
 import {
   TOC_default
-} from "./chunk-YTASFY3N.js";
+} from "./chunk-LVL5BDED.js";
 import {
   PageInfo_default,
   useContributors,
   useEditLink,
   useUpdateTime
-} from "./chunk-XVFVVV57.js";
+} from "./chunk-M23BHHKD.js";
 import {
   getAncestorLinks
 } from "./chunk-TQJYOK4F.js";
 import {
   useSidebarItems
-} from "./chunk-YPJMOO4E.js";
+} from "./chunk-XNUDHGRG.js";
 import {
   useAutoLink,
   useEventListener,
   useNavigate,
   usePageInfo,
   useThemeLocaleData
-} from "./chunk-IOWDGP5U.js";
+} from "./chunk-LCZWRCVV.js";
 import {
   Re,
   Xe,
   et
-} from "./chunk-GZOZNNJU.js";
+} from "./chunk-YPTPVA7L.js";
 import {
   MarkdownContent_default
-} from "./chunk-FJBCHEAH.js";
+} from "./chunk-WFU56FTH.js";
 import {
   AutoLink_default
-} from "./chunk-6BKGGOZS.js";
+} from "./chunk-ANZJBHIW.js";
 import {
   Icon_default
-} from "./chunk-O47N3JLK.js";
+} from "./chunk-3ZNJGCFN.js";
 import {
   isPlainObject
 } from "./chunk-LS4IQIE6.js";
@@ -50,7 +50,7 @@ import {
   RouterLink,
   useRoute,
   useRouter
-} from "./chunk-RLCMQTEQ.js";
+} from "./chunk-RRVQ2EVT.js";
 import "./chunk-YACYAO4R.js";
 import {
   computed,
@@ -61,10 +61,10 @@ import {
   resolveComponent,
   unref,
   watch
-} from "./chunk-ACN7CFPX.js";
+} from "./chunk-DAFWFJC4.js";
 import {
   isString
-} from "./chunk-WFBTEJUR.js";
+} from "./chunk-MQXBTJN7.js";
 import "./chunk-BPKF3OQJ.js";
 
 // node_modules/vuepress-theme-hope/lib/client/components/BreadCrumb.js

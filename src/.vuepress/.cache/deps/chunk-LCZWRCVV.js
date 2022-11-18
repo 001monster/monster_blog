@@ -4,14 +4,14 @@ import {
   Rt,
   Te,
   Wt
-} from "./chunk-GZOZNNJU.js";
+} from "./chunk-YPTPVA7L.js";
 import {
   client_exports
 } from "./chunk-ANKY43RT.js";
 import {
   useRoute,
   useRouter
-} from "./chunk-RLCMQTEQ.js";
+} from "./chunk-RRVQ2EVT.js";
 import {
   computed,
   getCurrentInstance,
@@ -26,7 +26,7 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-ACN7CFPX.js";
+} from "./chunk-DAFWFJC4.js";
 
 // node_modules/vuepress-theme-hope/lib/client/composables/themeData.js
 import { useThemeData as _useThemeData, useThemeLocaleData as _useThemeLocaleData } from "@vuepress/plugin-theme-data/client";
@@ -792,4 +792,4 @@ export {
   usePageInfo,
   useScrollPromise
 };
-//# sourceMappingURL=chunk-IOWDGP5U.js.map
+//# sourceMappingURL=chunk-LCZWRCVV.js.map

@@ -7,7 +7,7 @@ import {
 import {
   h,
   resolveComponent
-} from "./chunk-ACN7CFPX.js";
+} from "./chunk-DAFWFJC4.js";
 
 // node_modules/vuepress-theme-hope/lib/client/components/Icon.js
 var Icon = (props) => {
@@ -20,4 +20,4 @@ var Icon_default = Icon;
 export {
   Icon_default
 };
-//# sourceMappingURL=chunk-O47N3JLK.js.map
+//# sourceMappingURL=chunk-3ZNJGCFN.js.map

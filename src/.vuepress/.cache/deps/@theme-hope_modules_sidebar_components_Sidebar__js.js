@@ -4,21 +4,21 @@ import {
   renderChildren,
   renderItem,
   useSidebarItems
-} from "./chunk-YPJMOO4E.js";
+} from "./chunk-XNUDHGRG.js";
 import {
   useThemeLocaleData
-} from "./chunk-IOWDGP5U.js";
-import "./chunk-GZOZNNJU.js";
-import "./chunk-6BKGGOZS.js";
+} from "./chunk-LCZWRCVV.js";
+import "./chunk-YPTPVA7L.js";
+import "./chunk-ANZJBHIW.js";
 import {
   Icon_default
-} from "./chunk-O47N3JLK.js";
+} from "./chunk-3ZNJGCFN.js";
 import "./chunk-LS4IQIE6.js";
 import "./chunk-ANKY43RT.js";
 import {
   RouterLink,
   useRoute
-} from "./chunk-RLCMQTEQ.js";
+} from "./chunk-RRVQ2EVT.js";
 import "./chunk-YACYAO4R.js";
 import {
   computed,
@@ -27,8 +27,8 @@ import {
   onMounted,
   ref,
   watch
-} from "./chunk-ACN7CFPX.js";
-import "./chunk-WFBTEJUR.js";
+} from "./chunk-DAFWFJC4.js";
+import "./chunk-MQXBTJN7.js";
 import "./chunk-BPKF3OQJ.js";
 
 // node_modules/vuepress-theme-hope/lib/client/modules/sidebar/components/SidebarChild.js

@@ -4,12 +4,12 @@ import {
 import {
   usePure,
   useThemeLocaleData
-} from "./chunk-IOWDGP5U.js";
+} from "./chunk-LCZWRCVV.js";
 import {
   Ae,
   ht,
   tt
-} from "./chunk-GZOZNNJU.js";
+} from "./chunk-YPTPVA7L.js";
 import {
   isLinkHttp,
   removeEndingSlash,
@@ -21,7 +21,7 @@ import {
 import {
   useRoute,
   useRouter
-} from "./chunk-RLCMQTEQ.js";
+} from "./chunk-RRVQ2EVT.js";
 import {
   computed,
   defineComponent,
@@ -30,7 +30,7 @@ import {
   ref,
   resolveComponent,
   watch
-} from "./chunk-ACN7CFPX.js";
+} from "./chunk-DAFWFJC4.js";
 
 // node_modules/vuepress-theme-hope/lib/client/modules/info/composables/locale.js
 var useMetaLocale = () => {
@@ -508,4 +508,4 @@ export {
   useContributors,
   PageInfo_default
 };
-//# sourceMappingURL=chunk-XVFVVV57.js.map
+//# sourceMappingURL=chunk-M23BHHKD.js.map

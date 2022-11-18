@@ -3,7 +3,7 @@ import {
   TransitionGroup,
   defineComponent,
   h
-} from "./chunk-ACN7CFPX.js";
+} from "./chunk-DAFWFJC4.js";
 
 // node_modules/vuepress-theme-hope/lib/client/components/transitions/DropTransition.js
 var DropTransition_default = defineComponent({
@@ -50,4 +50,4 @@ var DropTransition_default = defineComponent({
 export {
   DropTransition_default
 };
-//# sourceMappingURL=chunk-M5SBLBLN.js.map
+//# sourceMappingURL=chunk-RMBH7XCQ.js.map
