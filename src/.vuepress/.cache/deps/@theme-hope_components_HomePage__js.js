@@ -1,18 +1,18 @@
 import {
-  DropTransition_default
-} from "./chunk-RMBH7XCQ.js";
+  AutoLink_default
+} from "./chunk-ANZJBHIW.js";
 import {
   MarkdownContent_default
 } from "./chunk-WFU56FTH.js";
-import {
-  AutoLink_default
-} from "./chunk-ANZJBHIW.js";
 import {
   Icon_default
 } from "./chunk-3ZNJGCFN.js";
 import {
   isLinkExternal
 } from "./chunk-LS4IQIE6.js";
+import {
+  DropTransition_default
+} from "./chunk-RMBH7XCQ.js";
 import {
   client_exports
 } from "./chunk-ANKY43RT.js";

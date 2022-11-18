@@ -11,7 +11,7 @@ export const zhSidebar = sidebar({
       children: "structure"
     },
     {
-      text: "VueCompositonApi",
+      text: "CompositonApi",
       icon: "API",
       prefix: "VueCompositonApi/",
       collapsable: true,

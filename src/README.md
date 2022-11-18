@@ -47,4 +47,14 @@ projects:
     name: Dhields
     desc: 链接图标生成
     link: https://shields.io/
+
+  - icon: https://v2.vuepress.vuejs.org/images/hero.png
+    name: VuePress
+    desc: Vue 驱动的静态网站生成器
+    link: https://v2.vuepress.vuejs.org/zh/
+
+  - icon: https://vuepress-theme-hope.github.io/v2/logo.svg
+    name: vuepress-theme-hope
+    desc: 一个具有强大功能的 vuepress 主题✨
+    link: https://vuepress-theme-hope.github.io/v2/zh/
 ---
