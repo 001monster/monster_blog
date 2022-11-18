@@ -4,7 +4,7 @@ export const zhSidebar = sidebar({
   "/zh/note/": [
     "",
     {
-      text: "veu",
+      text: "Veu",
       icon: "vue",
       prefix: "Vue/",
       collapsable: true,
@@ -39,7 +39,7 @@ export const zhSidebar = sidebar({
       children: "structure"
     },
     {
-      text: "vueRouter路由",
+      text: "VueRouter路由",
       icon: "daohang-",
       prefix: "VueRouter/",
       collapsable: true,
