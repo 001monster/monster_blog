@@ -57,4 +57,9 @@ projects:
     name: vuepress-theme-hope
     desc: 一个具有强大功能的 vuepress 主题✨
     link: https://vuepress-theme-hope.github.io/v2/zh/
+
+  - icon: http://www.fhdq.net/templets/images/logo.gif
+    name: emoji表情大全
+    desc: 常用emoji符号(如有符号显示不正常，请更换浏览器或操作系统浏览。)
+    link: http://www.fhdq.net/emoji.html
 ---

@@ -1,5 +1,5 @@
 import { defineClientConfig } from '@vuepress/client'
-import Project from './components/project.vue'
+import Project from './components/project/project.vue'
 
 export default defineClientConfig({
   enhance({ app, router, siteData }){},

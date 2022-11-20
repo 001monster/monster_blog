@@ -14,5 +14,10 @@ export const zhNavbar = navbar([
     text: "常用开发汇总",
     icon: "huizong",
     link: "/zh/zsw/",
+  },
+  {
+    text: "项目",
+    icon: "fuwuxiangmu",
+    link: "/zh/project/",
   }
 ]);
