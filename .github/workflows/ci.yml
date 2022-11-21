@@ -22,7 +22,7 @@ jobs:
         run: npm install -g pnpm
         
       - name: 安装依赖
-        run: pnpm install
+        run: npm install
         
       - name: 打包项目
         run: pnpm docs:build
