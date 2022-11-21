@@ -1,5 +1,73 @@
 @media (min-width: 751px) {
-    #docsearch-container {
-      min-width: 136px !important;
+  #docsearch-container {
+    min-width: 136px !important;
+  }
+}
+
+
+// 代码框样式自定义
+.language-javascript{
+  border-radius: 2px !important;
+}
+
+// 图片设置阴影
+.theme-hope-content {
+  .copy{
+    background-color: rgb(196, 196, 196) !important;
+  }
+
+  code{
+    background-color: #ff9100;
+    color: #fff;
+  }
+
+  img{
+    box-shadow: 1px 1px 10px rgb(153, 153, 153);
+    border-radius: 3px !important; 
+    margin-top: 20px;
+  }
+  
+  h2 {
+    border-left: 5px solid #338bff;
+    border-bottom: 1px solid #338bff;
+    padding-top: 0 !important;
+    margin-top: 35px !important;
+  }
+  h2:nth-child(1) {
+    border-left: 0;
+  }
+}
+
+
+// 顶部导航
+.breadcrumb{
+  display: none;
+}
+
+// 个人信息
+.page-title{
+  h1{
+    padding: 10px 0;
+  }
+
+  .page-info{
+    color: rgb(184, 184, 184);
+
+    span{
+      margin-right: 0.7em;
     }
   }
+
+  .author-info{
+    svg:nth-child(1){
+      // display: none !important;
+      background-image: url(https://zswei.xyz/logo.png) !important;
+      z-index: 999;
+      width: 50px;
+      height: 50px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color: rgba($color: #000000, $alpha: 0);
+    }
+  }
+}

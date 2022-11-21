@@ -14,6 +14,17 @@ export default hopeTheme({
   docsDir: "docs",
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
 
+  darkmode:"toggle",
+
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
+
+  fullscreen: true,
+
   blog: {
     medias: {
       Dingding: "https://example.com",
@@ -68,7 +79,7 @@ export default hopeTheme({
       // "/demo/encrypt.html": ["1234"],
     },
   },
-
+  
   plugins: {
     blog: {
       autoExcerpt: true,
