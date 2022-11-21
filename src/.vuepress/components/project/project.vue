@@ -16,26 +16,28 @@
                     <div class="item-root">
                         <div class="item" v-for="(item, index) in projectData" :key="item">
                             <h2 class="item-title">{{index}}</h2>
-                            <div class="project-item" v-for="(projectItem, index) in item" :key="index">
-                                <div class="projectImg">
-                                    <img :src="projectItem.img">
-                                </div>
-                                <div class="title-root">
-                                    <div class="title">
-                                        <b>{{projectItem.title}}</b>
-                                        <p>
-                                            <i class="iconfont icon-suyuanmaguanli"></i>
-                                            <span>源码</span>
+                            <div class="project-item-root">
+                                <div class="project-item" v-for="(projectItem, index) in item" :key="index">
+                                    <div class="projectImg">
+                                        <img :src="projectItem.img">
+                                    </div>
+                                    <div class="title-root">
+                                        <div class="title">
+                                            <b><a :href="projectItem.link" target="_blank">{{projectItem.title}}</a></b>
+                                            <p v-if="projectItem.soureceCode">
+                                                <i class="iconfont icon-suyuanmaguanli"></i>
+                                                <a :href="projectItem.codeLink" target="_blank">源码</a>
+                                            </p>
+                                        </div>
+                                        
+                                        <p class="desc-root">{{projectItem.desc}}</p>
+
+                                        <p class="lable-root">
+                                            <span v-for="(lalbeItem, index) in projectItem.lable" :key="index">
+                                                {{lalbeItem.lb}}<i :style="{backgroundColor: lalbeItem.bg}" class="icon"></i>
+                                            </span>
                                         </p>
                                     </div>
-                                    
-                                    <p class="desc-root">{{projectItem.desc}}</p>
-
-                                    <p class="lable-root">
-                                        <span v-for="(lalbeItem, index) in projectItem.lable" :key="index">
-                                            {{lalbeItem.lb}}<i :style="{backgroundColor: lalbeItem.bg}" class="icon"></i>
-                                        </span>
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +61,6 @@ export default{
 
     created() {
         this.projectData = this.$page.frontmatter.projectData
-        console.log(this.projectData)
     }
 }
 </script>
