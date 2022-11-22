@@ -45,13 +45,17 @@
                 </main> 
             </div>
         </div>
+
+        <PageFooter />
     </div>        
 </template>
 
 <script>
 import Navbar from "@theme-hope/modules/navbar/components/Navbar.js";
+import PageFooter from "@theme-hope/components/PageFooter.js";
+
 export default{
-    components: { Navbar },
+    components: { Navbar, PageFooter },
 
     data() {
         return {

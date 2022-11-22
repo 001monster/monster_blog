@@ -133,6 +133,7 @@
                             position: absolute;
                             z-index: 999;
                             display: none !important;
+                            margin-top: 5px;
                             display: inline-block;
                             font-size: 10px;
                             background-color: rgba($color: #000000, $alpha: 0.7);
@@ -141,12 +142,25 @@
                             max-width: 300px;
                             color: #fff;
                         }
+
+                        .toolip:after{
+                            content: '';
+                            position: absolute;
+                            left: 30px;
+                            top: -7px;
+                            border-right: 7px solid transparent;
+                            border-bottom: 7px solid rgba($color: #000000, $alpha: 0.7);;
+                            border-left: 7px solid transparent;
+                            height: 0;
+                            width: 0;
+                        }
                     }
                 }
 
                 .n-item:hover {
                     transform: translateY(-4px);
                     box-shadow: 0px 4px 10px rgb(189, 189, 189);
+                    z-index: 99;
                 }
             }
         }

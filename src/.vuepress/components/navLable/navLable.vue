@@ -35,7 +35,7 @@
                       }}</a></b
                     >
                     <p>{{ item.desc }}</p>
-                    <span class="toolip">{{ item.desc }}</span>
+                    <span class="toolip" ref="spanWidth">{{ item.desc }}</span>
                   </div>
                 </div>
               </div>
@@ -49,13 +49,14 @@
 
 <script>
 import Navbar from "@theme-hope/modules/navbar/components/Navbar.js";
-export default {
-  components: { Navbar },
+import PageFooter from "@theme-hope/components/PageFooter.js";
+
+export default{
+    components: { Navbar, PageFooter },
 
   data() {
     return {
       navDtaList: [],
-      isShow: false,
     };
   },
 

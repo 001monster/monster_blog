@@ -7,9 +7,9 @@ projectData:
         -   img: https://image.zswei.xyz/img/202211210009215.png
             link: http://www.zswei.xyz/
             codeLink: https://github.com/001monster/monster.git
-            title: 怪兽集结号
+            title: 老怪兽 Blog
             soureceCode: true
-            desc: 基于 vuepress v2 静态网站生成实现个人博客基于 vuepress v2 静态网站生成实现个人博客
+            desc: 基于 vuepress V2 静态网站生成实现的个人博客
             lable: 
                 -   lb: 喜爱
                     bg: '#e9669e'
