@@ -24,7 +24,23 @@ html {
   font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial !important;
 }
 
+.search-pro-modal-wrapper {
+  top: 50px !important;
+  align-items: flex-start !important;
 
+  .background {
+    backdrop-filter: blur(0px) !important;
+    background-color: rgb(9 10 17 / 70%);
+  }
+
+  .search-pro-modal {
+    width: 60% !important;
+
+    .search-pro-result {
+      min-height: 15vh !important;
+    }
+  }
+}
 
 .page-title {
 
