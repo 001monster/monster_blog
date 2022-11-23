@@ -40,21 +40,6 @@ export default hopeTheme({
   },
 
   locales: {
-    "/en/": {
-      // navbar
-      navbar: enNavbar,
-      // sidebar
-      sidebar: enSidebar,
-      footer: "",
-      displayFooter: true,
-      blog: {
-        description: "a monster that can top code",
-        intro: "/en/intro.html",
-      },
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
     /**
      * Chinese locale config
      */

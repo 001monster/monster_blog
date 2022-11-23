@@ -53,16 +53,6 @@ export const zhSidebar = sidebar({
       children: "structure"
     }
   ],
-  "/zh/diary/": [
-    "",
-    {
-      text: "前端",
-      icon: "test",
-      prefix: "Poetry/",
-      collapsable: true,
-      children: "structure"
-    }
-  ],
 
   "/zh/zsw/": [
     "",

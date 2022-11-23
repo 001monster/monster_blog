@@ -45,10 +45,11 @@
         width: 100%;
 
         .right-nav {
-            margin-top: 40px;
 
             h2 {
                 font-weight: bold;
+                padding-top: 60px;
+                margin: 0;
             }
 
             .item-root {
@@ -143,13 +144,14 @@
                             color: #fff;
                         }
 
-                        .toolip:after{
+                        .toolip:after {
                             content: '';
                             position: absolute;
                             left: 30px;
                             top: -7px;
                             border-right: 7px solid transparent;
-                            border-bottom: 7px solid rgba($color: #000000, $alpha: 0.7);;
+                            border-bottom: 7px solid rgba($color: #000000, $alpha: 0.7);
+                            ;
                             border-left: 7px solid transparent;
                             height: 0;
                             width: 0;
