@@ -160,7 +160,7 @@ html[data-theme=dark] {
     .article>a,
     .project,
     .pagination-list {
-      background-color: rgba(34, 36, 41, 0.8) !important;
+      background-color: rgba(34, 36, 41, 0.9) !important;
       color: rgb(211, 211, 211);
     }
 
@@ -169,7 +169,7 @@ html[data-theme=dark] {
     }
 
     .sidebar {
-      background-color: rgba(34, 36, 41, 0.8);
+      background-color: rgba(34, 36, 41, 0.9);
       backdrop-filter: saturate(150%) blur(1px);
     }
 
@@ -193,7 +193,7 @@ html[data-theme=dark] {
 
     // 右侧标题
     #toc {
-      background-color: rgba(34, 36, 41, 0.8);
+      background-color: rgba(34, 36, 41, 0.9);
       padding: 10px 0;
       margin-left: 50px;
       border-radius: 4px;
@@ -212,6 +212,15 @@ html[data-theme=light] {
     background-size: cover;
     background-position: center center;
 
+    .article-item{
+      border-radius: 5px;
+      overflow: hidden;
+      
+      .article{
+        background-color: rgba(255, 255, 255, 0.9) !important;
+      }
+    }
+
 
     .page {
       background-color: rgba(255, 255, 255, 0) !important;
@@ -222,16 +231,16 @@ html[data-theme=light] {
     .article>a,
     .project,
     .pagination-list {
-      background-color: rgba(255, 255, 255, 0.75);
+      background-color: rgba(255, 255, 255, 0.9);
     }
 
     .sidebar {
-      background-color: rgba(255, 255, 255, 0.6);
+      background-color: rgba(255, 255, 255, 0.8);
       backdrop-filter: saturate(150%) blur(1px);
     }
 
     .footer-wrapper {
-      background-color: rgba(255, 255, 255, 0.6);
+      background-color: rgba(255, 255, 255, 0.8);
     }
 
     .page-nav {
@@ -243,7 +252,7 @@ html[data-theme=light] {
     .page-meta,
     .page-nav,
     .giscus-wrapper {
-      background-color: rgba(255, 255, 255, 0.85);
+      background-color: rgba(255, 255, 255, 0.9);
     }
 
     .theme-hope-content {
@@ -257,7 +266,7 @@ html[data-theme=light] {
 
     // 右侧标题
     #toc {
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(255, 255, 255, 0.9);
       padding: 10px 0;
       margin-left: 50px;
       border-radius: 4px;
