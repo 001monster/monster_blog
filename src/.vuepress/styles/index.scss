@@ -5,7 +5,7 @@
 }
 
 @media only screen and (max-width: 750px) {
-  .line-numbers-mode{
+  .line-numbers-mode {
     box-sizing: border-box;
     margin: 0 !important;
     font-size: 10px !important;
@@ -19,21 +19,21 @@
 }
 
 // 字体大小
-html{
+html {
   font-size: 12px !important;
-  font-family: -apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial!important;
+  font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial !important;
 }
 
 
 
-.page-title{
+.page-title {
 
-  hr{
+  hr {
     display: none;
   }
 }
 
-.article>a{ 
+.article>a {
   border-radius: 4px;
 }
 
@@ -64,7 +64,7 @@ html{
   h4,
   h5,
   h6 {
-    border-bottom: 1px solid #338bff;
+    width: 100%;
     padding-top: 0 !important;
     margin-top: 35px !important;
     color: #338bff;
@@ -89,7 +89,7 @@ html{
     font-size: 2.667rem;
     font-weight: 600;
     line-height: 1.31;
-    
+
   }
 
   .page-info {
@@ -114,14 +114,14 @@ html{
 }
 
 // 首页头像
-.hero-image{
+.hero-image {
   max-height: 160px !important;
 }
 
 // 侧边栏不准换行
-.sidebar{
+.sidebar {
 
-  a{
+  a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -131,37 +131,37 @@ html{
 
 
 // 主题颜色 - 黑夜主题颜色
-html[data-theme=dark]{
-  body{
+html[data-theme=dark] {
+  body {
     background-image: url('https://image.zswei.xyz/img/202211121336657.jpeg');
     background-size: cover;
-    background-attachment:fixed;
-    background-size: cover; 
+    background-attachment: fixed;
+    background-size: cover;
     background-position: center center;
 
     .blogger-info,
     .blog-info-list,
     .article>a,
     .project,
-    .pagination-list{
+    .pagination-list {
       background-color: rgba(34, 36, 41, 0.8) !important;
       color: rgb(211, 211, 211);
     }
 
-    .page{
+    .page {
       background-color: rgba(255, 255, 255, 0) !important;
     }
-  
-    .sidebar{
+
+    .sidebar {
       background-color: rgba(34, 36, 41, 0.8);
       backdrop-filter: saturate(150%) blur(1px);
     }
-    
-    .footer-wrapper{
+
+    .footer-wrapper {
       background-color: rgba(34, 36, 41, 0.9);
     }
 
-    .page-nav{
+    .page-nav {
       border-top: 1px solid rgb(83, 83, 83);
     }
 
@@ -169,14 +169,14 @@ html[data-theme=dark]{
     .theme-hope-content,
     .page-meta,
     .page-nav,
-    .giscus-wrapper{
+    .giscus-wrapper {
       background-color: rgba(34, 36, 41, 0.9);
     }
 
 
 
     // 右侧标题
-    #toc{
+    #toc {
       background-color: rgba(34, 36, 41, 0.8);
       padding: 10px 0;
       margin-left: 50px;
@@ -188,16 +188,16 @@ html[data-theme=dark]{
 
 
 // 主题颜色 - 白天主题颜色
-html[data-theme=light]{ 
-  body{
+html[data-theme=light] {
+  body {
     background-image: url('https://image.zswei.xyz/img/202211121320746.jpeg');
     background-size: cover;
-    background-attachment:fixed;
-    background-size: cover; 
+    background-attachment: fixed;
+    background-size: cover;
     background-position: center center;
 
 
-    .page{
+    .page {
       background-color: rgba(255, 255, 255, 0) !important;
     }
 
@@ -205,20 +205,20 @@ html[data-theme=light]{
     .blog-info-list,
     .article>a,
     .project,
-    .pagination-list{
+    .pagination-list {
       background-color: rgba(255, 255, 255, 0.75);
     }
 
-    .sidebar{
+    .sidebar {
       background-color: rgba(255, 255, 255, 0.6);
       backdrop-filter: saturate(150%) blur(1px);
     }
-    
-    .footer-wrapper{
+
+    .footer-wrapper {
       background-color: rgba(255, 255, 255, 0.6);
     }
 
-    .page-nav{
+    .page-nav {
       border-top: 1px solid rgb(194, 194, 194);
     }
 
@@ -226,37 +226,42 @@ html[data-theme=light]{
     .theme-hope-content,
     .page-meta,
     .page-nav,
-    .giscus-wrapper{
+    .giscus-wrapper {
       background-color: rgba(255, 255, 255, 0.85);
     }
 
-    .theme-hope-content{
+    .theme-hope-content {
       /*字体也好看*/
-      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
       /*下面是背景实现*/
-      background-image: linear-gradient(0deg,transparent 24%,rgba(216, 216, 216, 0.329) 25%,rgba(233, 231, 231, 0.05) 26%,transparent 27%,transparent 74%,hsla(0,5.2%,81%,.185) 75%,rgba(180,176,176,.05) 76%,transparent 77%,transparent),linear-gradient(90deg,transparent 24%,rgba(204,196,196,.226) 25%,hsla(0,4%,66.1%,.05) 26%,transparent 27%,transparent 74%,hsla(0,5.2%,81%,.185) 75%,rgba(180,176,176,.05) 76%,transparent 77%,transparent);
+      background-image: linear-gradient(0deg, transparent 24%, rgba(216, 216, 216, 0.329) 25%, rgba(233, 231, 231, 0.05) 26%, transparent 27%, transparent 74%, hsla(0, 5.2%, 81%, .185) 75%, rgba(180, 176, 176, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(204, 196, 196, .226) 25%, hsla(0, 4%, 66.1%, .05) 26%, transparent 27%, transparent 74%, hsla(0, 5.2%, 81%, .185) 75%, rgba(180, 176, 176, .05) 76%, transparent 77%, transparent);
       background-size: 50px 50px;
     }
 
 
     // 右侧标题
-    #toc{
+    #toc {
       background-color: rgba(255, 255, 255, 0.8);
       padding: 10px 0;
       margin-left: 50px;
       border-radius: 4px;
 
-      a{
+      a {
         color: rgb(56, 56, 56);
       }
     }
 
-    .sidebar-links{
+    .sidebar-links {
 
-      a{
+      a {
         color: #313131;
       }
     }
+  }
+
+  .info {
+    background-color: #dfeefd;
+    border: 1px solid #c0defc;
   }
 }
 

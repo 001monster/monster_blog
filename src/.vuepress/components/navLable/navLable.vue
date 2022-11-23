@@ -44,6 +44,8 @@
         </main>
       </div>
     </div>
+
+    <PageFooter />
   </div>
 </template>
 
@@ -51,8 +53,8 @@
 import Navbar from "@theme-hope/modules/navbar/components/Navbar.js";
 import PageFooter from "@theme-hope/components/PageFooter.js";
 
-export default{
-    components: { Navbar, PageFooter },
+export default {
+  components: { Navbar, PageFooter },
 
   data() {
     return {
