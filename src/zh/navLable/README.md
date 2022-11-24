@@ -98,8 +98,33 @@ navDtaList:
 
         - title: ButterPig
           desc: 在线ICO图标制作,图片转换ICO图标Pro版
-          img: http://image.jxc4.com/image/d569b9190707ecb3cd27e9ffc1dd4cc2.tem.jpg
+          img: https://s4.ax1x.com/2022/01/17/7UwaOf.png
           link: https://www.butterpig.top/icopro
+
+        - title: border-radius
+          desc: 在线生成不规则border-radius
+          img: https://img-blog.csdnimg.cn/img_convert/c3b80b875633650102f102d174e44c33.gif
+          link: https://9elements.github.io/fancy-border-radius/#18.50.28.100--473.494
+
+        - title:  波浪生成工具
+          desc:  在线生成不同形状的波浪
+          img: https://img-blog.csdnimg.cn/img_convert/49a0d2c746365958ff010c4a064650fa.gif
+          link: https://getwaves.io/
+
+        - title: 网页分隔符
+          desc: 生成不同的网页分隔符
+          img: https://img-blog.csdnimg.cn/img_convert/7c4e40449d01b1ef3ceb7c306cb86b5a.gif
+          link: https://wweb.dev/resources/css-separator-generator/
+
+        - title: 零代码工具箱
+          desc: 零代码工具箱 - 专为前端打造
+          img: https://lingdaima.com/static/img/bolang.png
+          link: https://lingdaima.com/
+
+        - title: 免费api
+          desc:  免费接口大全
+          img: https://q1.qlogo.cn/g?b=qq&nk=810210908&s=100&t=1558260208
+          link: https://www.free-api.com/
     文档:
         - title: MDN
           desc: 从2005年开始记录网络技术，包括 CSS、 HTML 和 JavaScript。
