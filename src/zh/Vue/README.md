@@ -6,29 +6,26 @@ category:
     - vue
 ---
 
-<!-- ![](https://image.zswei.xyz/img/202211121335443.jpg) -->
+![](https://image.zswei.xyz/img/202211271450619.png)
 
-### 此处是 Old Monster 存放的一些代码笔记
+### 此处是 Old Monster 存放的 `Vue3` 全家桶
+:::info 说明
+本模块是我学习 `vue` 全家桶所记录的所有笔记，因为是第一次记使用博客形式来记录学习过程，可能有些地方写的比较不怎么明白，如果有啥问题呢欢迎留言评论，看到了会第一时间给大家回复。
+本课程原作者：[峰华前端工程师](https://zxuqian.cn/)
+:::
 
+### 笔记目录
 
-#### 优质网站 - 代码学习网站
+- [Vue基础](./Vue/README.md)
 
-- [网道](https://wangdoc.com/)
+- [Vue浏览器调试工具](./VueProjectdeployment/VueProjectdeployment-1.md)
 
-- [廖雪峰的网站](https://www.liaoxuefeng.com/)
+- [VueRouter路由管理](./VueRouter/README.md)
 
-- [MDN](https://developer.mozilla.org/zh-CN/)
+- [VueCompositionApi](./VueCompositonApi/compositionApi-1.md)
 
-  ::: info
+- [Vue底层](./VueBottom/README.md)
 
-  MDN 的中文文档翻译很差，大多都是机翻，十分建议直接阅读英文文档。
+- [Vue动画](./VueTransition/README.md)
 
-  :::
-
-#### 杂牌网站
-
-- [菜鸟教程](https://www.runoob.com/) <Badge text="内容比较新" />
-
-- [w3cschool](https://www.w3cschool.cn) <Badge text="内容最新" /> <Badge text="有手机APP" /> <Badge text="广告信息多" type="warn" />
-
-- [w3school](http://www.w3school.com.cn/) <Badge text="内容比较旧" type="warn" />
+- [Vuex状态管理](./VueX/README.md)
