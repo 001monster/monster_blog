@@ -5,7 +5,7 @@ export const zhNavbar = navbar([
   {
     text: "前端代码代码笔记",
     icon: "yongyan",
-    prefix: "/zh/note/",
+    prefix: "/zh/Vue/",
     children: [
       { text: "vue", children: [''] },
     ],

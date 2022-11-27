@@ -6,7 +6,7 @@ category:
     - VueX 状态管理
 ---
 
-![](https://image.zswei.xyz/img/202211121823045.webp)
+![](https://image.zswei.xyz/img/202211271446630.png)
 
 #### Vuex 中的计算属性 `getters`
 :::info 说明

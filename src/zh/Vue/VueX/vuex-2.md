@@ -6,7 +6,7 @@ category:
     - VueX 状态管理
 ---
 
-![](https://image.zswei.xyz/img/202211121823045.webp)
+![](https://image.zswei.xyz/img/202211271445704.png)
 
 #### 定义和访问状态（state）
 

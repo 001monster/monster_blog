@@ -125,6 +125,11 @@ navDtaList:
           desc:  免费接口大全
           img: https://q1.qlogo.cn/g?b=qq&nk=810210908&s=100&t=1558260208
           link: https://www.free-api.com/
+
+        - title: 设计师配色表
+          desc: Eva Design System
+          img: https://image.zswei.xyz/img/202211271145833.png
+          link: https://colors.eva.design/
     文档:
         - title: MDN
           desc: 从2005年开始记录网络技术，包括 CSS、 HTML 和 JavaScript。

@@ -6,7 +6,7 @@ category:
     - VueX 状态管理
 ---
 
-![](https://image.zswei.xyz/img/202211121823045.webp)
+![](https://image.zswei.xyz/img/202211271445584.png)
 
 
 #### 为什么需要全局状态管理
