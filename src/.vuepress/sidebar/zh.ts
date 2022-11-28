@@ -51,6 +51,13 @@ export const zhSidebar = sidebar({
       prefix: "VueX/",
       collapsable: true,
       children: "structure"
+    },
+    {
+      text: "Pinia状态管理",
+      icon: "boluo",
+      prefix: "Pinia/",
+      collapsable: true,
+      children: "structure"
     }
   ],
 
