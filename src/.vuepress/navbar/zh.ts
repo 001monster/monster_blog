@@ -7,7 +7,15 @@ export const zhNavbar = navbar([
     icon: "yongyan",
     prefix: "/zh/Vue/",
     children: [
-      { text: "vue", children: [''] }
+      { text: "Vue全家桶", link: '', icon: 'vuequanjiatonggongju' },
+      { text: "Vue基础教程", link: 'Vue/', icon: 'vue' },
+      { text: "CompositionApi", link: 'VueCompositonApi/', icon: 'API' },
+      { text: "Vue路由管理", link: 'VueRouter/', icon: 'daohang-' },
+      { text: "Vue动画", link: 'VueTransition/', icon: 'donghua' },
+      { text: "VueX状态管理", link: 'VueX/', icon: 'vuex-store' },
+      { text: "Pinia状态管理", link: 'Pinia/', icon: 'boluo' },
+      { text: "Vue项目开发与部署", link: 'VueProjectdeployment/', icon: 'bushu' },
+      { text: "Vue底层机制", link: 'VueBottom/', icon: 'gongzuoliugongzuoliuguanli' },
     ],
   },
   {
@@ -15,7 +23,7 @@ export const zhNavbar = navbar([
     icon: "typescript",
     prefix: "/zh/TypeScript/",
     children: [
-      { text: "TypeScript基础", link: 'Ts_Basics/' }
+      { text: "TypeScript基础", icon: 'typescript', link: 'Ts_Basics/' }
     ],
   },
   {

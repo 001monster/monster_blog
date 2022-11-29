@@ -83,7 +83,7 @@ html {
     width: 100%;
     padding-top: 0 !important;
     margin-top: 35px !important;
-    color: #338bff;
+    color: var(--theme-color);
   }
 
   h2:nth-child(1) {
@@ -287,6 +287,11 @@ html[data-theme=light] {
   .info {
     background-color: #dfeefd;
     border: 1px solid #c0defc;
+  }
+
+  .warning {
+    background-color: #faf0d5;
+    border: 1px solid #f5d480;
   }
 }
 

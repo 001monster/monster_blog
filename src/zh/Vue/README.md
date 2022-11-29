@@ -1,6 +1,6 @@
 ---
 title: Vue全家桶
-icon: vue
+icon: vuequanjiatonggongju
 date: 2022-11-08
 category:
     - vue
