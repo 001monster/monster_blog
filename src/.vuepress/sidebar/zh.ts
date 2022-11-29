@@ -76,4 +76,14 @@ export const zhSidebar = sidebar({
       children: "structure"
     }
   ],
+
+  "/zh/TypeScript/Ts_Basics/": [
+    "",
+    {
+      text: "Ts基础入门",
+      icon: 'typescript',
+      prefix: "",
+      children: "structure"
+    }
+  ],
 });

@@ -7,7 +7,15 @@ export const zhNavbar = navbar([
     icon: "yongyan",
     prefix: "/zh/Vue/",
     children: [
-      { text: "vue", children: [''] },
+      { text: "vue", children: [''] }
+    ],
+  },
+  {
+    text: "TypeScript",
+    icon: "typescript",
+    prefix: "/zh/TypeScript/",
+    children: [
+      { text: "TypeScript基础", link: 'Ts_Basics/' }
     ],
   },
   {

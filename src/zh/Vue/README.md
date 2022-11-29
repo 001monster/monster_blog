@@ -31,3 +31,5 @@ category:
 - [Vue动画](./VueTransition/README.md)
 
 - [Vuex状态管理](./VueX/README.md)
+
+- [Pinia状态管理](./Pinia/README.md)

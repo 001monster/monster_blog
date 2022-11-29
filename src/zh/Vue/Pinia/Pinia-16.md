@@ -1,5 +1,5 @@
 ---
-title: （十七）OptionsApi 创建 Pinia
+title: （十六）OptionsApi 创建 Pinia
 order: 16
 date: 2022-11-28
 category:
