@@ -23,7 +23,8 @@ export const zhNavbar = navbar([
     icon: "typescript",
     prefix: "/zh/TypeScript/",
     children: [
-      { text: "TypeScript基础", icon: 'typescript', link: 'Ts_Basics/' }
+      { text: "TypeScript基础", icon: 'typescript', link: 'Ts_Basics/' },
+      { text: "Vue-and-Ts", icon: 'AwesomeVue', link: 'Vue_and_Ts/' }
     ],
   },
   {
