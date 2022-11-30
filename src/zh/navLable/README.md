@@ -130,6 +130,11 @@ navDtaList:
           desc: Eva Design System
           img: https://image.zswei.xyz/img/202211271145833.png
           link: https://colors.eva.design/
+
+        - title: Android平台签名证书
+          desc: Android平台签名证书(.keystore)生成指南
+          img: https://download1.dcloud.net.cn/uploads/images/hbuilderx/icon/hbuilderx_icon@2x.png
+          link: https://ask.dcloud.net.cn/article/35777
     文档:
         - title: MDN
           desc: 从2005年开始记录网络技术，包括 CSS、 HTML 和 JavaScript。
