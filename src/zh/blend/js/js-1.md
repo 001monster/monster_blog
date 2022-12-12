@@ -1,11 +1,11 @@
 ---
-title: 数组常用API
+title: （一）数组常用API
 date: 2022-11-02
 category:
     - JS常用代码
 tag:
-    - js
-article: false
+    - 数组常用API
+order: 9999
 ---
 
 ## 一下呢是我自己整理的一些数组常用的API

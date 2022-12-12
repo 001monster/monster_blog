@@ -12,7 +12,7 @@ category:
 
 - `store.js` 异步的先清空搜索框在异步的添加数据
 ```js
-import { ref, computed } from 'vex
+import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
 export const useNoteStore = defineStore('note', () => {

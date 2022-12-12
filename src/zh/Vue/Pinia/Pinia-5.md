@@ -11,7 +11,7 @@ category:
 ### 一、在组件中访问状态
 - `store.js`
 ```js
-import { ref, computed } from 'vex
+import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
 export const useNoteStore = defineStore('note', () => {

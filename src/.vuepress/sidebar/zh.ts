@@ -20,14 +20,9 @@ export const zhSidebar = sidebar({
 
   "/zh/Vue/VueBottom/": [{ text: "Vue底层机制", icon: "gongzuoliugongzuoliuguanli", prefix: "", children: "structure" }],
 
-  "/zh/zsw/": [
+  "/zh/blend/js/": [{ text: "js杂项", icon: 'js', prefix: "", children: "structure" }],
 
-    "",
-
-    { text: "CSS常用代码", icon: 'CSS', prefix: "css/", children: "structure" },
-
-    { text: "JS常用代码", icon: 'js', prefix: "js/", children: "structure" }
-  ],
+  "/zh/blend/css/": [{ text: "css杂项", icon: 'CSS', prefix: "", children: "structure" }],
 
   "/zh/TypeScript/Ts_Basics/": [{ text: "Ts基础入门", icon: 'typescript', prefix: "", children: "structure" }],
 

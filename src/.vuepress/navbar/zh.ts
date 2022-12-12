@@ -28,9 +28,13 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "常用开发汇总",
+    text: "开发杂项",
     icon: "huizong",
-    link: "/zh/zsw/",
+    prefix: "/zh/blend/",
+    children: [
+      { text: "css杂项", icon: 'qianduankaifa', link: 'css/' },
+      { text: "js杂项", icon: 'js', link: 'js/' }
+    ],
   },
   {
     text: "项目",

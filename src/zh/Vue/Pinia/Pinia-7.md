@@ -16,7 +16,7 @@ category:
 - 做一个过滤的功能来看一下 `getters` 是怎么使用的
 
 ```js
-import { ref, computed } from 'vex
+import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
 export const useNoteStore = defineStore('note', () => {

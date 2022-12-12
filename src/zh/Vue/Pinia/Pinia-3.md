@@ -20,7 +20,7 @@ category:
 - 命名规则-以 `use` 开头，后面跟上是哪种类型的 `store`，如有关 `note` 类型的 `store` 命名就是 `useNoteStore`
 
 ```js
-import { ref, computed } from 'vex
+import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
 export const useNoteStore = defineStore('note', () => {

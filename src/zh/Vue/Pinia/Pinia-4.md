@@ -12,7 +12,7 @@ category:
 - 在 `defineStore` 里面定义状态就跟在组件当中定义是一样的，使用 `vue` 的 `ref` 函数来定义，然后通过 `return` 来返回出去
 
 ```js
-import { ref, computed } from 'vex
+import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
 export const useNoteStore = defineStore('note', () => {
