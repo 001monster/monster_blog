@@ -135,6 +135,11 @@ navDtaList:
           desc: Android平台签名证书(.keystore)生成指南
           img: https://download1.dcloud.net.cn/uploads/images/hbuilderx/icon/hbuilderx_icon@2x.png
           link: https://ask.dcloud.net.cn/article/35777
+
+        - title: 开发速查表
+          desc: 为开发人员分享快速参考备忘清单【速查表】。这是英文版 Reference 的中文版本，目的是为了方便自己的技术栈查阅，如果您提供一个清单，我将抽空搬运，立即撸起来 :)。如果您发现此处的备忘单不合适，您可以通过提交 PR 来修复它或提供更好的备忘清单，只针对【中文】用户。以下是开源天使提供的一些备忘清单和快速参考 :)。
+          img: https://avatars.githubusercontent.com/u/53617305?v=4
+          link: http://bbs.laoleng.vip/reference/index.html
     文档:
         - title: MDN
           desc: 从2005年开始记录网络技术，包括 CSS、 HTML 和 JavaScript。
