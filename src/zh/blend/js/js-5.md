@@ -50,9 +50,9 @@ article:
 ```
 
 
-####代码示例:
+#### 代码示例:
 
-####实现懒加载:
+#### 实现懒加载:
 
 ```js
 const io = new IntersectionObserver(()=>{ // 实例化 默认基于当前视窗
@@ -73,4 +73,109 @@ function callback(entries){
 imgs.forEach((item)=>{  // io.observe接受一个DOM元素，添加多个监听 使用forEach
     io.observe(item)
 })
+```
+
+#### 配合vue实现demo
+:::info dome
+配合 `vue` 写一个自定义指定，当元素进入可视区域的时候给他加上一个 `class` 离开可视区域的时候给他移除 `class`
+:::
+
+##### 第一步
+- 在 `vue` 的 `src` 文件夹下面创建一个 `directives` 文件夹，文件夹里面创建一个 `index` 的 `ts` 或 `js` 文件
+
+![](https://image.zswei.xyz/img/202212241150044.png)
+
+```js
+/**
+ * @describe 自定义指令模块
+ * @params { 
+ *  ToAnimation         进入可视区域动画 离开可视区域动画
+ *  formAnimation       离开可视区不移除class
+ * }
+ */
+import ToAnimation from "./animation/toAnimation"
+import FromAnimation from "./animation/fromAnimation"
+
+// 这里的 app 是在 main.ts 里面调用这个方法传过来的
+export default(app: any) => {
+    ToAnimation(app)
+    FromAnimation(app)
+}
+```
+
+##### 第二步
+- 在 `manin.ts` 里面引入 `import directives from './directives'` 这个自定义指令文件
+
+```js
+import { createApp } from 'vue'
+import App from './App.vue'
+import directives from './directives'  // 自定义指令
+
+const app = createApp(App)
+// 这里调用这个方法将 app 传过去
+directives(app)         // 全局指令
+
+app.mount('#app')
+```
+
+##### 第三步
+- 为了可以让自定义指令分模块 可以在 `directives` 文件夹 创建需要自定义指令的文件夹
+
+- 自定义动画指令
+
+![](https://image.zswei.xyz/img/202212241248657.png)
+
+
+#### 第四步
+- 编写自定义指令，并在 `directives` 下的 `index` 入口文件里注册自定义指令
+
+```js
+/**
+ * @describe 元素进入可视化区域动画挂载
+ */
+
+
+export default(app: any) => {
+    app.directive('toAnimation', {
+        mounted(el: any, val: any) {     
+            const io = new IntersectionObserver(function(entries) {
+                if(entries[0].isIntersecting) {
+                    addClass(el, val.value)
+                } else {
+                    remove(el, val.value)
+                }
+            }, {
+                rootMargin: '0px',
+                threshold: 0.5
+            })
+            io.observe(el);
+        }
+    })
+}
+
+// 添加class
+const addClass = (el: Element, className: string) => {
+    if (_hasClass(el, className)) return
+    let newClass = el.className.split(' ')
+    newClass.push(className)
+    el.className = newClass.join(' ')
+}
+
+
+// 移除class
+const remove = (el: Element, className: string) => {
+    if (!_hasClass(el, className)) return
+    let newClass = el.className.split(' ')
+    let index = newClass.indexOf(className)
+    newClass.splice(index, 1)
+    el.className = newClass.join(' ')
+
+}
+
+
+// 判断当前元素中是否有该类名
+const _hasClass = (el: Element, className: string) => {
+    const reg = new RegExp('(^|\\s)' + className + '(\\s|$)')
+    return reg.test(el.className)
+}
 ```

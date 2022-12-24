@@ -33,7 +33,8 @@ export const zhNavbar = navbar([
     prefix: "/zh/blend/",
     children: [
       { text: "css杂项", icon: 'qianduankaifa', link: 'css/' },
-      { text: "js杂项", icon: 'js', link: 'js/' }
+      { text: "js杂项", icon: 'js', link: 'js/' },
+      { text: "vue杂项", icon: 'vue', link: 'vue/' }
     ],
   },
   {
