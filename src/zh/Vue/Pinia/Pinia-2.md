@@ -10,15 +10,26 @@ category:
 
 ### 一、在项目中使用 pinia
 1. 在创建项目的时候进行选择
-```js
+```sh
 // 根据提示进行选择自己需要的依赖
 npm init vue@latext
 ```
 
 2. 在现有的项目添加 `pinia` 
-```js
-yarn install pinia
+::: tabs
+
+@tab:active npm
+```sh
+npm install pinia
 ```
+
+
+@tab Yarn
+```sh
+yarn add pinia
+```
+
+:::
 
 
 ### 二、初始化 `pinia`

@@ -10,11 +10,19 @@ category:
 
 
 #### 一、安装 `vueRouter` 
-```js
-yarn add vue-router@4
 
+::: tabs
+@tab:active npm
+```sh
 npm install --save vue-router@4
 ```
+
+@tab Yarn
+```sh
+yarn add vue-router@4
+```
+
+:::
 
 #### 二、配置 `vue-router` 
 :::info 配置

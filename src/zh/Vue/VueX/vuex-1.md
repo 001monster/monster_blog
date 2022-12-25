@@ -11,11 +11,19 @@ category:
 #### 第一个 `Vuex` 示例
 
 #### 一、安装 `Vuex`
-```js
-yarn add vuex@next
 
+::: tabs
+@tab:active npm
+```sh
 npm install add vuex@next
 ```
+
+@tab Yarn
+```sh
+yarn add vuex@next
+```
+
+:::
 
 #### 二、`main.js ` 导入配置 `vuex`
 ```js

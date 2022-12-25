@@ -12,7 +12,7 @@ category:
 `vue` 支持通过 `init` 指定 `latest` 来配置初始化模板，这个命令使用的是 `vite` 脚手架
 :::
 
-```js
+```sh
 npm init vue@latest
 ```
 

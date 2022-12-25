@@ -41,6 +41,6 @@ yarn build
 
 
 #### (二)、把他安装到全局里面
-```js
+```sh
 npm install -g typescript
 ```

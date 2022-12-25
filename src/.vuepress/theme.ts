@@ -70,6 +70,11 @@ export default hopeTheme({
   },
 
   plugins: {
+    mdEnhance: {
+      // 添加选项卡支持
+      tabs: true,
+    },
+
     blog: {
       autoExcerpt: true,
     },
