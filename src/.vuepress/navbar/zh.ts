@@ -3,8 +3,8 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbar = navbar([
   "/",
   {
-    text: "前端代码代码笔记",
-    icon: "yongyan",
+    text: "Vue全家桶",
+    icon: "vue",
     prefix: "/zh/Vue/",
     children: [
       { text: "Vue全家桶", link: '', icon: 'vuequanjiatonggongju' },
@@ -16,6 +16,16 @@ export const zhNavbar = navbar([
       { text: "Pinia状态管理", link: 'Pinia/', icon: 'boluo' },
       { text: "Vue项目开发与部署", link: 'VueProjectdeployment/', icon: 'bushu' },
       { text: "Vue底层机制", link: 'VueBottom/', icon: 'gongzuoliugongzuoliuguanli' },
+    ],
+  },
+  {
+    text: "React全家桶",
+    icon: "react",
+    prefix: "/zh/React/",
+    children: [
+      { text: "React基础教程", link: 'React-Basics/', icon: 'jichushuju' },
+      { text: "React组件与模块", link: 'React-Component/', icon: 'zujianhua' },
+      { text: "React实战项目", link: 'React-project/', icon: 'shizhanpeixun' }
     ],
   },
   {

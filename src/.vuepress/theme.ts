@@ -8,7 +8,7 @@ export default hopeTheme({
     name: "老怪兽",
     url: "http://www.zswei.xyz",        // 个人网站地址
   },
-  iconAssets: "//at.alicdn.com/t/c/font_3750738_ne4xpp5nd7d.css",           // 字体图标
+  iconAssets: "//at.alicdn.com/t/c/font_3750738_7i7vc96h634.css",           // 字体图标
   logo: "/logo.png",
   repo: "https://github.com/001monster/monster.git",
   docsDir: "docs",
@@ -70,10 +70,6 @@ export default hopeTheme({
   },
 
   plugins: {
-    mdEnhance: {
-      // 添加选项卡支持
-      tabs: true,
-    },
 
     blog: {
       autoExcerpt: true,
@@ -121,6 +117,7 @@ export default hopeTheme({
       lazyLoad: true,
       mark: true,
       mermaid: true,
+      tabs: true,
       playground: {
         presets: ["ts", "vue"],
       },
@@ -142,7 +139,6 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
       vpre: true,
       vuePlayground: true,
     },
