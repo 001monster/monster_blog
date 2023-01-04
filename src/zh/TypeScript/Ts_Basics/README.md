@@ -4,6 +4,8 @@ icon: typescript
 date: 2022-11-29
 category:
     - TypeScript
+tag: 
+    - Ts
 ---
 
 ### 本章简介

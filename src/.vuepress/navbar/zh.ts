@@ -24,7 +24,8 @@ export const zhNavbar = navbar([
     prefix: "/zh/React/",
     children: [
       { text: "React基础教程", link: 'React-Basics/', icon: 'jichushuju' },
-      { text: "React组件与模块", link: 'React-Component/', icon: 'zujianhua' },
+      { text: "React三大核心之state", link: 'React-state/', icon: 'zhuangtai' },
+      { text: "React三大核心之props", link: 'React-props/', icon: 'jisuchuandi' },
       { text: "React实战项目", link: 'React-project/', icon: 'shizhanpeixun' }
     ],
   },

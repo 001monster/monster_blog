@@ -4,6 +4,8 @@ order: 5
 date: 2022-11-30
 category:
     - TypeScript
+tag: 
+    - Ts和Vue
 ---
 
 ### 一、定义 props 类型

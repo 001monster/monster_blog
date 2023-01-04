@@ -4,8 +4,9 @@ date: 2022-11-02
 category:
     - JS常用代码
 tag:
-    - 数组常用API
-order: 9999
+    - js
+    - 数组
+order: 1
 ---
 
 ## 一下呢是我自己整理的一些数组常用的API

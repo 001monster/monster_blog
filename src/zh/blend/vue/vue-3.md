@@ -3,6 +3,8 @@ title: （三）vite 脚手架
 date: 2022-12-24
 category:
     - vite 脚手架
+tag: 
+    - Vue
 ---
 
 ### 设置多种 `vite` 的方式

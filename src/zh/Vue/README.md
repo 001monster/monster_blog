@@ -4,6 +4,8 @@ icon: vuequanjiatonggongju
 date: 2022-11-08
 category:
     - vue
+tag: 
+    - Vue和Vuex
 ---
 
 ![](https://image.zswei.xyz/img/202211271450619.png)

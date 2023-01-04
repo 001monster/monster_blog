@@ -4,6 +4,8 @@ order: 5
 date: 2022-11-29
 category:
     - TypeScript
+tag: 
+    - Ts
 ---
 
 

@@ -2,6 +2,8 @@
 layout: NavLable
 icon: zhuye
 title: 导航列表
+tag: 
+    - 导航
 navDtaList:
     友链:
         - title: yijun

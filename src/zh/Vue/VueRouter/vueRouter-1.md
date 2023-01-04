@@ -4,6 +4,8 @@ order: 1
 date: 2022-11-13
 category:
     - VueRouter
+tag: 
+    - Vue和Router
 ---
 
 ![](https://image.zswei.xyz/img/202211131152689.png)

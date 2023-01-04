@@ -2,6 +2,8 @@
 title: （六）类组件中 方法的 this
 date: 2022-12-31
 category:
+    - react之state
+tag: 
     - react
 ---
 

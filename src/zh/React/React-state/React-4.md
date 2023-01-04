@@ -2,6 +2,8 @@
 title: （四）对 state 的理解
 date: 2022-12-31
 category:
+    - react之state
+tag: 
     - react
 ---
 

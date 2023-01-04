@@ -4,6 +4,8 @@ order: 3
 date: 2022-11-30
 category:
     - TypeScript
+tag: 
+    - Ts和Vue
 ---
 
 ### 一、定义 `ref` 类型的三种方式

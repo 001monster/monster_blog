@@ -1,9 +1,10 @@
 ---
 title: （二）、批量传递 props
-icon: zujianhua
 date: 2023-01-03
 category:
-    - React
+    - react之props
+tag: 
+    - react
 ---
 
 ### 🐷一、props 的基本使用

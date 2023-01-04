@@ -2,9 +2,10 @@
 title: （三）请求失败重发
 date: 2022-11-02
 category: 
-    - 网络请求
-article:
-    - fetch
+    - 网络请求 fatch
+tag:
+    - js
+order: 3
 ---
 
 #### 请求失败重新发送请求

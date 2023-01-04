@@ -3,8 +3,10 @@ title: （五）IntersectionObserver 监听元素进入离开指定可视区域
 date: 2022-11-02
 category: 
     - 拖动排序
-article:
+tag:
+    - js
     - IntersectionObserver
+order: 5
 ---
 
 ### 'IntersectionObserver' 监听元素进入离开指定可视区域

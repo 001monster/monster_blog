@@ -2,6 +2,8 @@
 title: （九）state 的简写方式
 date: 2023-01-03
 category:
+    - react之state
+tag: 
     - react
 ---
 

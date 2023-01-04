@@ -4,6 +4,8 @@ order: 4
 date: 2022-11-30
 category:
     - TypeScript
+tag: 
+    - Ts和Vue
 ---
 
 ### 一、开发中 ref 定义类型

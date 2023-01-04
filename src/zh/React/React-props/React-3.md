@@ -1,9 +1,10 @@
 ---
 title: （三）、对 props 进行限制
-icon: zujianhua
 date: 2023-01-03
 category:
-    - React
+    - react之props
+tag: 
+    - react
 ---
 
 ### 🐷一、对 `props` 进行限制

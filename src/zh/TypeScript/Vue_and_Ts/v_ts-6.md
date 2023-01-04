@@ -4,6 +4,8 @@ order: 6
 date: 2022-11-30
 category:
     - TypeScript
+tag: 
+    - Ts和Vue
 ---
 
 

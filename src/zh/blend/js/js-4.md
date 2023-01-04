@@ -3,8 +3,10 @@ title: （四）原生 WEB 拖动排序
 date: 2022-11-02
 category: 
     - 拖动排序
-article:
-    - 拖拽
+tag:
+    - js
+    - 原生拖拽
+order: 4
 ---
 
 #### 使用原生的拖动排序

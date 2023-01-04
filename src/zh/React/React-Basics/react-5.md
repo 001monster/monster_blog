@@ -2,7 +2,10 @@
 title: （五）jsx 语法规则
 date: 2022-12-25
 category:
+    - react基础
+tag: 
     - react
+order: 5
 ---
 
 ### 🍈 一、什么是 `jsx`

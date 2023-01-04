@@ -2,7 +2,10 @@
 title: （六）jsx 小练习
 date: 2022-12-25
 category:
+    - react基础
+tag: 
     - react
+order: 6
 ---
 
 ### 🍈 一、写一个 `jsx` 小练习

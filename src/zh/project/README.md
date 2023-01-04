@@ -2,6 +2,8 @@
 layout: Project
 icon: zhuye
 title: 项目列表
+tag: 
+    - 项目
 projectData:
     web: 
         -   img: https://image.zswei.xyz/img/202211210009215.png

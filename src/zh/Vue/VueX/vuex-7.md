@@ -4,6 +4,8 @@ order: 7
 date: 2022-11-26
 category:
     - VueX 状态管理
+tag: 
+    - Vue和Vuex
 ---
 
 ![](https://image.zswei.xyz/img/202211261700470.png)

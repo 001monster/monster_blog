@@ -4,6 +4,8 @@ order: 10
 date: 2022-11-28
 category:
     - pinia 状态管理工具
+tag: 
+    - Vue和Pinia
 ---
 
 <!-- ![](https://image.zswei.xyz/img/202211271445584.png) -->

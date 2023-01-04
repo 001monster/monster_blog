@@ -4,8 +4,7 @@ date: 2022-10-14
 category:
   - 个人信息
 tag:
-  - 信息
-  - 个人
+  - 关于怪兽
 order: 9999
 star: 9999
 sticky: 9999

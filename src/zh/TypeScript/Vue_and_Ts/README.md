@@ -4,6 +4,8 @@ icon: AwesomeVue
 date: 2022-11-30
 category:
     - TypeScript
+tag: 
+    - Ts和Vue
 ---
 
 ### 本章简介

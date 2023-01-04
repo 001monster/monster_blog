@@ -4,6 +4,8 @@ order: 14
 date: 2022-11-09
 category:
     - VueCompositonApi
+tag: 
+    - Vue3
 ---
 
 ![](https://image.zswei.xyz/img/202211121817662.webp)

@@ -4,6 +4,8 @@ icon: donghua
 date: 2022-11-15
 category:
     - VueX 状态管理
+tag: 
+    - Vue和Vuex
 ---
 
 ![](https://image.zswei.xyz/img/202211271445584.png)

@@ -3,6 +3,8 @@ title: （二）vuex 使用 Ts推断类型
 date: 2022-12-24
 category:
     - vue常用代码
+tag: 
+    - Vue
 ---
 
 

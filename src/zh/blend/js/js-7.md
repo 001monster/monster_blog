@@ -1,9 +1,12 @@
 ---
 title: （七）call、bind、apply三者的区别
-icon: js
 date: 2022-12-12
 category:
     - this
+tag:
+    - js
+    - js类的基本知识
+order: 7
 ---
 
 ### 🍈一、call、bind、apply三者的区别
