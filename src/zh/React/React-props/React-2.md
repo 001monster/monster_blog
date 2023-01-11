@@ -5,6 +5,7 @@ category:
     - react之props
 tag: 
     - react
+order: 2
 ---
 
 ### 🐷一、props 的基本使用

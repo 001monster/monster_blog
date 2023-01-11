@@ -5,6 +5,7 @@ category:
     - react之props
 tag: 
     - react
+order: 5
 ---
 
 ### 🐷一、类式组件到底要不要写构造器

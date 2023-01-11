@@ -5,6 +5,7 @@ category:
     - react之props
 tag: 
     - react
+order: 3
 ---
 
 ### 🐷一、对 `props` 进行限制

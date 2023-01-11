@@ -5,6 +5,7 @@ category:
     - react之props
 tag: 
     - react
+order: 6
 ---
 
 ### 🐷一、函数式组件使用 `props`
