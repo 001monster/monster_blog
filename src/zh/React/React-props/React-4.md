@@ -15,7 +15,7 @@ order: 4
 ![](https://image.zswei.xyz/img/202301092204398.png)
 
 ```jsx
-class Person {
+class Person extends React.Component {
     render() {
         console.log(this)
         const { naem, age, sex } = this.props
@@ -56,7 +56,7 @@ speck() {
 - 上面这种方式的写法，我们是在类的外部给类的原型对象上添加属性
 - 我们前面复习过，给类的原型对象上直接添加属性可以使用，赋值的方式
 ```js
-class Person {
+class Person extends React.Component {
     // 在Person 的原型对象上添加了一个属性
     constructor() {
         this.a = '张三'
@@ -70,7 +70,7 @@ class Person {
 
 - 那么如何给 `props` 也简写在类的里面呢
 ```jsx
-class Person {
+class Person extends React.Component {
     ...
 }
 
@@ -79,7 +79,7 @@ Person.dome  = '我不是放在原型对象上,我是类自身的属性'
 ```
 - 把类自身的属性放到类的里面, 需要用到 `static` 这个关键词
 ```jsx
-class Person {
+class Person extends React.Component {
     // 如果直接这样写赋值语句,是加在了 Person 的原型对象上
     Person.dome  = '我不是放在原型对象上,我是类自身的属性'
 

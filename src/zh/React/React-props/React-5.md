@@ -52,7 +52,7 @@ ReactDOM.render(<Person/>, document.getElmentById('test'))
 ![](https://image.zswei.xyz/img/202301112204215.png)
 
 ```jsx
-class Person {
+class Person extends React.Component {
     constructor() {
         // 初始化状态
         this.state = {key: value}
@@ -65,7 +65,7 @@ class Person {
 ```
 - 以上代码是在 `constructor` 构造器中写的，以下代码是简写形式，赋值语句的写法
 ```jsx
-class Person {
+class Person extends React.Component {
     state = {key: value}
     fun = () => {}
     ...
@@ -83,7 +83,7 @@ class Person {
 
 - 写了构造器 `constructor` 没有接收 `props`
 ```jsx
-class Person {
+class Person  {
     constructor() {
         super()
         console.log(this.props)     // undefined
@@ -94,7 +94,7 @@ class Person {
 
 - 写了构造器 `constructor` 接收 `props`
 ```jsx
-class Person {
+class Person extends React.Component {
     constructor(props) {
         super(props)
         console.log(this.props)     // 实例对象上的 props

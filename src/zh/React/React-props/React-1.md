@@ -10,7 +10,7 @@ order: 1
 
 ### 🐷一、props 的基本使用
 ```jsx
-class Person {
+class Person extends React.Component {
     render() {
         console.log(this)
         const { naem, age, sex } = this.props

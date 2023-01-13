@@ -10,7 +10,7 @@ order: 3
 
 ### 🐷一、对 `props` 进行限制
 ```jsx
-class Person {
+class Person extends React.Component {
     render() {
         console.log(this)
         const { naem, age, sex } = this.props
