@@ -1,5 +1,5 @@
 ---
-title: （三）、对 props 进行限制
+title: （三）对 props 进行限制
 date: 2023-01-03
 category:
     - react之props

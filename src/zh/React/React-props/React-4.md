@@ -1,5 +1,5 @@
 ---
-title: （四）、props 的简写方式
+title: （四）props 的简写方式
 date: 2023-01-03
 category:
     - react之props

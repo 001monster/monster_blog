@@ -1,5 +1,5 @@
 ---
-title: （二）、批量传递 props
+title: （二）批量传递 props
 date: 2023-01-03
 category:
     - react之props

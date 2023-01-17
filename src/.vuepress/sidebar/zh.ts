@@ -14,8 +14,9 @@ export const zhSidebar = sidebar({
 
   // react
   "/zh/React/React-Basics/": [{text: 'React基础', icon: 'jichushuju', prefix: "", children: "structure"}],
-  "/zh/React/React-state/": [{text: 'React三大核心之state', icon: 'zhuangtai', prefix: "", children: "structure"}],
-  "/zh/React/React-props/": [{text: 'React三大核心之props', icon: 'jisuchuandi', prefix: "", children: "structure"}],
+  "/zh/React/React-state/": [{text: '三大核心:state', icon: 'zhuangtai', prefix: "", children: "structure"}],
+  "/zh/React/React-props/": [{text: '三大核心:props', icon: 'jisuchuandi', prefix: "", children: "structure"}],
+  "/zh/React/React-refs/": [{text: '三大核心:refs', icon: 'icon', prefix: "", children: "structure"}],
   "/zh/React/React-project/": [{text: 'React项目实战', icon: 'shizhanpeixun', prefix: "", children: "structure"}],
 
 

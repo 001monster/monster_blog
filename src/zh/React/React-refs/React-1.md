@@ -1,5 +1,5 @@
 ---
-title: （一）、字符转形式的 ref
+title: （一）字符转形式的 ref
 date: 2023-01-03
 category:
     - react之refs

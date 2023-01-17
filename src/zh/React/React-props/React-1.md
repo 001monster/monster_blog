@@ -1,5 +1,5 @@
 ---
-title: （一）、props 的基本使用
+title: （一）props 的基本使用
 date: 2023-01-03
 category:
     - react之props
