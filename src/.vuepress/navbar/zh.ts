@@ -50,6 +50,14 @@ export const zhNavbar = navbar([
     ],
   },
   {
+    text: "前端面试题",
+    icon: "huizong",
+    prefix: "/zh/interview/",
+    children: [
+      { text: "JavaScript面试题", icon: 'qianduankaifa', link: 'JavaScript/' },
+    ],
+  },
+  {
     text: "项目",
     icon: "fuwuxiangmu",
     link: "/zh/project/",

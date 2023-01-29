@@ -29,4 +29,8 @@ export const zhSidebar = sidebar({
   // ts
   "/zh/TypeScript/Ts_Basics/": [{ text: "Ts基础入门", icon: 'typescript', prefix: "", children: "structure" }],
   "/zh/TypeScript/Vue_and_Ts/": [{ text: "Vue-and-Ts", icon: 'AwesomeVue', prefix: "", children: "structure" }],
+
+  
+  // 面试题
+  "/zh/interview/JavaScript/": [{ text: "javaScript面试题", icon: 'AwesomeVue', prefix: "", children: "structure" }],
 });
