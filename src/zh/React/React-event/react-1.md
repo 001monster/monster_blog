@@ -1,11 +1,15 @@
 ---
-title: （一）初始 react
+title: （一）React 中的事件处理
 date: 2022-12-25
 category:
-    - react项目
+    - React事件处理
 tag: 
     - react
+order: 1
 ---
+
+## 参考视频
+<iframe src="//player.bilibili.com/player.html?aid=798144910&bvid=BV1wy4y1D7JT&cid=266611374&page=32" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ### 🎄一、事件处理
 ![](https://image.zswei.xyz/img/202301182139577.png)
