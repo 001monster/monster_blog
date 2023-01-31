@@ -66,5 +66,10 @@ export const zhNavbar = navbar([
     text: "导航",
     icon: "daohang01",
     link: "/zh/navLable/",
+  },
+  {
+    text: "小王同学的笔记",
+    icon: "daohang01",
+    link: "/zh/wangjing/ps/",
   }
 ]);
