@@ -1,6 +1,6 @@
 ---
 title: （五）类式组件中的构造器与 props
-date: 2023-01-011
+date: 2023-01-11
 category:
     - react之props
 tag: 

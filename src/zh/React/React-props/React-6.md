@@ -1,6 +1,6 @@
 ---
 title: （六）函数式组件使用 props
-date: 2023-01-011
+date: 2023-01-11
 category:
     - react之props
 tag: 
