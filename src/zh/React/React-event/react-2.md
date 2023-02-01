@@ -19,15 +19,18 @@ order: 2
 ```jsx
 // 创建组件
 class Login extends React.Component {
-    handleSubmit = () => {
-        
+    handleSubmit = (event) => {
+        // 因为form 表单有默认的跳转事件，使用js 原生阻止默认事件
+        event.preventDefault()  // 阻止表单提交
+        const { userName, password } = this
+        alert(`你输入的用户名是：${username.value},你输入的密码是：${password.value}`)
     }
 
     render() {
         return (
             <form action="https://zswei.xyz" onSubmit={this.handleSubmit}>
-                用户名：<input type="text" name="userName"/>
-                密  码：<input type="password" name="password"/>
+                用户名：<input ref={c => this.userName} type="text" name="userName"/>
+                密  码：<input ref={c => this.password} type="password" name="password"/>
                 <button>登录</button>
             </form>
         )
@@ -36,3 +39,5 @@ class Login extends React.Component {
 
 ReactDOM.render(<Login/>, document.getElmentById('test'))
 ```
+
+![](https://image.zswei.xyz/img/202302012103966.png)
