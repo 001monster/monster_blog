@@ -32,9 +32,9 @@ export const zhSidebar = sidebar({
 
   
   // 面试题
-  "/zh/interview/JavaScript/": [{ text: "javaScript面试题", icon: 'AwesomeVue', prefix: "", children: "structure" }],
+  "/zh/interview/JavaScript/": [{ text: "javaScript面试题", icon: 'mianshianpai', prefix: "", children: "structure" }],
 
 
   // 小王同学的笔记
-  "/zh/wangjing/ps/": [{ text: "ps笔记", icon: 'AwesomeVue', prefix: "", children: "structure" }],
+  "/zh/wangjing/ps/": [{ text: "ps笔记", icon: 'ps', prefix: "", children: "structure" }],
 });

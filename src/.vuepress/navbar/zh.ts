@@ -54,7 +54,7 @@ export const zhNavbar = navbar([
     icon: "huizong",
     prefix: "/zh/interview/",
     children: [
-      { text: "JavaScript面试题", icon: 'qianduankaifa', link: 'JavaScript/' },
+      { text: "JavaScript面试题", icon: 'mianshianpai', link: 'JavaScript/' },
     ],
   },
   {
@@ -69,7 +69,7 @@ export const zhNavbar = navbar([
   },
   {
     text: "小王同学的笔记",
-    icon: "daohang01",
+    icon: "ps",
     link: "/zh/wangjing/ps/",
   }
 ]);
