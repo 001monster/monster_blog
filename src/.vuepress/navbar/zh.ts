@@ -27,6 +27,8 @@ export const zhNavbar = navbar([
       { text: "三大核心:state", link: 'React-state/', icon: 'zhuangtai' },
       { text: "三大核心:props", link: 'React-props/', icon: 'jisuchuandi' },
       { text: "三大核心:refs", link: 'React-refs/', icon: 'icon' },
+      { text: "受控组件和非受控组件", link: 'React-event/', icon: 'icon' },
+      { text: "高阶函数与柯里化", link: 'React-senior/', icon: 'icon' },
       { text: "React实战项目", link: 'React-project/', icon: 'shizhanpeixun' }
     ],
   },

@@ -17,6 +17,8 @@ export const zhSidebar = sidebar({
   "/zh/React/React-state/": [{text: '三大核心:state', icon: 'zhuangtai', prefix: "", children: "structure"}],
   "/zh/React/React-props/": [{text: '三大核心:props', icon: 'jisuchuandi', prefix: "", children: "structure"}],
   "/zh/React/React-refs/": [{text: '三大核心:refs', icon: 'icon', prefix: "", children: "structure"}],
+  "/zh/React/React-event/": [{text: '受控组件和非受控组件', icon: 'icon', prefix: "", children: "structure"}],
+  "/zh/React/React-senior/": [{text: '高阶函数与柯里化', icon: 'icon', prefix: "", children: "structure"}],
   "/zh/React/React-project/": [{text: 'React项目实战', icon: 'shizhanpeixun', prefix: "", children: "structure"}],
 
 

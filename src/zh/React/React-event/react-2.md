@@ -1,5 +1,5 @@
 ---
-title: （一）非受控组件
+title: （二）非受控组件
 date: 2022-12-25
 category:
     - react项目
@@ -41,3 +41,7 @@ ReactDOM.render(<Login/>, document.getElmentById('test'))
 ```
 
 ![](https://image.zswei.xyz/img/202302012103966.png)
+
+## 总结
+### 什么是非受控组件呢？
+页面中所有输入类的 `DOM` 现用现取的就是 `非受控组件`，就是当操作某一个方法的时候，用到了才取值的时候
