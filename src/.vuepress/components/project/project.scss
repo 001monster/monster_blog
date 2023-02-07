@@ -52,6 +52,7 @@
                 img{
                     width: 100%;
                     height: auto;
+                    cursor: pointer;
                 }
             }
 
@@ -171,5 +172,42 @@ html[data-theme=light] .blog-page-wrapper :deep(.blog-home) {
         .title{
             color: #0a274d;
         }
+    }
+}
+
+.seeimg-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    background-color: #000;
+
+    img {
+        max-height: 95%;
+        max-width: 90%;
+    }
+
+    .close {
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 2px;
+        position: absolute;
+        z-index: 999;
+        top: 3%;
+        right: 3%;
+        background-color: #fff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    .close:hover {
+        background-color: #e49eda;
+        color: #fff;
     }
 }

@@ -19,7 +19,7 @@
                             <div class="project-item-root">
                                 <div class="project-item" v-for="(projectItem, index) in item" :key="index">
                                     <div class="projectImg">
-                                        <img :src="projectItem.img">
+                                        <img @click="seeImg(projectItem.img)" :src="projectItem.img">
                                     </div>
                                     <div class="title-root">
                                         <div class="title">
@@ -47,6 +47,11 @@
         </div>
 
         <PageFooter />
+
+        <div class="seeimg-root" v-show="isImg" @click="mask">
+            <img :src="urlImg" alt="项目图片" @click.stop>
+            <span @click="closeBtn" class="close">关闭</span>
+        </div>
     </div>        
 </template>
 
@@ -59,12 +64,30 @@ export default{
 
     data() {
         return {
-            projectData: []
+            projectData: [],
+            urlImg: '',
+            isImg: false
         }
     },
 
     created() {
         this.projectData = this.$page.frontmatter.projectData
+    },
+
+    methods: {
+        seeImg(img) {
+            this.urlImg = img
+            this.isImg = true
+            console.log(img)
+        },
+
+        mask() {
+            this.isImg = false
+        },
+
+        closeBtn() {
+            this.isImg = false
+        }
     }
 }
 </script>
