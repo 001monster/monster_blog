@@ -19,7 +19,7 @@ tag:
 安装 `TypeScript` 有两种方式
 :::
 #### (一)把他安装到项目里面
-```js
+```sh
 yarn add typesctipt --dev
 ```
 - `TypeSctipy` 都以 `.ts` 为文件名后缀

@@ -20,6 +20,7 @@ export const zhSidebar = sidebar({
   "/zh/React/React-event/": [{text: '受控组件和非受控组件', icon: 'icon', prefix: "", children: "structure"}],
   "/zh/React/React-senior/": [{text: '高阶函数与柯里化', icon: 'icon', prefix: "", children: "structure"}],
   "/zh/React/React-file/": [{text: '组件的生命周期', icon: 'icon', prefix: "", children: "structure"}],
+  "/zh/React/React-cli/": [{text: 'react应用(基于react脚手架)', icon: 'icon', prefix: "", children: "structure"}],
   "/zh/React/React-project/": [{text: 'React项目实战', icon: 'shizhanpeixun', prefix: "", children: "structure"}],
 
 

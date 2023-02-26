@@ -21,7 +21,7 @@ tag:
 
 ### 二、关闭内置 `TypeScript Server`
 1. 打开控制面板快捷键
-```js
+```sh
 ctrl + shift + p
 ```
 
@@ -29,7 +29,7 @@ ctrl + shift + p
 
 
 2. 搜索 `show buil`
-```js
+```sh
 >show buil
 ```
 
@@ -37,7 +37,7 @@ ctrl + shift + p
 
 
 3. 搜索 `@builtin typescript`
-```js
+```sh
 @builtin typescript
 ```
 
