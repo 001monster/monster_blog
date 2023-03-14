@@ -16,10 +16,4 @@ tag:
 
 [（（三）脚手架文件介绍_src](./react-3.md)
 
-[（（四）一个简单的Hello组件](./react-4.md)
-
-[（（五）样式的模块化](./react-5.md)
-
-[（（六）vscode中react插件的使用](./react-6.md)
-
-[（（七）组件化编码流程](./react-7.md)
+[（（四）样式的模块化](./react-4.md)
