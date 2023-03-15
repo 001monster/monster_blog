@@ -12,9 +12,9 @@ order: 3
 ### 一、兄弟组件传
 1. 消息订阅与发布,使用第三方库 `pubsub-js`
 :::tabs
-@tab:active npm pubsub-js
+@tab:active npm
 ```sh
-npm i 
+npm i pubsub-js
 ```
 
 @tab yarn
@@ -53,4 +53,15 @@ let token = Pubsub.subscribe('订阅的消息名字', Fn)
 3. 在需要传递数据的组件去发布消息
 ```js
 Pubsub.publish('订阅消息的名字(记住是订阅消息的名字)', '需要传递的数据')
+```
+
+### 三、取消订阅消息
+在组件将要被卸载的时候，就可以像定时器之类的，可以把他取消订阅不在占用系统资源
+```js
+class xxx extends  React.Component {
+  // 组件即将卸载，取消订阅消息
+  componentWillUnmount() {
+    Pubsub.unsubscribe('取消订阅的ID')
+  }
+}
 ```
