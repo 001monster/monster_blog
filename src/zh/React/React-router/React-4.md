@@ -53,7 +53,14 @@ class xxNavLink extends react.Component {
 <NavLink activeClassName="xxx" className="xxx" {...this.props}>{this.props.children}</NavLink>
 ```
 
-2. 方式二，直接使用标签属性接收也是可以解析的
+2. 方式二，直接使用标签属性接收也是可以解析，因为他是把所有标签体内容都放到了 `children` 属性身上，这样就可以写成自闭和的标签了
 ```html
 <NavLink activeClassName="xxx" className="xxx" {...this.props}/>
 ```
+
+### 总结
+1. `NavLink` 可以实现路由连接的高亮，通过 `activeClassName` 指定样式名
+
+2. 标签体内容是一个特殊的标签属性
+
+3. 通过 `this.props.children` 可以获取标签体内容

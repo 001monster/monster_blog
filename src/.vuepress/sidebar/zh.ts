@@ -21,7 +21,8 @@ export const zhSidebar = sidebar({
   "/zh/React/React-senior/": [{text: '高阶函数与柯里化', icon: 'icon', prefix: "", children: "structure"}],
   "/zh/React/React-file/": [{text: '组件的生命周期', icon: 'icon', prefix: "", children: "structure"}],
   "/zh/React/React-cli/": [{text: 'react应用(基于react脚手架)', icon: 'icon', prefix: "", children: "structure"}],
-  "/zh/React/React-Ajax/": [{text: 'react发送网络请求', icon: 'icon', prefix: "", children: "structure"}],
+  "/zh/React/React-ajax/": [{text: 'react发送网络请求', icon: 'icon', prefix: "", children: "structure"}],
+  "/zh/React/React-router/": [{text: 'react路由管理', icon: 'icon', prefix: "", children: "structure"}],
   "/zh/React/React-project/": [{text: 'React项目实战', icon: 'shizhanpeixun', prefix: "", children: "structure"}],
 
 

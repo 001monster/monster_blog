@@ -31,7 +31,8 @@ export const zhNavbar = navbar([
       { text: "高阶函数与柯里化", link: 'React-senior/', icon: 'icon' },
       { text: "组件的生命周期", link: 'React-file/', icon: 'icon' },
       { text: "react应用(基于react脚手架)", link: 'React-cli/', icon: 'icon' },
-      { text: "react发送网络请求", link: 'React-Ajax/', icon: 'icon' },
+      { text: "react发送网络请求", link: 'React-ajax/', icon: 'icon' },
+      { text: "react路由管理", link: 'React-router/', icon: 'icon' },
       { text: "React实战项目", link: 'React-project/', icon: 'shizhanpeixun' }
     ],
   },
