@@ -3,19 +3,19 @@
     padding: 15px;
     max-width: var(--max-width);
 
-    .project-title{
+    .project-title {
         display: flex;
         width: 100%;
         flex-direction: column;
         align-items: center;
 
-        .title{
+        .title {
             font-weight: bold;
             font-size: 1.8em;
             margin: 25px 0 0 0;
         }
 
-        a{
+        a {
             background-color: var(--theme-color-light);
             transition: background var(--color-transition);
             color: #fff;
@@ -24,56 +24,57 @@
         }
     }
 
-    .item-root{
+    .item-root {
 
-        .item-title{
+        .item-title {
             color: #0a274d;
         }
-        
-        .project-item-root{
+
+        .project-item-root {
             display: grid;
             gap: 20px;
-            grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
         }
 
-        .project-item{     
+        .project-item {
             border-radius: 10px;
             background-color: rgba($color: #fff, $alpha: 0.7);
             overflow: hidden;
             box-shadow: -3px 5px 10px #b6b6b6;
             transition: all 0.5s;
 
-            .projectImg{
+            .projectImg {
                 width: 100%;
                 height: 150px;
                 border-bottom: 2px solid rgb(236, 236, 236);
                 overflow: hidden;
 
-                img{
+                img {
                     width: 100%;
                     height: auto;
                     cursor: pointer;
                 }
             }
 
-            .title-root{
+            .title-root {
                 position: relative;
                 box-sizing: border-box;
                 width: 100%;
                 height: 160px;
                 padding: 10px;
 
-                .title{
+                .title {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
 
-                    b{
+                    b {
                         position: relative;
                         color: var(--theme-color-light);
                         cursor: pointer;
                     }
-                    b:after{
+
+                    b:after {
                         content: '';
                         position: absolute;
                         width: 0%;
@@ -83,19 +84,20 @@
                         left: 0;
                         transition: all 0.5s;
                     }
-                    b:hover:after{
+
+                    b:hover:after {
                         width: 100%;
                     }
 
-                    p{
+                    p {
                         margin: 0;
 
-                        i{
+                        i {
                             color: #e9669e;
                             margin-right: 8px;
                         }
 
-                        a{
+                        a {
                             padding: 2px 10px;
                             background-color: #ebedf0;
                             font-size: 14px;
@@ -103,14 +105,14 @@
                             cursor: pointer;
                             transition: all 0.5s;
                         }
-                        
-                        a:hover{
+
+                        a:hover {
                             background-color: #d4d5d8;
                         }
                     }
                 }
 
-                .desc-root{
+                .desc-root {
                     overflow: hidden;
                     text-overflow: ellipsis;
                     display: -webkit-box;
@@ -118,15 +120,15 @@
                     -webkit-line-clamp: 3;
                     font-size: 12px;
                 }
-    
-                .lable-root{
+
+                .lable-root {
                     display: flex;
                     position: absolute;
                     left: 10px;
                     bottom: 0px;
                     font-size: 10px;
 
-                    span{
+                    span {
                         display: flex;
                         align-items: center;
                         margin-right: 7px;
@@ -136,7 +138,7 @@
                         color: #555555;
                         cursor: pointer;
 
-                        .icon{
+                        .icon {
                             display: inline-block;
                             width: 5px;
                             height: 5px;
@@ -146,30 +148,30 @@
                     }
                 }
             }
-       }
+        }
 
-       .project-item:hover{
+        .project-item:hover {
             transform: scale(1.05);
-       }
+        }
     }
 }
 
 html[data-theme=dark] .blog-page-wrapper :deep(.blog-home) {
     background-color: rgba(34, 36, 41, 0.9);
 
-    .project-title{
-        .title{
+    .project-title {
+        .title {
             color: #9e9e9e;
         }
-    } 
+    }
 }
 
 html[data-theme=light] .blog-page-wrapper :deep(.blog-home) {
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255, 255, 255, 0.9);
 
-    .project-title{
+    .project-title {
 
-        .title{
+        .title {
             color: #0a274d;
         }
     }

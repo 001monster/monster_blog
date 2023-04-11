@@ -76,6 +76,10 @@ export const zhNavbar = navbar([
   {
     text: "小王同学的笔记",
     icon: "ps",
-    link: "/zh/wangjing/ps/",
+    prefix: "/zh/wangjing/",
+    children: [
+      { text: "作品集", icon: 'qianduankaifa', link: 'works/' },
+      { text: "ps笔记", icon: 'ps', link: 'ps/' }
+    ],
   }
 ]);
