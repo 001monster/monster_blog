@@ -27,12 +27,12 @@ export const zhNavbar = navbar([
       { text: "三大核心:state", link: 'React-state/', icon: 'zhuangtai' },
       { text: "三大核心:props", link: 'React-props/', icon: 'jisuchuandi' },
       { text: "三大核心:refs", link: 'React-refs/', icon: 'icon' },
-      { text: "受控组件和非受控组件", link: 'React-event/', icon: 'icon' },
-      { text: "高阶函数与柯里化", link: 'React-senior/', icon: 'icon' },
-      { text: "组件的生命周期", link: 'React-file/', icon: 'icon' },
-      { text: "react应用(基于react脚手架)", link: 'React-cli/', icon: 'icon' },
-      { text: "react发送网络请求", link: 'React-ajax/', icon: 'icon' },
-      { text: "react路由管理", link: 'React-router/', icon: 'icon' },
+      { text: "受控组件和非受控组件", link: 'React-event/', icon: 'kongzhizhongxin' },
+      { text: "高阶函数与柯里化", link: 'React-senior/', icon: 'hanshu' },
+      { text: "组件的生命周期", link: 'React-file/', icon: 'shengmingzhouqi' },
+      { text: "react应用(基于react脚手架)", link: 'React-cli/', icon: 'jiaoshoujia-xian' },
+      { text: "react发送网络请求", link: 'React-ajax/', icon: 'wangluo' },
+      { text: "react路由管理", link: 'React-router/', icon: 'luyouqi' },
       { text: "React实战项目", link: 'React-project/', icon: 'shizhanpeixun' }
     ],
   },
@@ -52,7 +52,8 @@ export const zhNavbar = navbar([
     children: [
       { text: "css杂项", icon: 'qianduankaifa', link: 'css/' },
       { text: "js杂项", icon: 'js', link: 'js/' },
-      { text: "vue杂项", icon: 'vue', link: 'vue/' }
+      { text: "vue杂项", icon: 'vue', link: 'vue/' },
+      { text: "服务器杂项", icon: 'fuwuqi', link: 'server/' }
     ],
   },
   {
@@ -78,7 +79,7 @@ export const zhNavbar = navbar([
     icon: "ps",
     prefix: "/zh/wangjing/",
     children: [
-      { text: "作品集", icon: 'qianduankaifa', link: 'works/' },
+      { text: "作品集", icon: 'tupian', link: 'works/' },
       { text: "ps笔记", icon: 'ps', link: 'ps/' }
     ],
   }
