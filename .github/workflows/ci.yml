@@ -1,0 +1,58 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 进入任务
+        uses: actions/checkout@v3
+
+      - name: 安装nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+        
+      - name: 安装pnpm
+        run: npm install -g pnpm
+        
+      - name: 安装依赖
+        run: npm install
+        
+      - name: 打包项目
+        run: pnpm docs:build
+        
+      - name: 项目部署
+        uses: easingthemes/ssh-deploy@v3.0.1
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: 'root'
+          REMOTE_POR: '22'
+          SOURCE: './src/.vuepress/dist/'
+          TARGET: '/www/wwwroot/zsw/blog/'
+          ARGS: '-rltgoDzvO'
+          
+#       - name: 部署项目
+#         uses: appleboy/scp-action@v0.0.1
+#         with:
+#           host: 124.221.253.146
+#           username: Administrator
+#           password: zswZSW20001020
+#           port: 22
+#           source: '/src/.vuepress/dist'
+#           target: '/wwwroot/blog'
+          
+#       - name: 部署项目
+#         uses: SamKirkland/FTP-Deploy-Action@4.0.0
+#         with:
+#           server: ${{ secrets.ftp_server }}
+#           username: ${{ secrets.ftp_user }}
+#           password: ${{ secrets.ftp_pwd }}
+#           local-dir: ./src/.vuepress/dist/
+#           server-dir: ./
