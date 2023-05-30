@@ -18,6 +18,11 @@ export default defineUserConfig({
 
   theme,
 
+  head: [
+    // 导入一个外部脚本
+    ["script", { src: "/index.js" }]
+  ],
+
   shouldPrefetch: false,
 
   plugins: [
