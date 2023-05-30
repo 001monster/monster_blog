@@ -6,10 +6,10 @@ tag:
     - 导航
 navDtaList:
     友链:
-        - title: yijun
-          desc: 易总的博客
-          img: https://image.zswei.xyz/img/202211121123258.jpg
-          link: https://yijun0816.fun/home
+        - title: 枫枫知道
+          desc: 怪兽小站
+          img: http://www.fengfengzhidao.com/
+          link: http://www.fengfengzhidao.com/media/site_bg/wallhaven-y8lqo7.jpg
 
         - title: 愧怍
           desc: 愧怍的小站
@@ -24,12 +24,12 @@ navDtaList:
     站点:
         - title: Shields.io
           desc: 为你的开源项目生成高质量小徽章图标
-          img: https://kuizuo.cn/img/website/shields.png
+          img: https://image.zswei.xyz/img/202305241424200.png
           link: https://shields.io/
 
         - title: Nginx
           desc: 配置高性能、安全、稳定的NGINX服务器的最简单方法
-          img: https://kuizuo.cn//img/website/digitalocean.png
+          img: https://image.zswei.xyz/img/202305241425994.png
           link: https://www.digitalocean.com/community/tools/nginx
         
         - title: BootCDN
@@ -39,12 +39,12 @@ navDtaList:
       
         - title: 那些免费的砖
           desc: 发现免费可商用的资源
-          img: https://img.thosefree.com/static/logo.png
+          img: https://image.zswei.xyz/img/202305241426798.png
           link: https://www.thosefree.com/
 
         - title: 正则大全
           desc: 🦕 常用正则大全, 支持web / vscode / idea / Alfred Workflow多平台
-          img: https://kuizuo.cn/img/website/any-rule.ico
+          img: https://image.zswei.xyz/img/202305241425429.png
           link: https://any-rule.vercel.app/
 
     工具:
@@ -55,12 +55,12 @@ navDtaList:
 
         - title: 一个工具箱
           desc: 好用的在线工具都在这里！
-          img: https://kuizuo.cn/img/website/atoolbox.ico
+          img: https://image.zswei.xyz/img/202305241427105.png
           link: http://www.atoolbox.net/
 
         - title: 菜鸟教程
           desc: 菜鸟工具，为开发设计人员提供在线工具，提供在线PHP、Python、 CSS、JS 调试，中文简繁体转换，进制转换等工具
-          img: https://kuizuo.cn/img/website/runoob.png
+          img: https://image.zswei.xyz/img/202305241427114.png
           link: https://c.runoob.com/
 
         - title: ProcessOn
@@ -80,7 +80,7 @@ navDtaList:
 
         - title: Hoppscotch
           desc: 开源 API 开发生态系统
-          img: https://kuizuo.cn/img/website/hoppscotch.png
+          img: https://image.zswei.xyz/img/202305241427850.png
           link: https://hoppscotch.io/
 
         - title: JsonT.run
@@ -90,7 +90,7 @@ navDtaList:
 
         - title: Apifox
           desc: API 文档、API 调试、API Mock、API 自动化测试
-          img: https://kuizuo.cn/img/website/apifox.png
+          img: https://image.zswei.xyz/img/202305241428484.png
           link: https://www.apifox.cn/
 
         - title: ASCII字符
@@ -105,17 +105,17 @@ navDtaList:
 
         - title: border-radius
           desc: 在线生成不规则border-radius
-          img: https://img-blog.csdnimg.cn/img_convert/c3b80b875633650102f102d174e44c33.gif
+          img: https://image.zswei.xyz/img/202305241428589.png
           link: https://9elements.github.io/fancy-border-radius/#18.50.28.100--473.494
 
         - title:  波浪生成工具
           desc:  在线生成不同形状的波浪
-          img: https://img-blog.csdnimg.cn/img_convert/49a0d2c746365958ff010c4a064650fa.gif
+          img: https://image.zswei.xyz/img/202305241429388.png
           link: https://getwaves.io/
 
         - title: 网页分隔符
           desc: 生成不同的网页分隔符
-          img: https://img-blog.csdnimg.cn/img_convert/7c4e40449d01b1ef3ceb7c306cb86b5a.gif
+          img: https://image.zswei.xyz/img/202305241429388.png
           link: https://wweb.dev/resources/css-separator-generator/
 
         - title: 零代码工具箱
@@ -145,12 +145,12 @@ navDtaList:
     文档:
         - title: MDN
           desc: 从2005年开始记录网络技术，包括 CSS、 HTML 和 JavaScript。
-          img: https://kuizuo.cn/img/website/mdn.png
+          img: https://image.zswei.xyz/img/202305241431105.png
           link: https://developer.mozilla.org/zh-CN/
         
         - title: ES6 入门教程
           desc: 《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性
-          img: https://kuizuo.cn/img/website/es6.png
+          img: https://image.zswei.xyz/img/202305241431853.png
           link: https://es6.ruanyifeng.com/
         
         - title: 深入理解TypeScript
@@ -160,7 +160,7 @@ navDtaList:
         
         - title: Rust 语言圣经
           desc: 一份高质量 Rust 教程
-          img: https://kuizuo.cn/img/website/rust.svg
+          img: https://image.zswei.xyz/img/202305241431470.png
           link: https://course.rs/about-book.html
 
     网站托管:
@@ -188,27 +188,27 @@ navDtaList:
         - title: GitHub
           desc: 全球最大的软件项目托管平台，发现优质开源项目
           img: https://github.githubassets.com/favicons/favicon.svg
-          link: 
+          link: https://github.com/
 
         - title: Gitee
           desc: 蚂蚁集团全新一代数据可视化解决方案
-          img: https://kuizuo.cn/img/website/gitee.ico
-          link: 
+          img: https://image.zswei.xyz/img/202305241432880.png
+          link: https://gitee.com/
 
         - title: Gitlab
           desc: 更快地交付安全代码，部署到任何云，并推动业务成果
           img: https://gitlab.com/uploads/-/system/group/avatar/6543/logo-extra-whitespace.png?width=64
-          link: 
+          link: https://about.gitlab.com/
 
         - title: Gitea
           desc: Gitea 是一个开源社区驱动的轻量级代码托管解决方案，后端采用 Go 编写，采用 MIT 许可证.
           img: https://gitea.io/images/favicon.png
-          link: 
+          link: https://about.gitea.cn/
 
         - title: Coding
           desc: 提供一站式研发管理平台及云原生开发工具，让软件研发如同工业生产般简单高效，助力企业提升研发管理效能
-          img: https://kuizuo.cn/img/website/coding.png
-          link: 
+          img: https://image.zswei.xyz/img/202305241433670.png
+          link: https://coding.net/
 
     在线代码:
         - title: CodesandBox
@@ -223,7 +223,7 @@ navDtaList:
 
         - title: Stackblitz
           desc: Stackblitz在流程中保持即时的开发体验。没有更多的小时储存/拉/安装本地-只需点击，并开始编码
-          img: https://kuizuo.cn/img/website/stackblitz.png
+          img: https://image.zswei.xyz/img/202305241434508.png
           link: https://stackblitz.com/
 
         - title: vscode.dev
@@ -239,7 +239,7 @@ navDtaList:
 
         - title: Nuxt
           desc: 使用 Nuxt 自信地构建您的下一个 Vue.js 应用程序。使 Web 开发简单而强大。
-          img: https://kuizuo.cn/img/website/nuxt.svg
+          img: https://image.zswei.xyz/img/202305241434732.png
           link: https://nuxt.com/
 
         - title: Pinia
@@ -270,7 +270,7 @@ navDtaList:
 
         - title: Remix
           desc: Remix 是一个全栈 Web 框架，可让您专注于用户界面，并通过 Web 标准进行回溯，以提供快速、流畅且有弹性的用户体验
-          img: https://remix.run/favicon-light.1.png
+          img: https://image.zswei.xyz/img/202305241434249.png
           link: https://remix.run/
 
         - title: Ant Design Pro
@@ -290,7 +290,7 @@ navDtaList:
 
         - title: SWR
           desc: 用于数据请求的 React Hooks 库
-          img: https://kuizuo.cn/img/website/swr.png
+          img: https://image.zswei.xyz/img/202305241435996.png
           link: https://swr.vercel.app/
 
         - title: react-spring
@@ -316,7 +316,7 @@ navDtaList:
 
         - title: CSS-Inspiration
           desc: CSS灵感
-          img: https://kuizuo.cn/img/website/css-inspiration.png
+          img: https://image.zswei.xyz/img/202305241436896.png
           link: https://csscoco.com/inspiration
 
         - title: CSS常用样式
@@ -326,7 +326,7 @@ navDtaList:
         
         - title: CSSFX
           desc: 一个精心制作的集合设计的重点是流动性，简单性和易用性。使用最小标记的 CSS 支持
-          img: https://kuizuo.cn/img/website/cssfx.png
+          img: https://image.zswei.xyz/img/202305241436055.png
           link: https://cssfx.netlify.app/
 
         - title: TailwindCSS
