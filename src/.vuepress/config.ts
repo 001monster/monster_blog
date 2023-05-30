@@ -20,7 +20,7 @@ export default defineUserConfig({
 
   head: [
     // 导入一个外部脚本
-    ["script", { src: "/index.js" }]
+    ["script", { src: "/myScript.js" }]
   ],
 
   shouldPrefetch: false,
