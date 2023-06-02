@@ -187,13 +187,13 @@ html {
 }
 
 body {
-  transition: all 3s;
+  transition: all 0.8s;
 }
 
 // 主题颜色 - 黑夜主题颜色
 html[data-theme=dark] {
   body {
-    background-image: url('/assets/images/cover9.jpg');
+    background-image: url('/assets/images/cover6.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-size: cover;

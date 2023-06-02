@@ -8,7 +8,7 @@ navDtaList:
     友链:
         - title: 枫枫知道
           desc: 枫枫知道宝库
-          img: http://www.fengfengzhidao.com/media/site_bg/wallhaven-y8lqo7.jpg
+          img: /assets/images/cover6.jpg
           link: http://www.fengfengzhidao.com/
 
         - title: 愧怍
