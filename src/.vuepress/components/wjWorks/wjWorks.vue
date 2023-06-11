@@ -5,34 +5,47 @@
     <div class="page blog">
       <div class="blog-page-wrapper">
         <main class="blog-home" id="main-content">
-          <!-- 项目展示 -->
-          <div class="project-title">
-            <p class="title">作品集展示</p>
-            <p>以下作品均由小王同学，制作，不可商用</p>
-            <a href="">🧡 喜欢小王同学 🧡</a>
-          </div>
+          <nav class="left-sidebar">
+            <div id="sticky">
+              <div class="nav-lable">作品分类</div>
+              <ul>
+                <li v-for="(data, index) in projectData" :key="index">
+                  <a :href="`#${index}`">{{ index }}</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
 
-          <!-- 内容开始 -->
-          <div class="item-root" ref="rootWith">
-            <div v-for="(data, index) in projectData" :key="index">
-              <h3>{{ index }}</h3>
-              <div class="type-root">
-                <div class="item" v-for="(item, index) in data" :key="index">
-                  <div class="box" @click="seeImg(item.img)">
-                    <img :src="item.img" alt="小王同学" />
-                    <div class="auth">
-                      <b class="item-title"
-                        ><span>{{ item.title }}</span></b
-                      >
-                      <div class="center">{{ item.desc }}</div>
+          <div class="right">
+            <!-- 项目展示 -->
+            <div class="project-title">
+              <p class="title">作品集展示</p>
+              <p>以下作品均由小王同学，制作，商用需小王同学授权</p>
+              <a href="https://image.zswei.xyz/wj/%E4%BD%9C%E5%93%81%E9%9B%86.rar">🧡 下载完整作品集 🧡</a>
+            </div>
 
-                      <div class="time">
-                        <span>原创</span>
-                        <span class="number">❤ 99+</span>
+            <!-- 内容开始 -->
+            <div class="item-root" ref="rootWith">
+              <div v-for="(data, index) in projectData" :key="index">
+                <h2 :id="index">{{ index }}</h2>
+                <div class="type-root">
+                  <div class="item" v-for="(item, index) in data" :key="index">
+                    <div class="box" @click="seeImg(item.img)">
+                      <img :src="item.img" alt="小王同学" />
+                      <div class="auth">
+                        <b class="item-title"
+                          ><span>{{ item.title }}</span></b
+                        >
+                        <div class="center">{{ item.desc }}</div>
+
+                        <div class="time">
+                          <span>原创</span>
+                          <span class="number">❤ 99+</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-              </div>
+                </div>
+                </div>
               </div>
             </div>
           </div>
@@ -45,6 +58,7 @@
     <div class="seeimg-root" :class="{'seeimg-root-active': isImg}" @click="mask">
       <img :src="urlImg" alt="项目图片" @click.stop />
       <span @click="closeBtn" class="close">关闭</span>
+      <a :href="urlImg" target="_blank" class="close1">下载图片</a>
     </div>
   </div>
 </template>

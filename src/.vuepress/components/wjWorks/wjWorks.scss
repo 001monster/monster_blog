@@ -1,7 +1,48 @@
 .blog-page-wrapper :deep(.blog-home) {
+    display: flex;
     box-sizing: border-box;
     padding: 15px;
     max-width: var(--max-width);
+    overflow: visible !important;
+
+    .left-sidebar {
+
+        #sticky {
+            position: sticky;
+            top: 70px;
+        }
+
+        .nav-lable {
+            color: #000;
+            font-weight: bold;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0 !important;
+            width: 110px;
+
+            li {
+                list-style: none;
+                left: 0;
+
+                a {
+                    color: rgb(53, 53, 53);
+                    transition: all 0.4s;
+                }
+
+                a:hover {
+                    color: var(--theme-color-light);
+                }
+            }
+
+
+        }
+    }
+
+    .right {
+        flex: 1;
+    }
 
     .project-title {
         display: flex;
@@ -26,7 +67,13 @@
 
     .item-root {
         position: relative;
-        margin-top: 50px;
+        margin-top: 10px;
+
+        h2 {
+            font-weight: bold;
+            padding-top: 60px;
+            margin: 0;
+        }
 
         .type-root {
             position: relative;
@@ -241,7 +288,20 @@ html[data-theme=light] .blog-page-wrapper :deep(.blog-home) {
         transition: all 0.5s;
     }
 
-    .close:hover {
+    .close1 {
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 2px;
+        position: absolute;
+        z-index: 999;
+        top: 3%;
+        right: 110px;
+        background-color: #fff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    .close:hover, .close1:hover {
         background-color: #e49eda;
         color: #fff;
     }
