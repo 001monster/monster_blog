@@ -25,18 +25,21 @@
     }
 
     .item-root {
+        position: relative;
         margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 2500px;
+
+        .type-root {
+            position: relative;
+        }
 
         .item {
-            width: 25%;
-            counter-increment: item-counter;
+            position: absolute;
+            width: 280px;
             padding: 8px;
             border-radius: 3px;
+            transition: all 0.3s;
             box-sizing: border-box;
+            counter-increment: number;
 
             .box {
                 position: relative;
@@ -46,6 +49,7 @@
                 transition: all 0.3s;
                 border-radius: 4px;
                 box-sizing: border-box;
+                box-shadow: 0px 3px 10px rgb(215, 215, 215);
 
                 .auth {
                     position: relative;
@@ -82,7 +86,7 @@
                 line-height: 20px;
                 background-color: #000;
                 color: #fff;
-                content: counter(item-counter);
+                content: counter(number);
             }
 
             img {
@@ -151,12 +155,12 @@
     }
 
     @media only screen and (max-width: 750px) {
-        .item-root {
+        // .item-root {
 
-            .item {
-                width: 50% !important;
-            }
-        }
+        //     .item {
+        //         width: 50% !important;
+        //     }
+        // }
     }
 
     // @media only screen and (max-width: 500px) {
@@ -196,14 +200,32 @@ html[data-theme=light] .blog-page-wrapper :deep(.blog-home) {
     z-index: 999;
     top: 0;
     left: 0;
+    width: 0;
+    height: 0;
+    line-height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.seeimg-root-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     line-height: 100%;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.7);
 
     img {
+        width: auto;
+        height: auto;
         max-height: 95%;
-        max-width: 90%;
+        max-width: 95%;
     }
 
     .close {
