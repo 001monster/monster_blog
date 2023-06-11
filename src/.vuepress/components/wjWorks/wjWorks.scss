@@ -27,7 +27,6 @@
                 left: 0;
 
                 a {
-                    color: rgb(53, 53, 53);
                     transition: all 0.4s;
                 }
 
@@ -226,6 +225,10 @@ html[data-theme=dark] .blog-page-wrapper :deep(.blog-home) {
             color: #9e9e9e;
         }
     }
+
+    li {
+        color: #9e9e9e;
+    }
 }
 
 html[data-theme=light] .blog-page-wrapper :deep(.blog-home) {
@@ -236,6 +239,10 @@ html[data-theme=light] .blog-page-wrapper :deep(.blog-home) {
         .title {
             color: #0a274d;
         }
+    }
+
+    li {
+        color: #0a274d;
     }
 }
 
@@ -304,5 +311,12 @@ html[data-theme=light] .blog-page-wrapper :deep(.blog-home) {
     .close:hover, .close1:hover {
         background-color: #e49eda;
         color: #fff;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .left-sidebar {
+        display: none;
     }
 }
