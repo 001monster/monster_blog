@@ -50,6 +50,7 @@ export const zhNavbar = navbar([
     icon: "huizong",
     prefix: "/zh/blend/",
     children: [
+      { text: "ios杂项", icon: 'ios', link: 'ios/' },
       { text: "css杂项", icon: 'qianduankaifa', link: 'css/' },
       { text: "js杂项", icon: 'js', link: 'js/' },
       { text: "vue杂项", icon: 'vue', link: 'vue/' },

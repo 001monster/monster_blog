@@ -27,6 +27,7 @@ export const zhSidebar = sidebar({
 
 
   // js css vue
+  "/zh/blend/ios/": [{ text: "ios杂项", icon: 'ios', prefix: "", children: "structure" }],
   "/zh/blend/js/": [{ text: "js杂项", icon: 'js', prefix: "", children: "structure" }],
   "/zh/blend/css/": [{ text: "css杂项", icon: 'CSS', prefix: "", children: "structure" }],
   "/zh/blend/vue/": [{ text: "vue杂项", icon: 'vue', prefix: "", children: "structure" }],
