@@ -75,13 +75,13 @@ export const zhNavbar = navbar([
     icon: "daohang01",
     link: "/zh/navLable/",
   },
-  {
-    text: "小王同学的笔记",
-    icon: "ps",
-    prefix: "/zh/wangjing/",
-    children: [
-      { text: "作品集", icon: 'tupian', link: 'works/' },
-      { text: "ps笔记", icon: 'ps', link: 'ps/' }
-    ],
-  }
+  // {
+  //   text: "小王同学的笔记",
+  //   icon: "ps",
+  //   prefix: "/zh/wangjing/",
+  //   children: [
+  //     { text: "作品集", icon: 'tupian', link: 'works/' },
+  //     { text: "ps笔记", icon: 'ps', link: 'ps/' }
+  //   ],
+  // }
 ]);

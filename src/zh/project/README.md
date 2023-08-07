@@ -93,7 +93,7 @@ projectData:
     小程序: 
         -   img: https://image.zswei.xyz/img/202302072036346.jpg
             link: https://zswei.xyz/zh/project/
-            title: 京西菜式商城
+            title: 京西菜市商城
             soureceCode: false
             desc: 基于uniapp编写的多端兼容的商城项目，多端兼容《微信小程序》《抖音小程序》《支付宝小程序》《快手小程序》《AndroidApp》
             lable: 
@@ -105,7 +105,7 @@ projectData:
                     bg: '#dfd545'
         -   img: https://image.zswei.xyz/img/202302072037052.jpg
             link: https://zswei.xyz/zh/project/
-            title: 京西菜式商家版
+            title: 京西菜市商家版
             soureceCode: false
             desc: 基于uniapp编写的多端兼容的商家管理项目，多端兼容《微信小程序》《AndroidApp》《ios》
             lable: 
