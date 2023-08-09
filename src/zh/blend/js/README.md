@@ -15,34 +15,34 @@ category:
 
 ## 本章简介
 
-[（一）数组常用API](./React-1.md)
+[（一）数组常用API](./js-1.md)
 
 
-[（二）字符串与数互转](./React-2.md)
+[（二）字符串与数互转](./js-2.md)
 
 
-[（三）请求失败重发](./React-3.md)
+[（三）请求失败重发](./js-3.md)
 
 
-[（四）原生 WEB 拖动排序](./React-4.md)
+[（四）原生 WEB 拖动排序](./js-4.md)
 
 
-[（五）IntersectionObserver 监听元素进入离开指定可视区域](./React-5.md)
+[（五）IntersectionObserver 监听元素进入离开指定可视区域](./js-5.md)
 
 
-[（六）类的基本知识](./React-6.md)
+[（六）类的基本知识](./js-6.md)
 
 
-[（七）call、bind、apply三者的区别](./React-7.md)
+[（七）call、bind、apply三者的区别](./js-7.md)
 
 
-[（八）类中方法 this 的指向](./React-8.md)
+[（八）类中方法 this 的指向](./js-8.md)
 
 
-[（九）... 扩展运算符的基本知识](./React-9.md)
+[（九）... 扩展运算符的基本知识](./js-9.md)
 
 
-[（十）类的 `static` 关键字](./React-10.md)
+[（十）类的 `static` 关键字](./js-10.md)
 
 
-[（十一）解构复制加重命名](./React-11.md)
+[（十一）解构复制加重命名](./js-11.md)

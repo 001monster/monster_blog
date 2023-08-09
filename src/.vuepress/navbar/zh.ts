@@ -54,6 +54,7 @@ export const zhNavbar = navbar([
       { text: "css杂项", icon: 'qianduankaifa', link: 'css/' },
       { text: "js杂项", icon: 'js', link: 'js/' },
       { text: "vue杂项", icon: 'vue', link: 'vue/' },
+      { text: "npm杂项", icon: 'npm', link: 'npm/' },
       { text: "服务器杂项", icon: 'fuwuqi', link: 'server/' }
     ],
   },
