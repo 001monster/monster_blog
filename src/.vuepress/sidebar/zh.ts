@@ -31,7 +31,7 @@ export const zhSidebar = sidebar({
   "/zh/blend/js/": [{ text: "js杂项", icon: 'js', prefix: "", children: "structure" }],
   "/zh/blend/css/": [{ text: "css杂项", icon: 'CSS', prefix: "", children: "structure" }],
   "/zh/blend/vue/": [{ text: "vue杂项", icon: 'vue', prefix: "", children: "structure" }],
-  "/zh/blend/vue/": [{ text: "npm杂项", icon: 'npm', prefix: "", children: "structure" }],
+  "/zh/blend/npm/": [{ text: "npm杂项", icon: 'npm', prefix: "", children: "structure" }],
   "/zh/blend/server/": [{ text: "服务器杂项", icon: 'fuwuqi', prefix: "", children: "structure" }],
 
 
