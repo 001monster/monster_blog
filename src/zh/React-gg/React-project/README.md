@@ -11,7 +11,7 @@ tag:
 
 ## 本章简介
 
-[（（一）初始 react](./react-1.md)
+[（一）初始 react](./react-1.md)
 
 
 [（二）了解 react 文件](./react-2.md)

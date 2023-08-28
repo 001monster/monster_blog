@@ -19,9 +19,9 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "React全家桶",
+    text: "React全家桶【硅谷】",
     icon: "react",
-    prefix: "/zh/React/",
+    prefix: "/zh/React-gg/",
     children: [
       { text: "React基础教程", link: 'React-Basics/', icon: 'jichushuju' },
       { text: "三大核心:state", link: 'React-state/', icon: 'zhuangtai' },
@@ -29,11 +29,19 @@ export const zhNavbar = navbar([
       { text: "三大核心:refs", link: 'React-refs/', icon: 'icon' },
       { text: "受控组件和非受控组件", link: 'React-event/', icon: 'kongzhizhongxin' },
       { text: "高阶函数与柯里化", link: 'React-senior/', icon: 'hanshu' },
-      { text: "组件的生命周期", link: 'React-file/', icon: 'shengmingzhouqi' },
+      { text: "组件的生命周期", link: 'React-life/', icon: 'shengmingzhouqi' },
       { text: "react应用(基于react脚手架)", link: 'React-cli/', icon: 'jiaoshoujia-xian' },
       { text: "react发送网络请求", link: 'React-ajax/', icon: 'wangluo' },
       { text: "react路由管理", link: 'React-router/', icon: 'luyouqi' },
       { text: "React实战项目", link: 'React-project/', icon: 'shizhanpeixun' }
+    ],
+  },
+  {
+    text: "React全家桶【网易】",
+    icon: "react",
+    prefix: "/zh/React-wy/",
+    children: [
+      { text: "React基础教程", link: 'React-Basics/', icon: 'jichushuju' }
     ],
   },
   {

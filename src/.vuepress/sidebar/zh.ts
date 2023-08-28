@@ -13,17 +13,17 @@ export const zhSidebar = sidebar({
 
 
   // react
-  "/zh/React/React-Basics/": [{ text: 'React基础', icon: 'jichushuju', prefix: "", children: "structure" }],
-  "/zh/React/React-state/": [{ text: '三大核心:state', icon: 'zhuangtai', prefix: "", children: "structure" }],
-  "/zh/React/React-props/": [{ text: '三大核心:props', icon: 'jisuchuandi', prefix: "", children: "structure" }],
-  "/zh/React/React-refs/": [{ text: '三大核心:refs', icon: 'icon', prefix: "", children: "structure" }],
-  "/zh/React/React-event/": [{ text: '受控组件和非受控组件', icon: 'kongzhizhongxin', prefix: "", children: "structure" }],
-  "/zh/React/React-senior/": [{ text: '高阶函数与柯里化', icon: 'hanshu', prefix: "", children: "structure" }],
-  "/zh/React/React-file/": [{ text: '组件的生命周期', icon: 'shengmingzhouqi', prefix: "", children: "structure" }],
-  "/zh/React/React-cli/": [{ text: 'react应用(基于react脚手架)', icon: 'jiaoshoujia-xian', prefix: "", children: "structure" }],
-  "/zh/React/React-ajax/": [{ text: 'react发送网络请求', icon: 'wangluo', prefix: "", children: "structure" }],
-  "/zh/React/React-router/": [{ text: 'react路由管理', icon: 'luyouqi', prefix: "", children: "structure" }],
-  "/zh/React/React-project/": [{ text: 'React项目实战', icon: 'shizhanpeixun', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-Basics/": [{ text: 'React基础', icon: 'jichushuju', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-state/": [{ text: '三大核心:state', icon: 'zhuangtai', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-props/": [{ text: '三大核心:props', icon: 'jisuchuandi', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-refs/": [{ text: '三大核心:refs', icon: 'icon', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-event/": [{ text: '受控组件和非受控组件', icon: 'kongzhizhongxin', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-senior/": [{ text: '高阶函数与柯里化', icon: 'hanshu', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-life/": [{ text: '组件的生命周期', icon: 'shengmingzhouqi', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-cli/": [{ text: 'react应用(基于react脚手架)', icon: 'jiaoshoujia-xian', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-ajax/": [{ text: 'react发送网络请求', icon: 'wangluo', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-router/": [{ text: 'react路由管理', icon: 'luyouqi', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-project/": [{ text: 'React项目实战', icon: 'shizhanpeixun', prefix: "", children: "structure" }],
 
 
   // js css vue
