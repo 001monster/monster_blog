@@ -28,5 +28,12 @@ function App() {
 export default App
 ```
 
+2. css 文件
+```css
+bg {
+  background-color: red;
+}
+```
+
 ## 总结
 导入全局样式会造成 样式污染 后期使用 `css-in-js` 等方式

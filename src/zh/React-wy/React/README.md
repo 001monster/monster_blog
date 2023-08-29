@@ -9,8 +9,6 @@ tag:
 
 ![](https://image.zswei.xyz/img/20230828143958.png)
 
-### 此处是 React【网易】开发学习笔记
-
 #### 目录
 -[React官网](https://react.dev/)
 

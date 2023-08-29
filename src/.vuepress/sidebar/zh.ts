@@ -12,7 +12,7 @@ export const zhSidebar = sidebar({
   "/zh/Vue/VueBottom/": [{ text: "Vue底层机制", icon: "gongzuoliugongzuoliuguanli", prefix: "", children: "structure" }],
 
 
-  // react
+  // react-gg
   "/zh/React-gg/React-Basics/": [{ text: 'React基础', icon: 'jichushuju', prefix: "", children: "structure" }],
   "/zh/React-gg/React-state/": [{ text: '三大核心:state', icon: 'zhuangtai', prefix: "", children: "structure" }],
   "/zh/React-gg/React-props/": [{ text: '三大核心:props', icon: 'jisuchuandi', prefix: "", children: "structure" }],
@@ -23,7 +23,12 @@ export const zhSidebar = sidebar({
   "/zh/React-gg/React-cli/": [{ text: 'react应用(基于react脚手架)', icon: 'jiaoshoujia-xian', prefix: "", children: "structure" }],
   "/zh/React-gg/React-ajax/": [{ text: 'react发送网络请求', icon: 'wangluo', prefix: "", children: "structure" }],
   "/zh/React-gg/React-router/": [{ text: 'react路由管理', icon: 'luyouqi', prefix: "", children: "structure" }],
-  "/zh/React-gg/React-project/": [{ text: 'React项目实战', icon: 'shizhanpeixun', prefix: "", children: "structure" }],
+  "/zh/React-gg/React-project/": [{ text: 'React完整创建项目', icon: 'shizhanpeixun', prefix: "", children: "structure" }],
+
+
+  // react-wy
+  "/zh/React-wy/React/": [{ text: 'React 基础语法', icon: 'react', prefix: "", children: "structure" }],
+  "/zh/React-wy/React-com-foundation/": [{ text: '组件化开发基础', icon: 'zhuangtai', prefix: "", children: "structure" }],
 
 
   // js css vue

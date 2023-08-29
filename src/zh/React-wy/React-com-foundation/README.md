@@ -10,18 +10,17 @@ tag:
 ![](https://image.zswei.xyz/img/20230828152152.png)
 
 #### 目录
--[React官网](https://react.dev/)
 
--[1.使用 vsCode 开发 React 安装所需插件](react-1.md)
+-[1.什么是组件](react-1.md)
 
--[2.创建第一个 React 项目](../../React-gg/React-project/react-1.md)
+-[2.创建第一个组件](react-2.md)
 
--[3.React 基础语法](react-3.md)
+-[3.给组件传递Props](react-3.md)
 
--[4.React 中的事件处理](react-4.md)
+-[4.给Props设置默认值](react-4.md)
 
--[5.如何给 React 中的 className 添加样式](react-5.md)
+-[5.给子组件设置自定义视图children](react-5.md)
 
--[6.如何在 React 使用内联样式](react-6.md)
+-[6.给组件传递事件监听](react-6.md)
 
--[7.如何在 React 中展示图片](react-7.md)
+-[7.子组件给父组件传值](react-7.md)
