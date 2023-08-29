@@ -33,7 +33,7 @@ export const zhNavbar = navbar([
       { text: "react应用(基于react脚手架)", link: 'React-cli/', icon: 'jiaoshoujia-xian' },
       { text: "react发送网络请求", link: 'React-ajax/', icon: 'wangluo' },
       { text: "react路由管理", link: 'React-router/', icon: 'luyouqi' },
-      { text: "React实战项目", link: 'React-project/', icon: 'shizhanpeixun' }
+      { text: "React创建项目", link: 'React-project/', icon: 'shizhanpeixun' }
     ],
   },
   {
@@ -42,8 +42,8 @@ export const zhNavbar = navbar([
     prefix: "/zh/React-wy/",
     children: [
       { text: "React 基础语法", link: 'React/', icon: 'react' },
-      { text: "组件化开发基础", link: 'React-com-foundation/', icon: 'jichushuju' }
-      
+      { text: "组件化开发基础", link: 'React-com-foundation/', icon: 'jichushuju' },
+      { text: "React状态入门", link: 'React-state-primary/', icon: 'jichushuju' }
     ],
   },
   {
