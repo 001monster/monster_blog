@@ -27,11 +27,13 @@ export const zhSidebar = sidebar({
 
 
   // react-wy
-  "/zh/React-wy/React/": [{ text: 'React 基础语法', icon: 'react', prefix: "", children: "structure" }],
-  "/zh/React-wy/React-com-foundation/": [{ text: '组件化开发基础', icon: 'zhuangtai', prefix: "", children: "structure" }],
-  "/zh/React-wy/React-state-primary/": [{ text: 'React状态入门', icon: 'zhuangtai', prefix: "", children: "structure" }],
-  "/zh/React-wy/React-from/": [{ text: 'Reac处理表单事件', icon: 'zhuangtai', prefix: "", children: "structure" }],
-  "/zh/React-wy/React-by-effect/": [{ text: 'React组件的副作用(生命周期)', icon: 'zhuangtai', prefix: "", children: "structure" }],
+  "/zh/React-wy/React/": [{ text: 'React 基础语法', icon: 'mofayufake', prefix: "", children: "structure" }],
+  "/zh/React-wy/React-com-foundation/": [{ text: '组件化开发基础', icon: 'wangluo', prefix: "", children: "structure" }],
+  "/zh/React-wy/React-state-primary/": [{ text: 'React状态入门', icon: 'daohang01', prefix: "", children: "structure" }],
+  "/zh/React-wy/React-from/": [{ text: 'Reac处理表单事件', icon: '17', prefix: "", children: "structure" }],
+  "/zh/React-wy/React-by-effect/": [{ text: 'React组件的副作用(生命周期)', icon: 'shengming', prefix: "", children: "structure" }],
+  "/zh/React-wy/React-jsx/": [{ text: 'JSX 进阶', icon: 'jsx', prefix: "", children: "structure" }],
+  "/zh/React-wy/React-props/": [{ text: 'Props 进阶', icon: 'props', prefix: "", children: "structure" }],
 
 
 

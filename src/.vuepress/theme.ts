@@ -8,7 +8,7 @@ export default hopeTheme({
     name: "老怪兽",
     url: "http://www.zswei.xyz",        // 个人网站地址
   },
-  iconAssets: "//at.alicdn.com/t/c/font_3750738_26bde5rkxbs.css",           // 字体图标
+  iconAssets: "//at.alicdn.com/t/c/font_3750738_spwgywxn2zb.css",           // 字体图标
   logo: "/logo.png",
   repo: "https://github.com/001monster/monster.git",
   docsDir: "docs",

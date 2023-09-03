@@ -22,5 +22,3 @@ tag:
 -[5.清理副作用](react-5.md)
 
 -[6.如何在 useEffect() 中执行异步函数](react-6.md)
-
--[7.如何在 React 中展示图片](react-7.md)

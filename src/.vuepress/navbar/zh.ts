@@ -41,11 +41,13 @@ export const zhNavbar = navbar([
     icon: "react",
     prefix: "/zh/React-wy/",
     children: [
-      { text: "React 基础语法", link: 'React/', icon: 'react' },
-      { text: "组件化开发基础", link: 'React-com-foundation/', icon: 'jichushuju' },
-      { text: "React状态入门", link: 'React-state-primary/', icon: 'jichushuju' },
-      { text: "Reac处理表单事件", link: 'React-from/', icon: 'jichushuju' },
-      { text: "React组件的副作用(生命周期)", link: 'React-by-effect/', icon: 'jichushuju' }
+      { text: "React 基础语法", link: 'React/', icon: 'mofayufake' },
+      { text: "组件化开发基础", link: 'React-com-foundation/', icon: 'wangluo' },
+      { text: "React状态入门", link: 'React-state-primary/', icon: 'daohang01' },
+      { text: "Reac处理表单事件", link: 'React-from/', icon: '17' },
+      { text: "React组件的副作用(生命周期)", link: 'React-by-effect/', icon: 'shengming' },
+      { text: "JSX 进阶", link: 'React-jsx/', icon: 'jsx' },
+      { text: "Props 进阶", link: 'React-props/', icon: 'props' },
     ],
   },
   {
